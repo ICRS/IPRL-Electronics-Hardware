@@ -7236,6 +7236,12 @@
 		(uuid "b142659b-f3a3-40bd-bc3d-a21f6f9aa8e9")
 	)
 	(junction
+		(at 516.89 337.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b258595e-d348-4486-81e6-9782008f4f81")
+	)
+	(junction
 		(at 114.3 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7414,10 +7420,6 @@
 		(uuid "21d6e93a-d999-49fe-8d46-43d0159f16e4")
 	)
 	(no_connect
-		(at 353.06 148.59)
-		(uuid "2483de89-8fb9-4f17-a60f-004d39d8b71b")
-	)
-	(no_connect
 		(at 157.48 111.76)
 		(uuid "25c6f0c4-72ee-44f3-9944-066cf2ae410e")
 	)
@@ -7456,6 +7458,10 @@
 	(no_connect
 		(at 516.89 312.42)
 		(uuid "626e658f-80f8-49eb-b634-b266a833a0cb")
+	)
+	(no_connect
+		(at 516.89 350.52)
+		(uuid "62f8ae27-4827-469f-81f8-2281bcc97f03")
 	)
 	(no_connect
 		(at 129.54 297.18)
@@ -7558,7 +7564,7 @@
 		(uuid "be4b24ac-ea0f-48a2-abe0-3bcfd4fec66c")
 	)
 	(no_connect
-		(at 388.62 148.59)
+		(at 567.69 377.19)
 		(uuid "bff27cd7-843c-4643-b903-a07f0d90bff2")
 	)
 	(no_connect
@@ -7592,6 +7598,10 @@
 	(no_connect
 		(at 129.54 323.85)
 		(uuid "ea7d1fcd-da4b-452b-bad6-a413e8da68d4")
+	)
+	(no_connect
+		(at 552.45 350.52)
+		(uuid "eabf5a05-ace0-46be-be09-3c179da6ad32")
 	)
 	(no_connect
 		(at 471.17 271.78)
@@ -8383,7 +8393,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 146.05) (xy 353.06 146.05)
+			(xy 570.23 336.55) (xy 570.23 347.98)
 		)
 		(stroke
 			(width 0)
@@ -8400,6 +8410,16 @@
 			(type default)
 		)
 		(uuid "507ce95b-c233-4e04-b51d-3ad05e907ad6")
+	)
+	(wire
+		(pts
+			(xy 570.23 327.66) (xy 570.23 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cfccf4-f0b0-430f-b8be-121a1a61f6aa")
 	)
 	(wire
 		(pts
@@ -8690,6 +8710,16 @@
 			(type default)
 		)
 		(uuid "68e326f6-e8f0-4d87-ae4c-4fcf71b97a1b")
+	)
+	(wire
+		(pts
+			(xy 556.26 327.66) (xy 570.23 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f8b3d3-8151-4d3c-b1e9-9a1051cf603c")
 	)
 	(wire
 		(pts
@@ -9183,7 +9213,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 337.82) (xy 520.7 337.82)
+			(xy 494.03 337.82) (xy 516.89 337.82)
 		)
 		(stroke
 			(width 0)
@@ -9360,6 +9390,16 @@
 			(type default)
 		)
 		(uuid "9ed172d8-04c7-4491-9919-00c23a772b35")
+	)
+	(wire
+		(pts
+			(xy 570.23 347.98) (xy 552.45 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f609234-3a84-40ae-a848-3a30a064d695")
 	)
 	(wire
 		(pts
@@ -9753,6 +9793,16 @@
 	)
 	(wire
 		(pts
+			(xy 516.89 337.82) (xy 516.89 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c1b4a8-0686-4f72-ba46-483bcf795b04")
+	)
+	(wire
+		(pts
 			(xy 360.68 58.42) (xy 355.6 58.42)
 		)
 		(stroke
@@ -9930,6 +9980,16 @@
 			(type default)
 		)
 		(uuid "d5db86f9-2ab5-4559-beae-903c2e88e8b6")
+	)
+	(wire
+		(pts
+			(xy 516.89 337.82) (xy 520.7 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bbe4ac-41ea-461a-abc5-6a370d846575")
 	)
 	(wire
 		(pts
@@ -10273,7 +10333,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 146.05) (xy 389.89 146.05)
+			(xy 570.23 377.19) (xy 570.23 378.46)
 		)
 		(stroke
 			(width 0)
@@ -10732,7 +10792,7 @@
 		(uuid "1209ab40-5398-4e9b-8113-0d1a6f95f2ff")
 	)
 	(label "SDA_RB"
-		(at 87.63 127 180)
+		(at 87.63 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10787,7 +10847,7 @@
 		(uuid "217d5474-35f3-4b17-b0f2-b6eaeb790f9d")
 	)
 	(label "SDA_LB"
-		(at 43.18 127 180)
+		(at 43.18 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10919,7 +10979,7 @@
 		(uuid "40bf44d7-b436-433b-80d1-918b1c0d3124")
 	)
 	(label "SDA_RF"
-		(at 87.63 97.79 180)
+		(at 87.63 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11016,6 +11076,17 @@
 			(justify right bottom)
 		)
 		(uuid "53bf2506-91fc-4a79-a9b2-17200eb879cd")
+	)
+	(label "+FUSE_L"
+		(at 322.58 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5428401b-8749-434e-b792-317f05e7ca7e")
 	)
 	(label "SPIWP"
 		(at 516.89 274.32 0)
@@ -11139,7 +11210,7 @@
 		(uuid "7225792f-25f5-4596-968c-3eaa44155e14")
 	)
 	(label "SCL_RF"
-		(at 87.63 95.25 180)
+		(at 87.63 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11216,7 +11287,7 @@
 		(uuid "7c99df6c-7bb8-4c31-b1e7-2982f9c93efc")
 	)
 	(label "SCL_LF"
-		(at 43.18 95.25 180)
+		(at 43.18 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11402,6 +11473,17 @@
 		)
 		(uuid "9d71f873-e4b9-47c3-a490-47c6d848db11")
 	)
+	(label "+FUSE_R"
+		(at 323.85 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a21be894-a72b-4cf4-b394-544755a51cfd")
+	)
 	(label "XTAL_N"
 		(at 471.17 330.2 180)
 		(fields_autoplaced yes)
@@ -11425,7 +11507,7 @@
 		(uuid "a2dc4aff-883f-48c4-b7eb-88e3a596d6c5")
 	)
 	(label "SCL_RB"
-		(at 87.63 124.46 180)
+		(at 87.63 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11557,7 +11639,7 @@
 		(uuid "cb3f6e62-267b-4d10-9b33-5419effd0371")
 	)
 	(label "SCL_LB"
-		(at 43.18 124.46 180)
+		(at 43.18 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11700,7 +11782,7 @@
 		(uuid "fa6db1c6-31e8-4a7a-8985-d3b6d845d9ec")
 	)
 	(label "SDA_LF"
-		(at 43.18 97.79 180)
+		(at 43.18 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15806,8 +15888,7 @@
 	)
 	(symbol
 		(lib_id "AAA3528ESGCT:AAA3528ESGCT")
-		(at 388.62 146.05 0)
-		(mirror y)
+		(at 516.89 347.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15815,7 +15896,7 @@
 		(dnp no)
 		(uuid "5dd4e855-7ad7-4636-901a-76100dd5cd53")
 		(property "Reference" "LED1"
-			(at 370.84 138.43 0)
+			(at 534.67 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15823,7 +15904,7 @@
 			)
 		)
 		(property "Value" "AAA3528ESGCT"
-			(at 370.84 140.97 0)
+			(at 534.67 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,7 +15912,7 @@
 			)
 		)
 		(property "Footprint" "iprl_footprints:AAA3528ESGCT"
-			(at 356.87 240.97 0)
+			(at 548.64 442.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15841,7 +15922,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/aaa3528esgct/kingbright"
-			(at 356.87 340.97 0)
+			(at 548.64 542.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15851,7 +15932,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD 3.5mmX2.8mm SMD LED LAMP RED GREEN"
-			(at 388.62 146.05 0)
+			(at 516.89 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15860,7 +15941,7 @@
 			)
 		)
 		(property "Height" "2.1"
-			(at 356.87 540.97 0)
+			(at 548.64 742.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +15951,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kingbright"
-			(at 356.87 640.97 0)
+			(at 548.64 842.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15880,7 +15961,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AAA3528ESGCT"
-			(at 356.87 740.97 0)
+			(at 548.64 942.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15971,7 @@
 			)
 		)
 		(property "Mouser Part Number" "604-AAA3528ESGCT"
-			(at 356.87 840.97 0)
+			(at 548.64 1042.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +15981,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AAA3528ESGCT?qs=HXFqYaX1Q2ztii0bK20PQg%3D%3D"
-			(at 356.87 940.97 0)
+			(at 548.64 1142.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15910,7 +15991,7 @@
 			)
 		)
 		(property "Arrow Part Number" "AAA3528ESGCT"
-			(at 356.87 1040.97 0)
+			(at 548.64 1242.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +16001,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aaa3528esgct/kingbright?region=nac"
-			(at 356.87 1140.97 0)
+			(at 548.64 1342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17476,7 +17557,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 344.17 146.05 90)
+		(at 570.23 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17484,7 +17565,7 @@
 		(dnp no)
 		(uuid "80990e6e-a608-440e-88dd-bd4c99f19d3a")
 		(property "Reference" "R17"
-			(at 344.17 148.59 90)
+			(at 567.69 332.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17492,7 +17573,7 @@
 			)
 		)
 		(property "Value" "56"
-			(at 344.17 143.256 90)
+			(at 573.024 332.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17500,7 +17581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 344.17 147.828 90)
+			(at 568.452 332.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17509,7 +17590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 146.05 0)
+			(at 570.23 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17518,7 +17599,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 344.17 146.05 0)
+			(at 570.23 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

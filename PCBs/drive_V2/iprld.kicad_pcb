@@ -1102,8 +1102,8 @@
 		(at 83.6 15)
 		(descr "Connector XT30 Horizontal PCB Male, https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf")
 		(tags "RC Connector XT30")
-		(property "Reference" "J9"
-			(at -2.5 -14.5 0)
+		(property "Reference" "5V_IN1"
+			(at 6.8 -9.7 -90)
 			(layer "F.SilkS")
 			(uuid "fb13002a-b273-4a72-99a0-916e60c23ae9")
 			(effects
@@ -3995,7 +3995,7 @@
 		(at 17.6625 74.2 90)
 		(descr "XT60PW-F-4")
 		(tags "Connector")
-		(property "Reference" "J8"
+		(property "Reference" "PWR_R1"
 			(at 3.6 4.3375 -90)
 			(layer "F.SilkS")
 			(uuid "073b2a31-734b-4d31-9f5f-625aeb3e96f9")
@@ -8403,8 +8403,8 @@
 		(at 57.65 1.9 180)
 		(descr "SM06B-GHS-TB")
 		(tags "Connector")
-		(property "Reference" "J2"
-			(at 4.91667 -1.78567 180)
+		(property "Reference" "MAG_LB1"
+			(at 5.35 0.9 0)
 			(layer "F.SilkS")
 			(uuid "a8ffde48-1036-436d-a9be-9eca088f844c")
 			(effects
@@ -8969,8 +8969,8 @@
 		(at 11.6865 98.673885)
 		(descr "SM06B-GHS-TB")
 		(tags "Connector")
-		(property "Reference" "J7"
-			(at 4.91667 -1.78567 0)
+		(property "Reference" "CONTROL_R1"
+			(at 6.0135 -6.273885 0)
 			(layer "F.SilkS")
 			(uuid "1500641c-8ef3-4da5-ab78-3fe0181ffc71")
 			(effects
@@ -11437,8 +11437,8 @@
 		(at 70.9 1.826115 180)
 		(descr "SM06B-GHS-TB")
 		(tags "Connector")
-		(property "Reference" "J1"
-			(at 4.91667 -1.78567 180)
+		(property "Reference" "MAG_LF1"
+			(at 5.2 0.926115 180)
 			(layer "F.SilkS")
 			(uuid "bb48ea53-c2c1-4285-bb40-4fceecad60c4")
 			(effects
@@ -11791,7 +11791,7 @@
 		(descr "AAA3528ESGCT-3")
 		(tags "LED")
 		(property "Reference" "LED1"
-			(at -0.2 3.925 360)
+			(at -0.2 3.925 0)
 			(layer "F.SilkS")
 			(uuid "06f4c59c-5d2e-47af-bcd2-57570f9c5462")
 			(effects
@@ -11802,7 +11802,7 @@
 			)
 		)
 		(property "Value" "AAA3528ESGCT"
-			(at 0.25 0 360)
+			(at 0.25 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4195db40-e352-4b59-aec9-a9cb59e3f0ac")
@@ -12070,7 +12070,7 @@
 			(uuid "19f0a45f-7cc7-4bbc-84b0-3196f47248d4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.25 0 360)
+			(at 0.25 0 0)
 			(layer "F.Fab")
 			(uuid "1bfa263c-a98f-4b87-b0d8-0c1e1d330946")
 			(effects
@@ -12135,7 +12135,7 @@
 		(descr "01000063Z-2")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "Fuse_L1"
-			(at 5.7 -4.5 -90)
+			(at 6.4 4.6 -90)
 			(layer "F.SilkS")
 			(uuid "f2bcf183-c104-42b9-841a-4532b2eef021")
 			(effects
@@ -13436,8 +13436,8 @@
 		(at 22.3135 1.326115 180)
 		(descr "SM06B-GHS-TB")
 		(tags "Connector")
-		(property "Reference" "J5"
-			(at 4.91667 -1.78567 180)
+		(property "Reference" "CONTROL_L1"
+			(at 5.3135 -6.873885 180)
 			(layer "F.SilkS")
 			(uuid "64976a66-253e-47fb-ab9b-7ca1772f14ba")
 			(effects
@@ -15495,8 +15495,8 @@
 		(at 17.6625 53.6 90)
 		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf")
 		(tags "RC Connector XT60")
-		(property "Reference" "J10"
-			(at 3.6 -17.5 90)
+		(property "Reference" "12V_IN1"
+			(at 4.4 4.2375 90)
 			(layer "F.SilkS")
 			(uuid "930c0fb8-dd3c-49ff-8721-65b171e92155")
 			(effects
@@ -16976,8 +16976,8 @@
 		(at 48.6 96.673885)
 		(descr "SM06B-GHS-TB")
 		(tags "Connector")
-		(property "Reference" "J3"
-			(at 4.91667 -1.78567 0)
+		(property "Reference" "MAG_RF1"
+			(at 5.6 1.426115 0)
 			(layer "F.SilkS")
 			(uuid "fdb480e9-ce20-4f53-aec2-f6837a32b524")
 			(effects
@@ -17235,7 +17235,7 @@
 			(uuid "ba9ba3c9-ad2c-4341-bc1f-6e4b9e1cb3ae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.91667 -1.78567 0)
+			(at 5.3135 -2.673885 0)
 			(layer "F.Fab")
 			(uuid "8e3ed859-a5d1-4a57-87f3-7ed38721f405")
 			(effects
@@ -17760,7 +17760,7 @@
 		(at 17.6625 24.1 90)
 		(descr "XT60PW-F-4")
 		(tags "Connector")
-		(property "Reference" "J6"
+		(property "Reference" "PWR_L1"
 			(at 3.4375 4.0875 -90)
 			(layer "F.SilkS")
 			(uuid "d79ce9d0-4dc6-4dae-9b4b-1d0eb26f8f48")
@@ -22292,7 +22292,7 @@
 		(descr "01000063Z-2")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "Fuse_R1"
-			(at 4.5 4.5 90)
+			(at 6.2 -4.3 90)
 			(layer "F.SilkS")
 			(uuid "fb612387-8c9b-497d-b945-b12c742a14cc")
 			(effects
@@ -23722,8 +23722,8 @@
 		(at 61.65 96.673885)
 		(descr "SM06B-GHS-TB")
 		(tags "Connector")
-		(property "Reference" "J4"
-			(at 4.91667 -1.78567 0)
+		(property "Reference" "MAG_RB1"
+			(at 5.55 1.426115 0)
 			(layer "F.SilkS")
 			(uuid "69889acd-e04a-4103-918a-8c294a2f3c9b")
 			(effects

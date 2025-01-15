@@ -27,7 +27,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main_lib:TYPE-C-31-M-12"
+		(property "Footprint" "iprl_footprints:TYPE-C-31-M-12"
 			(at 0 -31.75 0)
 			(effects
 				(font

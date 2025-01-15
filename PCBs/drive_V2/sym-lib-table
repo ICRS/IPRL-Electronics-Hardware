@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "C:/Users/macie/Desktop/Uniwerek/IPRL/IPRL-Electronics-Hardware/PCBs/lib/symbols/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
 )

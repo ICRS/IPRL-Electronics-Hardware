@@ -4513,7 +4513,7 @@
 		(descr "CK components KSC6 tactile switch https://www.ckswitches.com/media/1972/ksc6.pdf")
 		(tags "tactile switch ksc6")
 		(property "Reference" "SW2"
-			(at 0 4.24 0)
+			(at 0 -4.4 0)
 			(layer "F.SilkS")
 			(uuid "0c1f2aeb-7a81-4564-ae2c-394543a717e3")
 			(effects
@@ -26755,6 +26755,30 @@
 		(at 115.6 178.9 0)
 		(layer "F.SilkS")
 		(uuid "1aeae9f7-0ff8-4464-91e2-f6f2724dd9f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 82.3 174.8 0)
+		(layer "F.SilkS")
+		(uuid "2e12664e-34a9-4acb-ad08-ac627a94bc10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 82.3 136.5 0)
+		(layer "F.SilkS")
+		(uuid "30b39ba0-16eb-4a6c-affd-1625a7b7876d")
 		(effects
 			(font
 				(size 1 1)

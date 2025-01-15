@@ -15496,7 +15496,7 @@
 		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf")
 		(tags "RC Connector XT60")
 		(property "Reference" "12V_IN1"
-			(at 4.4 4.2375 90)
+			(at 12.7 -8.3625 180)
 			(layer "F.SilkS")
 			(uuid "930c0fb8-dd3c-49ff-8721-65b171e92155")
 			(effects
@@ -20942,6 +20942,7 @@
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6595ce09-aba3-4822-afa6-474f77aaddba")
 			(effects
 				(font

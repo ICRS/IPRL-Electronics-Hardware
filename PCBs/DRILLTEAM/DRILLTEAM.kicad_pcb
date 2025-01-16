@@ -1666,8 +1666,8 @@
 		(at 125.65 43.475 90)
 		(descr "JST GH series connector, SM02B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J7"
-			(at 0 -3.9 90)
+		(property "Reference" "Limit Switch 2"
+			(at -0.525 -3.9 90)
 			(layer "F.SilkS")
 			(uuid "ddd3f91c-16df-4265-81c5-7933d7a2f13d")
 			(effects
@@ -1947,6 +1947,119 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "14405caf-6011-4fa5-ab8d-dad321744b74")
+		(at 78.5 35)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H3"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "2066ab36-d9ed-4e08-bc31-67e2aecf204e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "75254c77-cafd-441e-89c4-af6098b6b620")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68f19437-4fe7-45d2-9e43-474ff2ca1274")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b2c15bc-23d7-4e83-b504-21f2662c108a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64f77b5e-9bc4-4d2b-8c5c-1bc7ec3ed661")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a6d44247-7e5a-442e-8054-f3e30b91abbe")
+		(sheetname "Root")
+		(sheetfile "DRILLTEAM.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "b2bf7a8f-9fae-4eac-a362-fb4b0e0f10a2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "de292ee9-2bb0-4864-af96-54429f1972cf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b824cdf0-e712-401d-9e73-ed37417dab1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b757d638-c1b9-4af4-8542-6d9c795f0f9e")
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
@@ -2381,8 +2494,8 @@
 		(at 34.15 74.75 -90)
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J10"
-			(at 0 -3.9 90)
+		(property "Reference" "Load Cell 2"
+			(at -0.25 4.15 90)
 			(layer "F.SilkS")
 			(uuid "17f39dd6-f92c-4392-b75f-9d266f1b2264")
 			(effects
@@ -2392,7 +2505,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Load Cell 2"
 			(at 0 3.9 90)
 			(layer "F.Fab")
 			(uuid "1beb736a-3114-4577-a866-143893777e75")
@@ -3127,6 +3240,119 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "298503fc-8c0a-4f50-bd92-74bdaa3c9591")
+		(at 67.5 88)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H2"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "2e5bd25e-89ab-425b-93b3-43d2d743c5ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "d810b891-7b82-43f8-a947-241b41abe462")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b4638ea-88ae-4b70-b170-8d30f422827b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b83e5e5-58d4-41ab-b707-21d00576defb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b9a6ccd-76bd-4a7c-af2c-3a59aebc5fc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/49c5d115-1997-4da7-8dd3-e8428bfd6a53")
+		(sheetname "Root")
+		(sheetfile "DRILLTEAM.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "b2fc4078-8b36-4299-aa05-118508349acd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "871f7e42-1627-4e9b-bc37-c2aeb59bb935")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7cc36b53-492a-4950-ac20-5e4c63feccf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6746c716-81c8-4b73-b06d-ca690c48f918")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -6453,8 +6679,8 @@
 		(at 94.5875 35.5)
 		(descr "Connector XT30 Horizontal PCB Male, https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf")
 		(tags "RC Connector XT30")
-		(property "Reference" "J2"
-			(at -2.5 -14.5 0)
+		(property "Reference" "Power In"
+			(at 2.4125 3 0)
 			(layer "F.SilkS")
 			(uuid "c510fa0f-192a-4e62-b495-84cd2892d5b9")
 			(effects
@@ -10148,8 +10374,8 @@
 		(at 70.25 27.25 180)
 		(descr "JST GH series connector, SM03B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J3"
-			(at -3.55 -4.4 0)
+		(property "Reference" "Servo 2"
+			(at 0.25 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "af35d7a6-5cf1-4b12-8140-6cfba15a2c64")
 			(effects
@@ -10955,8 +11181,8 @@
 		(at 34.15 62.625 -90)
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J9"
-			(at 0 -3.9 90)
+		(property "Reference" "Load Cell 1"
+			(at 0 4.15 90)
 			(layer "F.SilkS")
 			(uuid "31019144-59a1-4dcd-bbb5-3231e5d01de2")
 			(effects
@@ -10966,7 +11192,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Load Cell 1"
 			(at 0 3.9 90)
 			(layer "F.Fab")
 			(uuid "c760a4d7-aeef-4e33-92d8-52bda2a174cc")
@@ -13181,7 +13407,7 @@
 		(at 125.85 55.475 90)
 		(descr "JST GH series connector, SM02B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J8"
+		(property "Reference" "Limit Switch 1"
 			(at 0 -3.9 90)
 			(layer "F.SilkS")
 			(uuid "95d7fdd1-8cec-4b43-a98e-cd6e9806c408")
@@ -13462,6 +13688,119 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "97f7be4e-8ce7-400c-b1e5-fd6f5a9e6609")
+		(at 124 88)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H1"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "911aec22-e6dd-47c3-980a-0321ba50891e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "d2df5250-7908-437c-a132-5b4583a47464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "881acaca-df9d-4987-bab3-7c7c3a301c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c3ddf3c-930e-408e-bd77-1cc840397f2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7d38c86-9c77-4ee6-92ce-7a52c68c54cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/acbdd7b1-2669-4baa-9a10-d44da7a96e8d")
+		(sheetname "Root")
+		(sheetfile "DRILLTEAM.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "859c2e75-60b3-4e66-ac23-bca64e3fcb00")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "12f45d25-4694-410a-8ca2-dfba18ae65a3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f57ccf8e-a373-4af1-aef5-b6ddca1023f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "df7ef335-6ff1-42c5-97d4-1ac4739ee0da")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -14109,8 +14448,8 @@
 		(at 34.15 86.875 -90)
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J12"
-			(at 1.625 4.15 90)
+		(property "Reference" "Load Cell 3"
+			(at -0.375 4.15 90)
 			(layer "F.SilkS")
 			(uuid "0a729810-e848-4049-8193-b68346dda0a9")
 			(effects
@@ -14120,7 +14459,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Load Cell 3"
 			(at 0 3.9 90)
 			(layer "F.Fab")
 			(uuid "5f5f31c3-8dac-41ef-a583-8f3efd61c342")
@@ -15049,8 +15388,8 @@
 		(at 35.15 29.375 -90)
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J5"
-			(at 0 -3.9 90)
+		(property "Reference" "Encoder 1"
+			(at -0.375 4.15 90)
 			(layer "F.SilkS")
 			(uuid "4cbacf9c-3036-485e-8865-50e801d43df2")
 			(effects
@@ -15060,7 +15399,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Encoder 2"
 			(at 0 3.9 90)
 			(layer "F.Fab")
 			(uuid "238d8417-a184-4750-86bb-24429298c5c9")
@@ -17739,8 +18078,8 @@
 		(at 35.15 46.875 -90)
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J6"
-			(at 0 -3.9 90)
+		(property "Reference" "Encoder 2"
+			(at -0.375 4.15 90)
 			(layer "F.SilkS")
 			(uuid "be80e391-10c0-400d-b03e-60b3100698be")
 			(effects
@@ -17750,8 +18089,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 0 3.9 90)
+		(property "Value" "Encoder 1"
+			(at -0.375 3.9 90)
 			(layer "F.Fab")
 			(uuid "3f6a7d2a-620e-4b6b-863c-b8e53dc61229")
 			(effects
@@ -18261,8 +18600,8 @@
 		(at 125 73 90)
 		(descr "JST GH series connector, SM08B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J11"
-			(at -6 -4 90)
+		(property "Reference" "Motor Driver"
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(uuid "2b407eeb-d4e5-4623-8be2-dced678e85be")
 			(effects
@@ -19643,7 +19982,7 @@
 		(at 58.75 27.25 180)
 		(descr "JST GH series connector, SM03B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
-		(property "Reference" "J4"
+		(property "Reference" "Servo 1"
 			(at 0 -3.9 0)
 			(layer "F.SilkS")
 			(uuid "ace93dd9-c84c-43a4-a314-b16c2cc64fd5")
@@ -22410,16 +22749,113 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 29 22)
-		(end 129 94)
+	(gr_line
+		(start 32.5 94)
+		(end 125.5 94)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "599826e6-aede-4aea-85c0-8b09cc48ba6c")
+		(uuid "28851a8e-e2e3-4041-a9f8-d50a8db8ae81")
+	)
+	(gr_arc
+		(start 32.5 94)
+		(mid 30.025126 92.974874)
+		(end 29 90.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3e8bb4de-66e8-4827-9759-29809297c255")
+	)
+	(gr_arc
+		(start 125.499999 22.000001)
+		(mid 127.974873 23.025127)
+		(end 128.999999 25.500001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "769c3b6d-aed2-4d6d-8a9f-374da985d56a")
+	)
+	(gr_arc
+		(start 29 25.5)
+		(mid 30.025126 23.025126)
+		(end 32.5 22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c9b0462-84c0-45ff-9ebc-5645eeb2d24b")
+	)
+	(gr_line
+		(start 125.499999 22.000001)
+		(end 32.5 22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "967845fe-16e5-4b31-80f0-cef057e46d04")
+	)
+	(gr_arc
+		(start 129 90.5)
+		(mid 127.974874 92.974874)
+		(end 125.5 94)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ab7d675-1aff-4998-abe3-44121b18f953")
+	)
+	(gr_line
+		(start 129 90.5)
+		(end 128.999999 25.500001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a02e1737-d4ac-4e6f-85e9-27b1220d40df")
+	)
+	(gr_line
+		(start 29 25.5)
+		(end 29 90.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db307421-7b87-436b-a889-ffa0e905443f")
+	)
+	(gr_text "Drill Board\n"
+		(at 83.5 92.5 0)
+		(layer "F.SilkS")
+		(uuid "9cd3c7bf-6ac0-46da-be63-23bb892294ac")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Any issues, \nask Eren S"
+		(at 102 92.5 0)
+		(layer "F.SilkS")
+		(uuid "beb8fc3b-230c-434e-82b9-38607da2dd6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 83.75 58.90364)

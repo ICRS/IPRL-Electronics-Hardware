@@ -12,4 +12,5 @@
   (lib (name "W25Q16JVUXIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/W25Q16JVUXIQ_TR.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-F")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/XT30PW-F.kicad_sym")(options "")(descr ""))
   (lib (name "XT60PW-F")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/XT60PW-F.kicad_sym")(options "")(descr ""))
+  (lib (name "LD2980ABM50TR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LD2980ABM50TR.kicad_sym")(options "")(descr ""))
 )

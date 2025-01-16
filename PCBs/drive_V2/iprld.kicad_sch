@@ -192,6 +192,195 @@
 				)
 			)
 		)
+		(symbol "1SS294_F_:1SS294_F_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1SS294_F_"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "iprl_footprint:SOT95P260X140-3N"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/5405781"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toshiba 45V 100mA, Schottky Diode, 3-Pin SOT-346 1SS294(F)"
+				(at 17.272 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.4"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1SS294(F)"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1SS294_F__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "7M40000010:7M40000010"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6575,6 +6764,12 @@
 		(uuid "1e34fd99-01b0-4a10-9c20-02debe6bd042")
 	)
 	(junction
+		(at 487.68 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ebe6f7-8664-46ac-a08c-fe3cf2812f1e")
+	)
+	(junction
 		(at 177.8 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7498,6 +7693,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 171.45) (xy 452.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14681ad9-7517-47a7-b33e-9b44d5fc9060")
+	)
+	(wire
+		(pts
 			(xy 323.85 45.72) (xy 327.66 45.72)
 		)
 		(stroke
@@ -7688,6 +7893,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 326.39) (xy 397.51 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232021fe-90cf-4c2c-a4bb-a6fd5d2fe1ff")
+	)
+	(wire
+		(pts
 			(xy 514.35 350.52) (xy 516.89 350.52)
 		)
 		(stroke
@@ -7835,6 +8050,16 @@
 			(type default)
 		)
 		(uuid "2fbebf14-cb42-48b9-8d46-07c155f795d9")
+	)
+	(wire
+		(pts
+			(xy 468.63 176.53) (xy 468.63 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3004d712-486c-4344-9897-e3667e3975c2")
 	)
 	(wire
 		(pts
@@ -8588,6 +8813,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 172.72) (xy 487.68 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e6b6b3-f12a-4f0b-ae4d-f1fb1e3372d1")
+	)
+	(wire
+		(pts
 			(xy 427.99 269.24) (xy 427.99 264.16)
 		)
 		(stroke
@@ -9268,6 +9503,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 176.53) (xy 502.92 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61c6800-5643-4b20-a21c-38d84b9555c9")
+	)
+	(wire
+		(pts
 			(xy 406.4 81.28) (xy 408.94 81.28)
 		)
 		(stroke
@@ -9518,7 +9763,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 176.53) (xy 502.92 176.53)
+			(xy 468.63 176.53) (xy 487.68 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9775,6 +10020,16 @@
 			(type default)
 		)
 		(uuid "d2033c48-39de-4424-a4a7-41f06ca81920")
+	)
+	(wire
+		(pts
+			(xy 452.12 172.72) (xy 454.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23fa26c-dadb-4bf2-ae4e-5712272856c2")
 	)
 	(wire
 		(pts
@@ -10035,16 +10290,6 @@
 			(type default)
 		)
 		(uuid "e798b4ce-c2d9-4a4b-8699-c8ea8b165e06")
-	)
-	(wire
-		(pts
-			(xy 468.63 176.53) (xy 468.63 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7a7afe6-c0a0-45b2-b3de-442c47705464")
 	)
 	(wire
 		(pts
@@ -10328,7 +10573,7 @@
 	)
 	(text "MISSING DIODE!!!"
 		(exclude_from_sim no)
-		(at 470.154 163.83 0)
+		(at 470.154 153.162 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11067,12 +11312,12 @@
 		(uuid "746ca62f-450f-4d3c-89ed-a855ea8b3395")
 	)
 	(label "SPID"
-		(at 360.68 321.31 180)
+		(at 397.51 326.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "75561d26-eb07-42ae-aaa4-08aebd4058e4")
 	)
@@ -11235,16 +11480,6 @@
 			(justify right bottom)
 		)
 		(uuid "9d71f873-e4b9-47c3-a490-47c6d848db11")
-	)
-	(label "SPID"
-		(at 396.24 326.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9da97013-2653-4d14-a714-713c98e9b545")
 	)
 	(label "+FUSE_R"
 		(at 323.85 83.82 0)
@@ -11437,7 +11672,7 @@
 		(uuid "da10e555-018c-47b5-b647-9e9a8ff69ae1")
 	)
 	(label "SPIQ"
-		(at 396.24 326.39 180)
+		(at 360.68 321.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12002,6 +12237,72 @@
 			(project "iprld"
 				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 452.12 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04ca6bb8-60ce-4fe0-9afd-5aa0d83150b5")
+		(property "Reference" "#PWR04"
+			(at 452.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 455.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 452.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb104aa-a995-4659-bc27-6811fb62a810")
+		)
+		(instances
+			(project "iprld"
+				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -23286,6 +23587,149 @@
 			(project "iprld"
 				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
 					(reference "PWR_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1SS294_F_:1SS294_F_")
+		(at 487.68 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8522815-affb-4344-9b26-6b236d8d3d4d")
+		(property "Reference" "D1"
+			(at 471.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1SS294_F_"
+			(at 471.17 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "iprl_footprint:SOT95P260X140-3N"
+			(at 458.47 77.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/5405781"
+			(at 458.47 -22.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toshiba 45V 100mA, Schottky Diode, 3-Pin SOT-346 1SS294(F)"
+			(at 470.408 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 458.47 -222.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 458.47 -322.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SS294(F)"
+			(at 458.47 -422.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 458.47 -522.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 458.47 -622.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 458.47 -722.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 458.47 -822.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c33951fd-a448-4561-a69b-1217f3b9b17e")
+		)
+		(pin "3"
+			(uuid "5faa2379-3498-49c5-91c1-49f326d10361")
+		)
+		(pin "1"
+			(uuid "327966b9-1d04-4129-9b18-689acbf7c61f")
+		)
+		(instances
+			(project ""
+				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
+					(reference "D1")
 					(unit 1)
 				)
 			)

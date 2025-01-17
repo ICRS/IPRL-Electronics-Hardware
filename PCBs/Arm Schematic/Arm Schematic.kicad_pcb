@@ -134,12 +134,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "output/")
 		)
 	)
 	(net 0 "")
@@ -11577,6 +11577,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "72681633-739e-4b97-8688-26648e8605be")
 			(effects
 				(font
@@ -15169,6 +15170,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "56b328e1-d00f-4086-bcab-ead1d76cd1db")
 			(effects
 				(font
@@ -20421,6 +20423,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8fa58043-f4d9-49bf-b874-95321eeed59f")
 			(effects
 				(font
@@ -26750,6 +26753,31 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f58728d4-3336-46d9-81f6-c2b4885d7b21")
+	)
+	(gr_text "Samuel Osebeyo"
+		(at 150 141 0)
+		(layer "B.SilkS")
+		(uuid "8cceeddb-bdf3-4d7f-8a62-86f6d70a8d90")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Arm Board\n"
+		(at 160 136 0)
+		(layer "B.SilkS" knockout)
+		(uuid "8efceeb0-b9c0-4f17-8b68-076a96d31448")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.75)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "Limit Switch Input"
 		(at 115.6 178.9 0)

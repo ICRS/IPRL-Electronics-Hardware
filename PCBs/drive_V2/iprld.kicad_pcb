@@ -110,12 +110,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "output/")
 		)
 	)
 	(net 0 "")
@@ -23114,7 +23114,7 @@
 	(footprint "main_lib:IPRL_31mm"
 		(layer "F.Cu")
 		(uuid "ce9ce18b-9ccc-4783-85ad-429bfda4732b")
-		(at 78 65.6)
+		(at 78 66)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -26575,6 +26575,31 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "a96c68f2-f2a7-4755-8cce-62808b08bb16")
+	)
+	(gr_text "Maciej Grzegorczyk"
+		(at 82 71 -0)
+		(layer "B.SilkS")
+		(uuid "4d3427e0-74ca-42fd-9b33-f8c7ae351d75")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Drive Board\n"
+		(at 95 66 0)
+		(layer "B.SilkS" knockout)
+		(uuid "d75f4819-bc40-475a-8b80-332290365bb6")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.75)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 3.225 39.675)

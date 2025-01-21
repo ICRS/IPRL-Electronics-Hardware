@@ -1,0 +1,4 @@
+- [ ] Connectors
+- [ ] emergency stop
+- [ ] ADC with potential divider
+- [ ] ESP32

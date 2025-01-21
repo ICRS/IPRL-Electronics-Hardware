@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AS5600-ASOT")(type "KiCad")(uri "/home/james/Documents/IPRL-Electronics-Hardware/PCBs/lib/symbols/AS5600-ASOT.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS1115BQDGSRQ1")(type "KiCad")(uri "/home/james/Documents/IPRL-Electronics-Hardware/PCBs/lib/symbols/ADS1115BQDGSRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60PW-F")(type "KiCad")(uri "/home/james/Documents/IPRL-Electronics-Hardware/PCBs/lib/symbols/XT60PW-F.kicad_sym")(options "")(descr ""))
+  (lib (name "ACS712ELCTR-20A")(type "KiCad")(uri "/home/james/Documents/IPRL-Electronics-Hardware/PCBs/lib/symbols/ACS712ELCTR-20A-T.kicad_sym")(options "")(descr ""))
+)

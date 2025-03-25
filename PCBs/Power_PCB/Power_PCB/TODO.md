@@ -1,4 +1,10 @@
 - [ ] Connectors
-- [ ] emergency stop
+- [ ] Emergency stop
 - [ ] ADC with potential divider
 - [ ] ESP32
+- [ ] Over current
+- [ ] Over voltage
+- [ ] Reverse polarity
+- [ ] Footprints
+    - [ ] mini fuses
+    - [ ] terminal blocks, standardise all terminal blocks

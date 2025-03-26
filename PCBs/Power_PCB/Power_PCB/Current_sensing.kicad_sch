@@ -1909,7 +1909,6 @@
 	)
 	(label "COMMS_V"
 		(at 201.93 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,7 +1919,6 @@
 	)
 	(label "SCL"
 		(at 139.7 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1929,9 +1927,18 @@
 		)
 		(uuid "199868a6-b948-4413-a525-5d902dde33e5")
 	)
+	(label "DRILL_READ"
+		(at 138.43 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b568720-ac9e-4035-800a-7bff189c39ef")
+	)
 	(label "SCL"
 		(at 208.28 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1942,7 +1949,6 @@
 	)
 	(label "14V8_PROTECTED"
 		(at 68.58 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1953,7 +1959,6 @@
 	)
 	(label "SCL"
 		(at 254 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1964,7 +1969,6 @@
 	)
 	(label "14V8_PROTECTED"
 		(at 21.59 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1975,7 +1979,6 @@
 	)
 	(label "ARM_READ"
 		(at 236.22 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1986,7 +1989,6 @@
 	)
 	(label "14V8_COMMS_OUT"
 		(at 165.1 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1997,7 +1999,6 @@
 	)
 	(label "SDA"
 		(at 208.28 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2006,31 +2007,8 @@
 		)
 		(uuid "3c72528a-d259-4bf0-b883-96903e253f89")
 	)
-	(label "COMMS_READ"
-		(at 161.29 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45c180df-99b9-476c-83b6-0a0489c5f703")
-	)
-	(label "ARM_READ"
-		(at 138.43 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "539e177c-4db2-4f5f-9293-5c9b129cace3")
-	)
 	(label "14V8_DRILL_OUT"
 		(at 68.58 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,7 +2019,6 @@
 	)
 	(label "DRILL_V"
 		(at 105.41 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2052,7 +2029,6 @@
 	)
 	(label "14V8_PROTECTED"
 		(at 73.66 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2063,7 +2039,6 @@
 	)
 	(label "COMMS_READ"
 		(at 234.95 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,7 +2049,6 @@
 	)
 	(label "14V8_COMMS_OUT"
 		(at 254 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2083,20 +2057,8 @@
 		)
 		(uuid "76138398-2bd8-48b1-9457-8b63cd3b2493")
 	)
-	(label "DRIVE_READ"
-		(at 161.29 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7672ac99-daa4-4454-83a4-08d8a26820a9")
-	)
 	(label "ARM_V"
 		(at 203.2 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,7 +2069,6 @@
 	)
 	(label "14V8_DRIVE_OUT"
 		(at 254 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,7 +2079,6 @@
 	)
 	(label "DRIVE_V"
 		(at 105.41 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2089,6 @@
 	)
 	(label "14V8_PROTECTED"
 		(at 165.1 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,7 +2099,6 @@
 	)
 	(label "SDA"
 		(at 254 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2151,7 +2109,6 @@
 	)
 	(label "14V8_ARM_OUT"
 		(at 166.37 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,7 +2119,6 @@
 	)
 	(label "14V8_ARM_OUT"
 		(at 254 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2173,7 +2129,6 @@
 	)
 	(label "SDA"
 		(at 139.7 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2182,9 +2137,18 @@
 		)
 		(uuid "928f6e95-32d5-4c94-8b5c-5f4eceb9f577")
 	)
+	(label "ARM_READ"
+		(at 161.29 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9678a0db-c7b0-4ccd-98dd-e47baa6f3324")
+	)
 	(label "DRILL_READ"
 		(at 138.43 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2195,7 +2159,6 @@
 	)
 	(label "14V8_DRIVE_OUT"
 		(at 68.58 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2204,20 +2167,8 @@
 		)
 		(uuid "a3578601-ad90-4847-aff3-8e10996f4146")
 	)
-	(label "DRILL_READ"
-		(at 134.62 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3911e80-19c8-4d92-bcd5-c59cfcb8e773")
-	)
 	(label "14V8_PROTECTED"
 		(at 68.58 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,7 +2179,6 @@
 	)
 	(label "14V8_PROTECTED"
 		(at 166.37 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,7 +2189,6 @@
 	)
 	(label "DRIVE_READ"
 		(at 138.43 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2248,9 +2197,18 @@
 		)
 		(uuid "d9e717bd-7da1-4b0f-97ff-11bfb876a3da")
 	)
+	(label "COMMS_READ"
+		(at 134.62 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e312e94d-5f62-4b8e-add4-2f63907f2f9e")
+	)
 	(label "14V8_DRILL_OUT"
 		(at 254 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,10 +2217,19 @@
 		)
 		(uuid "e77c976c-08f0-4ea6-8fcb-0c1124656660")
 	)
+	(label "DRIVE_READ"
+		(at 161.29 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef9b9916-90ee-497b-a07f-bc367ded42ed")
+	)
 	(hierarchical_label "14V8_DRILL_OUT"
 		(shape output)
 		(at 261.62 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2274,7 +2241,6 @@
 	(hierarchical_label "SDA"
 		(shape output)
 		(at 261.62 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2286,7 +2252,6 @@
 	(hierarchical_label "14V8_COMMS_OUT"
 		(shape output)
 		(at 261.62 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,7 +2263,6 @@
 	(hierarchical_label "14V8_DRIVE_OUT"
 		(shape output)
 		(at 261.62 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,7 +2274,6 @@
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 261.62 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2322,7 +2285,6 @@
 	(hierarchical_label "14V8_ARM_OUT"
 		(shape output)
 		(at 261.62 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2334,7 +2296,6 @@
 	(hierarchical_label "14V8_PROTECTED"
 		(shape input)
 		(at 27.94 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

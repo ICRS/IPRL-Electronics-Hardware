@@ -169,6 +169,177 @@
 				)
 			)
 		)
+		(symbol "8PCV-02-006:8PCV-02-006"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "8PCV-02-006"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "8PCV02006"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "19.558"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "8PCV-02-006"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "571-514376577"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "8PCV-02-006"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "8PCV-02-006_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -505,6 +676,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -607,6 +898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03eb8a8a-5bb4-450f-b21e-c769681a260c")
+	)
+	(junction
+		(at 160.02 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26514883-0b54-4405-89da-cbca030a1af5")
 	)
 	(junction
 		(at 115.57 106.68)
@@ -752,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 111.76) (xy 163.83 111.76)
+			(xy 158.75 111.76) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1152,6 +1449,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9e8044-23b5-4261-85ee-74706ab5369a")
+	)
+	(wire
+		(pts
 			(xy 158.75 114.3) (xy 163.83 114.3)
 		)
 		(stroke
@@ -1418,7 +1725,6 @@
 	)
 	(label "SCL"
 		(at 158.75 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1429,7 +1735,6 @@
 	)
 	(label "14V8_DRILL_FUSE"
 		(at 67.31 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1440,7 +1745,6 @@
 	)
 	(label "SDA"
 		(at 158.75 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1451,7 +1755,6 @@
 	)
 	(label "SCL"
 		(at 66.04 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1462,7 +1765,6 @@
 	)
 	(label "14V8_COMMS_FUSE"
 		(at 66.04 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1473,7 +1775,6 @@
 	)
 	(label "14V8_DRIVE_OUT"
 		(at 127 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1484,7 +1785,6 @@
 	)
 	(label "14V8_ARM_OUT"
 		(at 67.31 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1495,7 +1795,6 @@
 	)
 	(label "SCL"
 		(at 158.75 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1506,7 +1805,6 @@
 	)
 	(label "14V8_COMMS_FUSE"
 		(at 113.03 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1517,7 +1815,6 @@
 	)
 	(label "+3.3V"
 		(at 66.04 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,7 +1825,6 @@
 	)
 	(label "14V8_COMMS_OUT"
 		(at 114.3 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1539,7 +1835,6 @@
 	)
 	(label "14V8_COMMS_OUT"
 		(at 168.91 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1550,7 +1845,6 @@
 	)
 	(label "SDA"
 		(at 66.04 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1561,7 +1855,6 @@
 	)
 	(label "SCL"
 		(at 158.75 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1572,7 +1865,6 @@
 	)
 	(label "14V8_DRILL_OUT"
 		(at 170.18 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1583,7 +1875,6 @@
 	)
 	(label "14V8_DRIVE_FUSE"
 		(at 66.04 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1594,7 +1885,6 @@
 	)
 	(label "14V8_DRIVE_OUT"
 		(at 110.49 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1605,7 +1895,6 @@
 	)
 	(label "14V8_DRILL_OUT"
 		(at 170.18 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1616,7 +1905,6 @@
 	)
 	(label "14V8_DRIVE_FUSE"
 		(at 110.49 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1627,7 +1915,6 @@
 	)
 	(label "SDA"
 		(at 158.75 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1636,31 +1923,8 @@
 		)
 		(uuid "a0034ece-ec92-4034-a331-2172353ccd8c")
 	)
-	(label "+3.3V"
-		(at 158.75 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af113a6b-e219-4410-84c2-851662605980")
-	)
-	(label "+3.3V"
-		(at 158.75 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba2f61ca-a99c-4397-bc4d-e8e8d2e3d303")
-	)
 	(label "SDA"
 		(at 158.75 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1671,7 +1935,6 @@
 	)
 	(label "14V8_DRIVE_OUT"
 		(at 127 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1682,7 +1945,6 @@
 	)
 	(label "14V8_ARM_OUT"
 		(at 127 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1691,20 +1953,8 @@
 		)
 		(uuid "cb89f98d-1b7d-4e18-90fe-779bf0154336")
 	)
-	(label "+3.3V"
-		(at 158.75 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d32d35aa-dee0-4c5f-8d4c-88c14256feef")
-	)
 	(label "14V8_DRILL_FUSE"
 		(at 66.04 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1715,7 +1965,6 @@
 	)
 	(label "14V8_ARM_FUSE"
 		(at 67.31 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1726,7 +1975,6 @@
 	)
 	(label "14V8_COMMS_OUT"
 		(at 168.91 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,7 +1985,6 @@
 	)
 	(label "14V8_ARM_FUSE"
 		(at 66.04 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1748,7 +1995,6 @@
 	)
 	(label "14V8_DRILL_OUT"
 		(at 67.31 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1759,7 +2005,6 @@
 	)
 	(label "14V8_ARM_OUT"
 		(at 127 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,7 +2016,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 72.39 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,7 +2027,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 72.39 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1795,7 +2038,6 @@
 	(hierarchical_label "14V8_ARM_FUSE"
 		(shape input)
 		(at 72.39 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1807,7 +2049,6 @@
 	(hierarchical_label "14V8_DRILL_FUSE"
 		(shape input)
 		(at 72.39 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,7 +2060,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 72.39 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1831,7 +2071,6 @@
 	(hierarchical_label "14V8_DRIVE_FUSE"
 		(shape input)
 		(at 72.39 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1843,7 +2082,6 @@
 	(hierarchical_label "14V8_COMMS_FUSE"
 		(shape input)
 		(at 72.39 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1996,76 +2234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.05 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "109110af-1ced-4314-b84f-57acd7611d98")
-		(property "Reference" "J16"
-			(at 148.59 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 148.59 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 146.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9342cdf3-294f-46a0-971b-2b8177b105ea")
-		)
-		(pin "1"
-			(uuid "b42a0a3a-fbaf-4267-965a-e63ac69d6b4e")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "01530008Z:01530008Z")
 		(at 116.84 124.46 90)
 		(unit 1)
@@ -2188,76 +2356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.05 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20737f2e-6149-434f-b685-4c4ac80c5109")
-		(property "Reference" "J17"
-			(at 148.59 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 148.59 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 146.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "220930c2-7c61-4921-a898-de3724ec4152")
-		)
-		(pin "1"
-			(uuid "05f0f930-37c7-41e4-a6b2-14201212b268")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "01530008Z:01530008Z")
 		(at 73.66 162.56 90)
 		(unit 1)
@@ -2374,6 +2472,290 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "8PCV-02-006:8PCV-02-006")
+		(at 140.97 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a9d8359-6d4b-4f62-901f-123e83f885c9")
+		(property "Reference" "J15"
+			(at 157.48 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8PCV-02-006"
+			(at 157.48 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8PCV02006"
+			(at 157.48 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
+			(at 157.48 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.558"
+			(at 157.48 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 157.48 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "8PCV-02-006"
+			(at 157.48 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-514376577"
+			(at 157.48 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
+			(at 157.48 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "8PCV-02-006"
+			(at 157.48 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
+			(at 157.48 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff34205c-74ae-483b-9ee6-a59365a78968")
+		)
+		(pin "1"
+			(uuid "07d72760-42cd-42c4-8921-d427f266f349")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "8PCV-02-006:8PCV-02-006")
+		(at 184.15 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45b12115-666f-4f9c-b229-bffeb71ce1b9")
+		(property "Reference" "J17"
+			(at 200.66 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8PCV-02-006"
+			(at 200.66 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8PCV02006"
+			(at 200.66 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
+			(at 200.66 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.558"
+			(at 200.66 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 200.66 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "8PCV-02-006"
+			(at 200.66 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-514376577"
+			(at 200.66 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
+			(at 200.66 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "8PCV-02-006"
+			(at 200.66 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
+			(at 200.66 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fde9ac2-d6cb-4252-865f-e29ef26ce2b1")
+		)
+		(pin "1"
+			(uuid "a34fbf9d-2109-489a-8a2c-1a49abce3732")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2736,17 +3118,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 189.23 67.31 0)
+		(lib_id "power:+3.3V")
+		(at 158.75 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ffd3824-a30b-45bb-9572-35e0df2d8b27")
-		(property "Reference" "J19"
-			(at 191.77 67.3099 0)
+		(uuid "7ed168ba-5e02-4f87-ad88-c0bf76ab6d58")
+		(property "Reference" "#PWR070"
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,17 +3145,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 191.77 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 189.23 67.31 0)
+		(property "Footprint" ""
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,8 +3154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 189.23 67.31 0)
+		(property "Datasheet" ""
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,25 +3163,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e5077317-ac5b-4abe-8acb-079f84cd37b4")
 		)
 		(pin "1"
-			(uuid "97385907-f8d3-4c6a-bedf-9e9d41f4d535")
+			(uuid "77aeea97-80d7-4c63-bde2-c6beec7bcd74")
 		)
 		(instances
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J19")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2989,6 +3368,148 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "8PCV-02-006:8PCV-02-006")
+		(at 140.97 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82694e0-6ff9-4e67-a0e4-6cb7792f0d67")
+		(property "Reference" "J9"
+			(at 157.48 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8PCV-02-006"
+			(at 157.48 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8PCV02006"
+			(at 157.48 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
+			(at 157.48 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.558"
+			(at 157.48 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 157.48 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "8PCV-02-006"
+			(at 157.48 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-514376577"
+			(at 157.48 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
+			(at 157.48 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "8PCV-02-006"
+			(at 157.48 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
+			(at 157.48 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb098199-3500-4811-8bf5-9f80901ac2ba")
+		)
+		(pin "1"
+			(uuid "a8a37b62-9ff3-4f5c-ac2d-238818676794")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3254,6 +3775,73 @@
 			(project ""
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c52fd6d1-9a40-4853-a892-f2ee0650090b")
+		(property "Reference" "#PWR069"
+			(at 162.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "467f1f71-b823-4b7a-a10e-5386a07b659a")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3662,17 +4250,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 189.23 87.63 0)
+		(lib_id "power:+3.3V")
+		(at 160.02 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eeab3b1a-e3b6-43b8-aeac-9b42cdc6e6e3")
-		(property "Reference" "J20"
-			(at 191.77 87.6299 0)
+		(uuid "e15a1c86-8d66-4cb7-9688-ebe6e41d07c8")
+		(property "Reference" "#PWR068"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 156.21 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,17 +4277,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 191.77 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 189.23 87.63 0)
+		(property "Footprint" ""
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,8 +4286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 189.23 87.63 0)
+		(property "Datasheet" ""
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,25 +4295,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "9b1ca751-9da5-45bc-adc6-fa055aac5098")
 		)
 		(pin "1"
-			(uuid "492fda01-386e-4ffd-9c7b-463b880318b2")
+			(uuid "50729329-5ff6-4d63-b541-1a439e4b0019")
 		)
 		(instances
-			(project "Power_PCB"
+			(project ""
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J20")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3860,6 +4445,148 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "8PCV-02-006:8PCV-02-006")
+		(at 184.15 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff4ba4c-ce65-4d84-a5cb-096b4d6fd7e4")
+		(property "Reference" "J16"
+			(at 200.66 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8PCV-02-006"
+			(at 200.66 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8PCV02006"
+			(at 200.66 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
+			(at 200.66 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.558"
+			(at 200.66 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 200.66 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "8PCV-02-006"
+			(at 200.66 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-514376577"
+			(at 200.66 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
+			(at 200.66 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "8PCV-02-006"
+			(at 200.66 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
+			(at 200.66 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6184f31c-5986-4a0d-9bc9-7947a537c10f")
+		)
+		(pin "1"
+			(uuid "e8779735-a3e3-4a39-968c-f70f83cd17f8")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J16")
 					(unit 1)
 				)
 			)

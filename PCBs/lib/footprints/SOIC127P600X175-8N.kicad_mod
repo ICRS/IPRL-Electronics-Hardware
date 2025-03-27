@@ -1,7 +1,7 @@
 (footprint "SOIC127P600X175-8N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOIC-8")
 	(tags "Integrated Circuit")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d6a660ff-312b-434c-81d6-d826d5433d77")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -219,51 +207,52 @@
 	(pad "1" smd rect
 		(at -2.7 -1.905 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d532c3dd-324e-4a16-9425-7461a3bdf150")
 	)
 	(pad "2" smd rect
 		(at -2.7 -0.635 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0bdee546-d0c9-4f2d-8125-8de9d45eb6d7")
 	)
 	(pad "3" smd rect
 		(at -2.7 0.635 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f9889000-db1c-4fae-9990-24c11c4d4a04")
 	)
 	(pad "4" smd rect
 		(at -2.7 1.905 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8dd7b6d-ee7e-47ee-a812-3c5df35d4534")
 	)
 	(pad "5" smd rect
 		(at 2.7 1.905 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "59777995-9890-4e15-be4e-cab9a89ffdfa")
 	)
 	(pad "6" smd rect
 		(at 2.7 0.635 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d74daf9b-5c72-4a6d-97e9-3b1a81e968cf")
 	)
 	(pad "7" smd rect
 		(at 2.7 -0.635 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa9c587c-b8f2-4cfe-9f68-0cce347a6c91")
 	)
 	(pad "8" smd rect
 		(at 2.7 -1.905 90)
 		(size 0.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0572745d-b5af-45ee-ad1a-6c7907017dc5")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../lib/models/AS5600-ASOT.stp"
 		(offset
 			(xyz 0 0 0)

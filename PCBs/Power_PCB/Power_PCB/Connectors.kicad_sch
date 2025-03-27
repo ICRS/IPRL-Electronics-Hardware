@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "afd7dab5-6617-4b40-b484-0f9e952d5dfd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "01530008Z:01530008Z"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -108,6 +110,17 @@
 				)
 			)
 			(symbol "01530008Z_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 12.7 0)
@@ -118,17 +131,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -168,6 +170,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "8PCV-02-006:8PCV-02-006"
 			(exclude_from_sim no)
@@ -339,10 +342,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -409,14 +415,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -431,14 +437,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -478,10 +484,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -548,19 +557,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -581,8 +590,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -592,14 +601,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -675,12 +684,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -752,7 +766,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -764,7 +778,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -795,12 +809,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -891,7 +910,84 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 115.316 54.61)
+		(end 209.296 96.774)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77902b64-27fc-4aa2-a020-7d3aca580439)
+	)
+	(rectangle
+		(start 147.32 102.108)
+		(end 186.69 138.684)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9b2e1746-73b9-41cb-915d-757773b02c3a)
+	)
+	(rectangle
+		(start 50.038 102.108)
+		(end 123.19 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c48cfd97-da22-45f0-aafa-d9e4e627c500)
+	)
+	(text "Additional connectors"
+		(exclude_from_sim no)
+		(at 157.988 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dcbf207-f523-478f-85d9-d933bd002f77")
+	)
+	(text "Fuses"
+		(exclude_from_sim no)
+		(at 99.314 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e795119-6cdb-4871-b4e9-15a19fb7aa5d")
+	)
+	(text "TODO\n- Check connector orientation"
+		(exclude_from_sim no)
+		(at 83.058 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7880fe0-5a02-4ef1-8b44-6807b79db70b")
+	)
+	(text "Output terminals"
+		(exclude_from_sim no)
+		(at 124.46 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df9cf5ad-96a4-4321-a778-e077433912b4")
 	)
 	(junction
 		(at 72.39 127)
@@ -1646,82 +1742,6 @@
 			(type default)
 		)
 		(uuid "fb7ae675-df5d-46c0-9c2f-41d8d2d0a3eb")
-	)
-	(rectangle
-		(start 115.316 54.61)
-		(end 209.296 96.774)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 77902b64-27fc-4aa2-a020-7d3aca580439)
-	)
-	(rectangle
-		(start 147.32 102.108)
-		(end 186.69 138.684)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9b2e1746-73b9-41cb-915d-757773b02c3a)
-	)
-	(rectangle
-		(start 50.038 102.108)
-		(end 123.19 168.91)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c48cfd97-da22-45f0-aafa-d9e4e627c500)
-	)
-	(text "Additional connectors"
-		(exclude_from_sim no)
-		(at 157.988 100.838 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1dcbf207-f523-478f-85d9-d933bd002f77")
-	)
-	(text "Fuses"
-		(exclude_from_sim no)
-		(at 99.314 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6e795119-6cdb-4871-b4e9-15a19fb7aa5d")
-	)
-	(text "TODO\n- Check connector orientation"
-		(exclude_from_sim no)
-		(at 83.058 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d7880fe0-5a02-4ef1-8b44-6807b79db70b")
-	)
-	(text "Output terminals"
-		(exclude_from_sim no)
-		(at 124.46 52.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "df9cf5ad-96a4-4321-a778-e077433912b4")
 	)
 	(label "SCL"
 		(at 158.75 118.11 180)

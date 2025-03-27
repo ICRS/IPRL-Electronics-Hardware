@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "iprl_footprints")(type "KiCad")(uri "/home/james/Documents/IPRL-Electronics-Hardware/PCBs/lib/footprints")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "/home/james/Documents/IPRL-Electronics-Hardware/PCBs/drive_V2/lib/footprints")(options "")(descr ""))
+  (lib (name "iprl_footprints")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../../drive_V2/lib/footprints")(options "")(descr ""))
 )

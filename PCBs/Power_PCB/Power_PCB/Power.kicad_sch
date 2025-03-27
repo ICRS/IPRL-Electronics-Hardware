@@ -172,7 +172,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "8PCV-04-006:8PCV-04-006"
+		(symbol "8PCV-02-006:8PCV-02-006"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -185,7 +185,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "8PCV-04-006"
+			(property "Value" "8PCV-02-006"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -194,7 +194,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SHDR4W114P0X1112_1X4_4628X2032X1956P"
+			(property "Footprint" "8PCV02006"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -204,7 +204,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-2_BARRIER_STRIPS_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=8-1437657-0&DocFormat=pdf"
+			(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -214,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Body Features: Product Orientation Vertical | Primary Product Color Black | Barrier Strip Style Tri-Barrier | Configuration Features: Number of Positions 4 | Number of Rows 1 | Number of Levels 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Base Material Copper Alloy | Contact Current Rating (Max) 30 AMP | Dimensions: Wire Size .326  5.26 MMSQ | Product Length 46.28 MM | Product Length 1.822 INCH | Wire Size 18  10 AWG | Wire Size 22  10 AWG | Electrical Character"
+			(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
 				(at 0 0 0)
 				(effects
 					(font
@@ -243,7 +243,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "8PCV-04-006"
+			(property "Manufacturer_Part_Number" "8PCV-02-006"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -253,7 +253,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "571-814376570"
+			(property "Mouser Part Number" "571-514376577"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-04-006?qs=2tLWshjwybZDt1RRkHop6w%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -273,7 +273,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "8PCV-04-006"
+			(property "Arrow Part Number" "8PCV-02-006"
 				(at 16.51 -894.92 0)
 				(effects
 					(font
@@ -283,7 +283,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-04-006/te-connectivity?region=nac"
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
 				(at 16.51 -994.92 0)
 				(effects
 					(font
@@ -293,10 +293,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "8PCV-04-006_1_1"
+			(symbol "8PCV-02-006_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -10.16)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -334,42 +334,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3029,7 +2993,7 @@
 		(uuid 3f890914-ffcc-46f0-b28e-d035861b7d44)
 	)
 	(rectangle
-		(start 133.096 95.504)
+		(start 128.27 74.93)
 		(end 152.4 114.808)
 		(stroke
 			(width 0)
@@ -3191,16 +3155,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 135.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "064aeecf-bbf1-4476-ab6e-9c834cffa434")
-	)
-	(wire
-		(pts
 			(xy 80.01 107.95) (xy 86.36 107.95)
 		)
 		(stroke
@@ -3211,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 153.67 93.98)
+			(xy 143.51 92.71) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3221,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 118.11) (xy 120.65 102.87)
+			(xy 128.27 118.11) (xy 128.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3281,6 +3235,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bbf8ae-90f0-4aa2-bdde-83a963908a41")
+	)
+	(wire
+		(pts
 			(xy 184.15 105.41) (xy 196.85 105.41)
 		)
 		(stroke
@@ -3321,16 +3285,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 135.89 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c1556f-63b9-42ac-8334-8a7278ade5af")
-	)
-	(wire
-		(pts
 			(xy 101.6 113.03) (xy 109.22 113.03)
 		)
 		(stroke
@@ -3341,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 118.11) (xy 120.65 118.11)
+			(xy 118.11 118.11) (xy 128.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3401,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 102.87) (xy 135.89 102.87)
+			(xy 128.27 110.49) (xy 143.51 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3441,16 +3395,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 134.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b96ba7-8856-4227-9a9e-8b141f14a994")
-	)
-	(wire
-		(pts
 			(xy 226.06 116.84) (xy 226.06 113.03)
 		)
 		(stroke
@@ -3481,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 135.89 105.41)
+			(xy 140.97 107.95) (xy 143.51 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 93.98) (xy 153.67 97.79)
+			(xy 151.13 92.71) (xy 151.13 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3578,16 +3522,6 @@
 			(type default)
 		)
 		(uuid "d4e4bf7b-19e3-4a7d-8971-c5c94015347b")
-	)
-	(wire
-		(pts
-			(xy 153.67 97.79) (xy 151.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd808147-4b81-4918-b81a-007f203a01ef")
 	)
 	(wire
 		(pts
@@ -3650,6 +3584,16 @@
 		(uuid "2182dce3-cb73-4607-9be5-c0db7d513f3e")
 	)
 	(label "14V8_IN"
+		(at 137.16 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "232fbb12-5a39-42ad-a00e-33efd7a06390")
+	)
+	(label "14V8_IN"
 		(at 80.01 97.79 0)
 		(effects
 			(font
@@ -3678,16 +3622,6 @@
 			(justify left bottom)
 		)
 		(uuid "44b5c478-9e9d-4d83-9742-e0f7ec29ca4d")
-	)
-	(label "14V8_IN"
-		(at 133.35 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65ab22dd-ba09-43b3-b2c6-ebf7da23f985")
 	)
 	(label "EMERG_OUT"
 		(at 111.76 118.11 0)
@@ -4940,154 +4874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "8PCV-04-006:8PCV-04-006")
-		(at 135.89 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a278799e-7d48-4de6-ad38-0f299fe5556a")
-		(property "Reference" "J12"
-			(at 152.4 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8PCV-04-006"
-			(at 152.4 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SHDR4W114P0X1112_1X4_4628X2032X1956P"
-			(at 152.4 195.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-2_BARRIER_STRIPS_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=8-1437657-0&DocFormat=pdf"
-			(at 152.4 295.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Product Orientation Vertical | Primary Product Color Black | Barrier Strip Style Tri-Barrier | Configuration Features: Number of Positions 4 | Number of Rows 1 | Number of Levels 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Base Material Copper Alloy | Contact Current Rating (Max) 30 AMP | Dimensions: Wire Size .326  5.26 MMSQ | Product Length 46.28 MM | Product Length 1.822 INCH | Wire Size 18  10 AWG | Wire Size 22  10 AWG | Electrical Character"
-			(at 135.89 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.558"
-			(at 152.4 495.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 152.4 595.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "8PCV-04-006"
-			(at 152.4 695.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-814376570"
-			(at 152.4 795.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-04-006?qs=2tLWshjwybZDt1RRkHop6w%3D%3D"
-			(at 152.4 895.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "8PCV-04-006"
-			(at 152.4 995.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-04-006/te-connectivity?region=nac"
-			(at 152.4 1095.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "dd66aeb9-12e2-425d-b113-0cf7f5df302f")
-		)
-		(pin "1"
-			(uuid "3aab51c4-9e7a-478f-9555-d235300dec63")
-		)
-		(pin "2"
-			(uuid "efc186ec-00af-4917-9045-189580b45368")
-		)
-		(pin "3"
-			(uuid "508d18c7-0f2c-4379-93a7-9013bc744664")
-		)
-		(instances
-			(project ""
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "01530008Z:01530008Z")
 		(at 151.13 97.79 0)
 		(unit 1)
@@ -5206,6 +4992,76 @@
 				)
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 148.59 110.49 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a83db390-b47c-48db-b412-ba6e18c1484e")
+		(property "Reference" "J12"
+			(at 149.8601 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 147.3201 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b5de13-a632-48e1-8a5e-41a1d892b748")
+		)
+		(pin "2"
+			(uuid "d341b73d-f5cc-41ba-bfb0-e50b34a99e0a")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5363,7 +5219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 105.41 270)
+		(at 140.97 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5371,7 +5227,7 @@
 		(dnp no)
 		(uuid "c3f9f3f5-37a3-4d22-9189-f1c76e83b8f0")
 		(property "Reference" "#PWR057"
-			(at 127 105.41 0)
+			(at 134.62 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 105.41 0)
+			(at 137.16 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 105.41 0)
+			(at 140.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 105.41 0)
+			(at 140.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 105.41 0)
+			(at 140.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,6 +5974,148 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "8PCV-02-006:8PCV-02-006")
+		(at 143.51 92.71 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e17e458d-2fc3-49ad-b9e9-5277c2ffc3b1")
+		(property "Reference" "J18"
+			(at 137.16 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8PCV-02-006"
+			(at 137.16 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "8PCV02006"
+			(at 48.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
+			(at -51.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.558"
+			(at -251.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at -351.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "8PCV-02-006"
+			(at -451.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-514376577"
+			(at -551.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
+			(at -651.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "8PCV-02-006"
+			(at -751.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
+			(at -851.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f85aab6-69e0-4d55-accb-493b9e3f169f")
+		)
+		(pin "1"
+			(uuid "55bd682e-9cbc-4f14-aa1f-611f233aa400")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "J18")
 					(unit 1)
 				)
 			)

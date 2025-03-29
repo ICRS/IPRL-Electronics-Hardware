@@ -2525,7 +2525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8PCV02006"
+		(property "Footprint" "iprl_footprints:8PCV02006"
 			(at 157.48 182.55 0)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8PCV02006"
+		(property "Footprint" "iprl_footprints:8PCV02006"
 			(at 200.66 162.23 0)
 			(effects
 				(font
@@ -2885,7 +2885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -2955,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -3025,7 +3025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 189.23 80.01 0)
 			(effects
 				(font
@@ -3095,7 +3095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8PCV02006"
+		(property "Footprint" "iprl_footprints:8PCV02006"
 			(at 157.48 162.23 0)
 			(effects
 				(font
@@ -4498,7 +4498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8PCV02006"
+		(property "Footprint" "iprl_footprints:8PCV02006"
 			(at 200.66 182.55 0)
 			(effects
 				(font

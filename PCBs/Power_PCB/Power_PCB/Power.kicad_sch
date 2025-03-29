@@ -5656,7 +5656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EGJ1210AAT2"
+		(property "Footprint" "iprl_footprints:EGJ1210AAT2"
 			(at 181.28 132.08 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "8PCV02006"
+		(property "Footprint" "iprl_footprints:8PCV02006"
 			(at 48.59 76.2 0)
 			(effects
 				(font

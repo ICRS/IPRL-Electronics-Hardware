@@ -5,15 +5,12 @@
 	(uuid "2560a50e-fa6c-4978-ab9d-b06f369b96bf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "01530008Z:01530008Z"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "01000064Z:01000064Z"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "F"
-				(at 13.97 6.35 0)
+			(property "Reference" "U"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +18,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "01530008Z"
-				(at 13.97 3.81 0)
+			(property "Value" "01000064Z"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,18 +27,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "01530008"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.littelfuse.com/data/en/data_sheets/153_pcmount.pdf"
-				(at 13.97 -196.19 0)
+			(property "Footprint" "01000064Z"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,7 +37,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V"
+			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,28 +56,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "576-01530008Z"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01530008Z?qs=gu7KAQ731UQHzmSA1Of2BQ%3D%3D"
-				(at 13.97 -596.19 0)
+			(property "Height" "7.37"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -90,7 +67,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "LITTELFUSE"
-				(at 13.97 -696.19 0)
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -99,8 +76,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "01530008Z"
-				(at 13.97 -796.19 0)
+			(property "Manufacturer_Part_Number" "01000064Z"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -109,10 +86,50 @@
 					(hide yes)
 				)
 			)
-			(symbol "01530008Z_1_1"
+			(property "Mouser Part Number" "576-01000064Z"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "01000064Z_1_1"
 				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -121,20 +138,26 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 12.7 0)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -152,7 +175,25 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -3096,12 +3137,6 @@
 		(uuid "27d2690f-c271-4ad3-9fd3-c0754bb2dfae")
 	)
 	(junction
-		(at 168.91 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "281ad947-e318-4c7f-a837-db39cfeb5e51")
-	)
-	(junction
 		(at 196.85 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3114,10 +3149,22 @@
 		(uuid "2dc15025-426f-4d49-92d9-d8989067e71a")
 	)
 	(junction
+		(at 170.18 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4294810e-b83b-4842-9690-01a8d6f81ffc")
+	)
+	(junction
 		(at 226.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eb003d1-92b8-41d8-9197-a096e7bde27d")
+	)
+	(junction
+		(at 170.18 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78639ba5-3b7a-4df0-9dea-06e1d9f732e6")
 	)
 	(junction
 		(at 196.85 105.41)
@@ -3136,6 +3183,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af032bc7-334e-43f9-b43e-545a8be5cd47")
+	)
+	(junction
+		(at 149.86 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61ea520-a137-4fd4-acb9-028a5b1bf24a")
 	)
 	(junction
 		(at 204.47 50.8)
@@ -3165,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 151.13 92.71)
+			(xy 143.51 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3242,6 +3295,16 @@
 			(type default)
 		)
 		(uuid "16bbf8ae-90f0-4aa2-bdde-83a963908a41")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185dc5ac-88da-440a-a86f-42b08f7ab6f7")
 	)
 	(wire
 		(pts
@@ -3335,6 +3398,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 90.17) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8f124e-f1c8-4780-96ae-5b9f8c180401")
+	)
+	(wire
+		(pts
 			(xy 195.58 50.8) (xy 204.47 50.8)
 		)
 		(stroke
@@ -3395,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2f36e9-0930-4ac8-8e5f-003a9356278d")
+	)
+	(wire
+		(pts
 			(xy 226.06 116.84) (xy 226.06 113.03)
 		)
 		(stroke
@@ -3405,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 179.07 97.79)
+			(xy 168.91 97.79) (xy 170.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3445,6 +3528,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 90.17) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872bc9f4-37f1-43eb-b3d7-2f8799a0c8c0")
+	)
+	(wire
+		(pts
 			(xy 101.6 107.95) (xy 101.6 113.03)
 		)
 		(stroke
@@ -3462,16 +3555,6 @@
 			(type default)
 		)
 		(uuid "912a05ed-800a-4306-8e30-6a702dd4a48e")
-	)
-	(wire
-		(pts
-			(xy 151.13 92.71) (xy 151.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96660403-cad6-40a8-a6e6-57cc3d140d43")
 	)
 	(wire
 		(pts
@@ -3522,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "d4e4bf7b-19e3-4a7d-8971-c5c94015347b")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69997d3-a1c1-49be-9b13-7b0ca4a5b83f")
 	)
 	(wire
 		(pts
@@ -3654,7 +3747,7 @@
 		(uuid "d99fcbc5-f59c-40e9-b33e-b4b5dc7582c5")
 	)
 	(label "RELAY_OUT"
-		(at 151.13 97.79 180)
+		(at 146.05 92.71 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3757,6 +3850,152 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "01000064Z:01000064Z")
+		(at 149.86 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08b4c9d1-8527-43e2-b1ff-45bf85b4654b")
+		(property "Reference" "U4"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "01000064Z"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "01000064Z"
+			(at 166.37 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
+			(at 166.37 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 166.37 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 166.37 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "01000064Z"
+			(at 166.37 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-01000064Z"
+			(at 166.37 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
+			(at 166.37 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 166.37 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 166.37 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e3f9f2e4-c144-48e4-9884-04c33a024c79")
+		)
+		(pin "4"
+			(uuid "1fabe003-1df3-4e4e-bc53-e6305de95580")
+		)
+		(pin "2"
+			(uuid "848b7fd7-9d30-4015-a538-7923a1cc441f")
+		)
+		(pin "1"
+			(uuid "049b6cf0-2754-4dc7-878d-ec401c47f3cb")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4868,130 +5107,6 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "01530008Z:01530008Z")
-		(at 151.13 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a32e96fb-18a8-4bcb-8b6b-fd4cd24754e7")
-		(property "Reference" "F1"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "01530008Z"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "iprl_footprints:01530008"
-			(at 165.1 193.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.littelfuse.com/data/en/data_sheets/153_pcmount.pdf"
-			(at 165.1 293.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V"
-			(at 151.13 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 165.1 493.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-01530008Z"
-			(at 165.1 593.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01530008Z?qs=gu7KAQ731UQHzmSA1Of2BQ%3D%3D"
-			(at 165.1 693.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 165.1 793.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "01530008Z"
-			(at 165.1 893.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80a19d35-c051-49af-814a-609b2f93abe5")
-		)
-		(pin "1"
-			(uuid "8886b17a-79ee-4e8a-a7a1-8f73ec8e68ca")
-		)
-		(instances
-			(project ""
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "F1")
-					(unit 1)
-				)
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "F1")
 					(unit 1)
 				)
 			)

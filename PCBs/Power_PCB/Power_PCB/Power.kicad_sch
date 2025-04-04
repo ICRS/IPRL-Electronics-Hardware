@@ -5,7 +5,7 @@
 	(uuid "2560a50e-fa6c-4978-ab9d-b06f369b96bf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "01000064Z:01000064Z"
+		(symbol "178_6164_0001:178.6164.0001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "01000064Z"
+			(property "Value" "178.6164.0001"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "01000064Z"
+			(property "Footprint" "178.6164.XXX1"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
+			(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
+			(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "7.37"
+			(property "Height" ""
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "LITTELFUSE"
+			(property "Mouser Part Number" "576-178.6164.0001"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "01000064Z"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "576-01000064Z"
+			(property "Manufacturer_Name" "LITTELFUSE"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
+			(property "Manufacturer_Part_Number" "178.6164.0001"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -106,27 +106,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "01000064Z_1_1"
+			(symbol "178.6164.0001_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -140,24 +120,6 @@
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -175,25 +137,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -213,12 +157,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "8PCV-02-006:8PCV-02-006"
+		(symbol "1N4148WT:1N4148WT"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -226,8 +173,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "8PCV-02-006"
-				(at 16.51 5.08 0)
+			(property "Value" "1N4148WT"
+				(at 11.43 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -235,18 +182,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "8PCV02006"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-				(at 16.51 -194.92 0)
+			(property "Footprint" "SODFL1608X70N"
+				(at 11.43 -97.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -255,7 +192,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148WT_C27748.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Diode 75V 200mA 1V @ 10mA 4ns SOD-523 RoHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -264,8 +211,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "19.558"
-				(at 16.51 -394.92 0)
+			(property "Height" "0.7"
+				(at 11.43 -397.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -274,8 +221,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 16.51 -494.92 0)
+			(property "Manufacturer_Name" "SEMTECH"
+				(at 11.43 -497.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,8 +231,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "8PCV-02-006"
-				(at 16.51 -594.92 0)
+			(property "Manufacturer_Part_Number" "1N4148WT"
+				(at 11.43 -597.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -294,8 +241,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "571-514376577"
-				(at 16.51 -694.92 0)
+			(property "Mouser Part Number" ""
+				(at 11.43 -697.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -304,8 +251,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-				(at 16.51 -794.92 0)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -797.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -314,8 +261,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "8PCV-02-006"
-				(at 16.51 -894.92 0)
+			(property "Arrow Part Number" ""
+				(at 11.43 -897.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -324,8 +271,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-				(at 16.51 -994.92 0)
+			(property "Arrow Price/Stock" ""
+				(at 11.43 -997.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,22 +281,59 @@
 					(hide yes)
 				)
 			)
-			(symbol "8PCV-02-006_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
+			(symbol "1N4148WT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -365,9 +349,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -964,173 +948,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:BZV55B10"
 			(pin_numbers
 				(hide yes)
@@ -1280,12 +1097,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EGJ1210AAT2:EGJ1210AAT2"
+		(symbol "NTD25P03LT4G:NTD25P03LT4G"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 19.05 7.62 0)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1293,8 +1113,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "EGJ1210AAT2"
-				(at 19.05 5.08 0)
+			(property "Value" "NTD25P03LT4G"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1302,18 +1122,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "EGJ1210AAT2"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EGJ1210AAT2.pdf"
-				(at 19.05 -194.92 0)
+			(property "Footprint" "MJD45H11T4G"
+				(at 11.43 -98.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1322,7 +1132,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SLIDE, 300mA / 500mA, 24VDC / 12VDC SPDT, On-On Through Hole, Right Angle"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTD25P03L-D.PDF"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RoHS Compliant"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1331,8 +1151,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.75"
-				(at 19.05 -394.92 0)
+			(property "Height" "2.28"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1341,8 +1161,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "E-Switch"
-				(at 19.05 -494.92 0)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -498.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1351,8 +1171,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "EGJ1210AAT2"
-				(at 19.05 -594.92 0)
+			(property "Manufacturer_Part_Number" "NTD25P03LT4G"
+				(at 11.43 -598.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1361,8 +1181,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "612-EGJ1210AAT2"
-				(at 19.05 -694.92 0)
+			(property "Mouser Part Number" "863-NTD25P03LT4G"
+				(at 11.43 -698.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1371,8 +1191,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EGJ1210AAT2?qs=%252BXxaIXUDbq28DPumZsnIIA%3D%3D"
-				(at 19.05 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTD25P03LT4G?qs=ZXBb0xZ9WeACO1ALlmXCYw%3D%3D"
+				(at 11.43 -798.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1381,8 +1201,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
+			(property "Arrow Part Number" "NTD25P03LT4G"
+				(at 11.43 -898.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1391,8 +1211,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ntd25p03lt4g/on-semiconductor?utm_currency=USD&region=nac"
+				(at 11.43 -998.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1401,22 +1221,172 @@
 					(hide yes)
 				)
 			)
-			(symbol "EGJ1210AAT2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
+			(symbol "NTD25P03LT4G_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "NO"
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1432,27 +1402,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "NC"
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1998,6 +1950,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SK12F14G5:SK12F14G5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SK12F14G5"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SK12F14G5"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108201830_SHOU-HAN-SK12F14G5_C2887263.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA SPDT 50V 5 Plugin Slide Switches ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "C & K COMPONENTS"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SK12F14G5"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "611-SK12F14G5"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/SK12F14G5?qs=Gufeu08L%2Fl2wEXubSryWrQ%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SK12F14G5_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SM15T22A:SM15T22A"
 			(pin_names
 				(hide yes)
@@ -2234,53 +2412,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:SUD45P03-09"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "YK4420203000G:YK4420203000G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 4.953 1.905 0)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "SUD45P03-09"
-				(at 4.953 0 0)
+			(property "Value" "YK4420203000G"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-				(at 4.953 -1.905 0)
+			(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/65595/sud45p03.pdf"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+				(at 16.51 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "-45A Id, -30V Vds, TrenchFET P-Channel Power MOSFET, 8.7mOhm Ron, 90nC Qg, -55 to 150 °C, TO-252-2"
+			(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2289,196 +2463,92 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "TrenchFET P-Channel Power MOSFET"
-				(at 0 0 0)
+			(property "Height" "17.9"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?252*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Amphenol"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "SUD45P03-09_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+			(property "Manufacturer_Part_Number" "YK4420203000G"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "SUD45P03-09_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
+			(property "Mouser Part Number" "649-YK44202030J0G"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "YK4420203000G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2494,9 +2564,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2504,24 +2574,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3022,8 +3074,8 @@
 		(uuid 0f832c40-3405-4edd-810a-5278434accab)
 	)
 	(rectangle
-		(start 76.454 76.2)
-		(end 248.412 137.414)
+		(start 68.834 76.2)
+		(end 240.792 137.414)
 		(stroke
 			(width 0)
 			(type default)
@@ -3034,7 +3086,7 @@
 		(uuid 3f890914-ffcc-46f0-b28e-d035861b7d44)
 	)
 	(rectangle
-		(start 128.27 74.93)
+		(start 128.27 76.2)
 		(end 152.4 114.808)
 		(stroke
 			(width 0)
@@ -3134,7 +3186,13 @@
 		(at 118.11 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27d2690f-c271-4ad3-9fd3-c0754bb2dfae")
+		(uuid "11797335-8cc1-48f1-8f98-e150d8aff6c5")
+	)
+	(junction
+		(at 170.18 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "142954e4-8a47-4692-88ef-9369918d0dab")
 	)
 	(junction
 		(at 196.85 97.79)
@@ -3149,28 +3207,22 @@
 		(uuid "2dc15025-426f-4d49-92d9-d8989067e71a")
 	)
 	(junction
-		(at 170.18 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4294810e-b83b-4842-9690-01a8d6f81ffc")
-	)
-	(junction
 		(at 226.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eb003d1-92b8-41d8-9197-a096e7bde27d")
 	)
 	(junction
-		(at 170.18 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78639ba5-3b7a-4df0-9dea-06e1d9f732e6")
-	)
-	(junction
 		(at 196.85 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aede171-e3c3-490e-9e50-81384c2148fd")
+	)
+	(junction
+		(at 173.99 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "949d99e3-6d96-4d73-8ffa-7ce500087a9f")
 	)
 	(junction
 		(at 184.15 116.84)
@@ -3185,16 +3237,18 @@
 		(uuid "af032bc7-334e-43f9-b43e-545a8be5cd47")
 	)
 	(junction
-		(at 149.86 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e61ea520-a137-4fd4-acb9-028a5b1bf24a")
-	)
-	(junction
 		(at 204.47 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c58774-aaa3-492e-97ed-83245f055420")
+	)
+	(no_connect
+		(at 83.82 113.03)
+		(uuid "59654020-8fb2-43d3-b271-223744763026")
+	)
+	(no_connect
+		(at 93.98 113.03)
+		(uuid "fce0f505-7da5-46fa-9488-10eb45970ae4")
 	)
 	(wire
 		(pts
@@ -3205,6 +3259,16 @@
 			(type default)
 		)
 		(uuid "030a0cad-4365-4692-909c-7d60894718f5")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04042d41-c4d0-4e1d-9744-6dfe24e49783")
 	)
 	(wire
 		(pts
@@ -3238,6 +3302,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 34.29) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e4174b-0181-43f0-a08f-e4cf0a1bca80")
+	)
+	(wire
+		(pts
 			(xy 87.63 58.42) (xy 96.52 58.42)
 		)
 		(stroke
@@ -3258,7 +3332,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 50.8) (xy 168.91 50.8)
+			(xy 195.58 34.29) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb8fb74-1a41-436d-9d3b-8fe7798109a1")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 171.45 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3298,13 +3382,53 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 170.18 90.17)
+			(xy 170.18 87.63) (xy 170.18 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "185dc5ac-88da-440a-a86f-42b08f7ab6f7")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c042fe4-ec08-4424-bb5e-b8c6c97e9dba")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2f8c8e-e9bd-4409-bdd3-d0662e2d42be")
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64) (xy 201.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2461ed32-fa50-4fdc-97f1-c07d47042e73")
+	)
+	(wire
+		(pts
+			(xy 201.93 40.64) (xy 201.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e5db59-4983-4603-a3f3-aa0f1104b903")
 	)
 	(wire
 		(pts
@@ -3328,13 +3452,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 118.11 129.54)
+			(xy 161.29 87.63) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ead38a6-5e6c-4c42-9d41-ae9a435377ff")
+		(uuid "2f804b01-2934-4154-8fb5-d9e2d7284573")
 	)
 	(wire
 		(pts
@@ -3348,6 +3472,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 41.91) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f051a8-5523-4f04-a278-5ebc84ac0306")
+	)
+	(wire
+		(pts
 			(xy 101.6 113.03) (xy 109.22 113.03)
 		)
 		(stroke
@@ -3355,16 +3489,6 @@
 			(type default)
 		)
 		(uuid "35009dd0-d4aa-4b08-8410-5d63955d50ea")
-	)
-	(wire
-		(pts
-			(xy 118.11 118.11) (xy 128.27 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359709d7-3cfb-4954-849f-4317685f9551")
 	)
 	(wire
 		(pts
@@ -3398,13 +3522,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 170.18 97.79)
+			(xy 149.86 87.63) (xy 158.75 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8f124e-f1c8-4780-96ae-5b9f8c180401")
+		(uuid "45b1c4a3-df9e-4165-87a7-061eac83ff08")
 	)
 	(wire
 		(pts
@@ -3438,6 +3562,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 133.35) (xy 118.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3c9323-6122-42da-849d-6f9840dd8e9e")
+	)
+	(wire
+		(pts
 			(xy 157.48 144.78) (xy 163.83 144.78)
 		)
 		(stroke
@@ -3445,6 +3579,16 @@
 			(type default)
 		)
 		(uuid "5cee4863-0270-4a1d-a0ff-5f4a4ad54e4c")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d81815f-8d2c-4321-be1d-ba684dd01737")
 	)
 	(wire
 		(pts
@@ -3465,16 +3609,6 @@
 			(type default)
 		)
 		(uuid "64519482-ee78-495c-b7d8-17165c3389e7")
-	)
-	(wire
-		(pts
-			(xy 170.18 97.79) (xy 179.07 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2f36e9-0930-4ac8-8e5f-003a9356278d")
 	)
 	(wire
 		(pts
@@ -3528,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 149.86 92.71)
+			(xy 149.86 87.63) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3545,6 +3679,16 @@
 			(type default)
 		)
 		(uuid "89c00841-1060-4fe3-b7cc-9b8dd920f8c3")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 171.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9def49-4000-4f77-b80d-5f42ca14b150")
 	)
 	(wire
 		(pts
@@ -3608,13 +3752,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 149.86 90.17)
+			(xy 173.99 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e69997d3-a1c1-49be-9b13-7b0ca4a5b83f")
+		(uuid "e5be0531-c039-4e16-a804-be9007ff7b00")
 	)
 	(wire
 		(pts
@@ -3635,6 +3779,16 @@
 			(type default)
 		)
 		(uuid "effa087f-e6f9-460e-a402-56ff6438d571")
+	)
+	(wire
+		(pts
+			(xy 204.47 34.29) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a30df-5d63-4fd8-a19d-0fc08f82cd4e")
 	)
 	(wire
 		(pts
@@ -3850,152 +4004,6 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "01000064Z:01000064Z")
-		(at 149.86 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08b4c9d1-8527-43e2-b1ff-45bf85b4654b")
-		(property "Reference" "U4"
-			(at 160.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "01000064Z"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "01000064Z"
-			(at 166.37 182.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
-			(at 166.37 282.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
-			(at 149.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.37"
-			(at 166.37 482.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 166.37 582.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "01000064Z"
-			(at 166.37 682.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-01000064Z"
-			(at 166.37 782.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
-			(at 166.37 882.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 166.37 982.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 166.37 1082.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e3f9f2e4-c144-48e4-9884-04c33a024c79")
-		)
-		(pin "4"
-			(uuid "1fabe003-1df3-4e4e-bc53-e6305de95580")
-		)
-		(pin "2"
-			(uuid "848b7fd7-9d30-4015-a538-7923a1cc441f")
-		)
-		(pin "1"
-			(uuid "049b6cf0-2754-4dc7-878d-ec401c47f3cb")
-		)
-		(instances
-			(project ""
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4273,6 +4281,148 @@
 		)
 	)
 	(symbol
+		(lib_id "1N4148WT:1N4148WT")
+		(at 118.11 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ee7b8e3-46c9-4de7-b74c-f187093ba6c4")
+		(property "Reference" "D1"
+			(at 121.92 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 121.92 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SODFL1608X70N"
+			(at 20.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148WT_C27748.pdf"
+			(at -79.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Diode 75V 200mA 1V @ 10mA 4ns SOD-523 RoHS"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at -279.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SEMTECH"
+			(at -379.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT"
+			(at -479.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -579.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -679.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -779.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -879.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44662046-489c-4cd8-be59-bef87f737535")
+		)
+		(pin "2"
+			(uuid "f9bc6dee-3063-4172-9a9b-c13070a9028e")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 55.88 270)
 		(unit 1)
@@ -4474,6 +4624,77 @@
 			(project ""
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 187.96 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "660ab9ef-15d2-4d6b-a994-2703d0a5170b")
+		(property "Reference" "U9"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc2bacc0-c459-4bc0-832f-b9e6862787d9")
+		)
+		(pin "3"
+			(uuid "e7d955d4-459a-4820-80ed-3d200816f2f1")
+		)
+		(pin "2"
+			(uuid "d61e337d-62dc-4eb3-80a3-fb91e40d790f")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4685,6 +4906,149 @@
 			(project ""
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTD25P03LT4G:NTD25P03LT4G")
+		(at 184.15 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80195e8a-776a-4612-a87e-c8900815b915")
+		(property "Reference" "Q4"
+			(at 181.61 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTD25P03LT4G"
+			(at 181.61 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "iprl_footprints:MJD45H11T4G"
+			(at 282.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTD25P03L-D.PDF"
+			(at 382.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RoHS Compliant"
+			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.28"
+			(at 582.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 682.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTD25P03LT4G"
+			(at 782.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NTD25P03LT4G"
+			(at 882.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTD25P03LT4G?qs=ZXBb0xZ9WeACO1ALlmXCYw%3D%3D"
+			(at 982.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "NTD25P03LT4G"
+			(at 1082.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ntd25p03lt4g/on-semiconductor?utm_currency=USD&region=nac"
+			(at 1182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94a28421-593f-4099-ab1c-4a86a0615f83")
+		)
+		(pin "2"
+			(uuid "84464ea6-4b6b-40c8-a9e2-a860ba76ef4c")
+		)
+		(pin "3"
+			(uuid "c15a6a48-3c95-4202-a7ea-62b04a6e1f97")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4960,93 +5324,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 118.11 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9400a9b5-e756-4cff-9a41-0d2dee25e9a8")
-		(property "Reference" "D1"
-			(at 110.998 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 108.458 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d340525-49fe-4ae4-9816-301020f127f6")
-		)
-		(pin "2"
-			(uuid "0c90010f-e9aa-4796-ad8c-ac1671018fe3")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 58.42 0)
 		(unit 1)
@@ -5107,6 +5384,128 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0001:178.6164.0001")
+		(at 158.75 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c0f907-e628-4d25-8249-ba705ca4d58e")
+		(property "Reference" "U4"
+			(at 165.1 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "178.6164.0001"
+			(at 165.1 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "178.6164.XXX1"
+			(at 253.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
+			(at 353.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 553.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-178.6164.0001"
+			(at 653.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+			(at 753.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 853.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "178.6164.0001"
+			(at 953.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a1048e1-5baf-4a2e-bf6f-3b6a54d2cd2c")
+		)
+		(pin "1"
+			(uuid "96f04888-ca16-45da-8470-4852d16f73d4")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5268,8 +5667,159 @@
 		)
 	)
 	(symbol
+		(lib_id "SK12F14G5:SK12F14G5")
+		(at 93.98 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd191d89-f161-4f19-b870-3246b347bea8")
+		(property "Reference" "S1"
+			(at 97.79 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK12F14G5"
+			(at 97.79 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK12F14G5"
+			(at -0.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108201830_SHOU-HAN-SK12F14G5_C2887263.pdf"
+			(at -100.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA SPDT 50V 5 Plugin Slide Switches ROHS"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.3"
+			(at -300.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at -400.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SK12F14G5"
+			(at -500.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-SK12F14G5"
+			(at -600.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/SK12F14G5?qs=Gufeu08L%2Fl2wEXubSryWrQ%3D%3D"
+			(at -700.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -800.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -900.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2626b70-af74-4727-be36-4da3fd35dd76")
+		)
+		(pin "1"
+			(uuid "afa76132-d72c-42d1-a15b-88a1dec9edca")
+		)
+		(pin "3"
+			(uuid "27c68c37-f490-45b4-9445-9aa8a83ca634")
+		)
+		(pin "MH1"
+			(uuid "60d5ed2f-78ea-4c7c-95b4-357f4e9d18ae")
+		)
+		(pin "MH2"
+			(uuid "ee0a7cf8-672d-420a-b616-61ec685884fb")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 118.11 129.54 0)
+		(at 118.11 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5277,7 +5827,7 @@
 		(dnp no)
 		(uuid "bdd9787b-57e0-4de7-81b7-bdd8db9b9cb1")
 		(property "Reference" "#PWR06"
-			(at 118.11 135.89 0)
+			(at 118.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 133.35 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 129.54 0)
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 129.54 0)
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 129.54 0)
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,80 +6087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:SUD45P03-09")
-		(at 184.15 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c89dc32d-5771-4213-b55e-258c1b37b7ab")
-		(property "Reference" "Q1"
-			(at 184.15 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SUD45P03-09"
-			(at 184.15 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 186.055 95.377 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/65595/sud45p03.pdf"
-			(at 187.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-45A Id, -30V Vds, TrenchFET P-Channel Power MOSFET, 8.7mOhm Ron, 90nC Qg, -55 to 150 °C, TO-252-2"
-			(at 184.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bb887f5-a531-4dfa-8757-b47c6ed86281")
-		)
-		(pin "3"
-			(uuid "4cefcaf0-bc13-41c7-abae-bb2be034127d")
-		)
-		(pin "2"
-			(uuid "e1dfe1b2-fed0-4cc3-b9c6-d6f8c00daf8b")
-		)
-		(instances
-			(project ""
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 46.99 270)
 		(unit 1)
@@ -5738,151 +6214,6 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EGJ1210AAT2:EGJ1210AAT2")
-		(at 86.36 113.03 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2cc44ba-16c0-4f63-a16f-71be7d574398")
-		(property "Reference" "S2"
-			(at 82.55 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EGJ1210AAT2"
-			(at 82.55 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "iprl_footprints:EGJ1210AAT2"
-			(at 181.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EGJ1210AAT2.pdf"
-			(at 281.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SLIDE, 300mA / 500mA, 24VDC / 12VDC SPDT, On-On Through Hole, Right Angle"
-			(at 86.36 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.75"
-			(at 481.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 581.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EGJ1210AAT2"
-			(at 681.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-EGJ1210AAT2"
-			(at 781.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EGJ1210AAT2?qs=%252BXxaIXUDbq28DPumZsnIIA%3D%3D"
-			(at 881.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 981.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1081.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eecb2906-52f6-44f9-b572-b27185c2b016")
-		)
-		(pin "2"
-			(uuid "9755571d-343d-4a6f-8a83-d2472fe23589")
-		)
-		(pin "3"
-			(uuid "982651a1-2679-411f-bb6f-2e300ebb3d55")
-		)
-		(instances
-			(project ""
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -6095,148 +6426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "8PCV-02-006:8PCV-02-006")
-		(at 143.51 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e17e458d-2fc3-49ad-b9e9-5277c2ffc3b1")
-		(property "Reference" "J18"
-			(at 137.16 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "8PCV-02-006"
-			(at 137.16 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "iprl_footprints:8PCV02006"
-			(at 48.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-			(at -51.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
-			(at 143.51 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.558"
-			(at -251.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at -351.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "8PCV-02-006"
-			(at -451.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-514376577"
-			(at -551.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-			(at -651.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "8PCV-02-006"
-			(at -751.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-			(at -851.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2f85aab6-69e0-4d55-accb-493b9e3f169f")
-		)
-		(pin "1"
-			(uuid "55bd682e-9cbc-4f14-aa1f-611f233aa400")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 101.6 55.88 0)
 		(unit 1)
@@ -6307,77 +6496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 187.96 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8769a59-dc5f-48d3-8a7a-3ac43eb6f6bd")
-		(property "Reference" "U2"
-			(at 187.96 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 187.96 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "804e23cc-8db0-425d-914a-8a93cfda652b")
-		)
-		(pin "3"
-			(uuid "e6a17250-2577-4095-8561-a5c2125aba78")
-		)
-		(pin "2"
-			(uuid "8813a413-68c3-48a1-933a-d19e795eef24")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5P")
 		(at 156.21 45.72 0)
 		(unit 1)
@@ -6437,6 +6555,147 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YK4420203000G:YK4420203000G")
+		(at 140.97 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed825d4c-0431-4123-814c-bcae25be6930")
+		(property "Reference" "J18"
+			(at 140.9699 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YK4420203000G"
+			(at 143.5099 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+			(at 235.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+			(at 335.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.9"
+			(at 535.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 635.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "YK4420203000G"
+			(at 735.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-YK44202030J0G"
+			(at 835.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+			(at 935.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1035.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6ba1e2d-8d62-4796-a6f7-c00ad38e72ba")
+		)
+		(pin "1"
+			(uuid "95c7272f-7180-4cc1-9cb2-76daa1cf1eaa")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ceb728e0-0a2f-47f1-b8f2-8a2cf5487bda"
+					(reference "J18")
 					(unit 1)
 				)
 			)

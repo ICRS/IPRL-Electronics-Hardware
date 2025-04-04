@@ -5,7 +5,7 @@
 	(uuid "afd7dab5-6617-4b40-b484-0f9e952d5dfd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "01000064Z:01000064Z"
+		(symbol "178_6164_0001:178.6164.0001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "01000064Z"
+			(property "Value" "178.6164.0001"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "01000064Z"
+			(property "Footprint" "178.6164.XXX1"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
+			(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
+			(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,8 +56,28 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "7.37"
+			(property "Height" ""
 				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-178.6164.0001"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,26 +87,6 @@
 				)
 			)
 			(property "Manufacturer_Name" "LITTELFUSE"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "01000064Z"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "576-01000064Z"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
+			(property "Manufacturer_Part_Number" "178.6164.0001"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -106,235 +106,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "01000064Z_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "8PCV-02-006:8PCV-02-006"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "8PCV-02-006"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "8PCV02006"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "19.558"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "8PCV-02-006"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "571-514376577"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "8PCV-02-006"
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "8PCV-02-006_1_1"
+			(symbol "178.6164.0001_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -727,6 +499,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "YK4420203000G:YK4420203000G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "YK4420203000G"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "17.9"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "YK4420203000G"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "649-YK44202030J0G"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "YK4420203000G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1031,58 +975,10 @@
 		(uuid "df9cf5ad-96a4-4321-a778-e077433912b4")
 	)
 	(junction
-		(at 78.74 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "165bdecd-7c18-48c7-9529-47ea61c4fbdd")
-	)
-	(junction
-		(at 121.92 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e52fe4-5226-4cdb-a952-87ee42dbeb2b")
-	)
-	(junction
 		(at 160.02 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26514883-0b54-4405-89da-cbca030a1af5")
-	)
-	(junction
-		(at 78.74 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28a6c368-29fb-4326-9e92-82f600f5af69")
-	)
-	(junction
-		(at 123.19 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3eaf1b0d-4c1c-4432-83f9-dcba86e8897d")
-	)
-	(junction
-		(at 121.92 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "500c852b-e8c7-4fdb-bd64-b21da9a2caee")
-	)
-	(junction
-		(at 123.19 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c22fd880-0427-4927-ad79-427d7723b50c")
-	)
-	(junction
-		(at 78.74 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c43a58f0-01fc-4642-a52c-9a42aa5a82df")
-	)
-	(junction
-		(at 78.74 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f05571c4-f101-4618-8a52-1401dc7ab91d")
 	)
 	(wire
 		(pts
@@ -1116,16 +1012,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 106.68) (xy 81.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a42459-6838-432e-b94f-71743a3f9cf7")
-	)
-	(wire
-		(pts
 			(xy 158.75 134.62) (xy 163.83 134.62)
 		)
 		(stroke
@@ -1133,26 +1019,6 @@
 			(type default)
 		)
 		(uuid "0df712b5-b2d1-4457-96c7-4ecdc0fddf15")
-	)
-	(wire
-		(pts
-			(xy 78.74 144.78) (xy 81.28 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101367b9-b1aa-4ebd-9851-78428f545538")
-	)
-	(wire
-		(pts
-			(xy 110.49 127) (xy 121.92 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152b0850-646c-4a65-89b8-d9b4a11bf4f2")
 	)
 	(wire
 		(pts
@@ -1176,6 +1042,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 118.11) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e50d837-56d6-452a-bdde-14174e893664")
+	)
+	(wire
+		(pts
 			(xy 66.04 80.01) (xy 72.39 80.01)
 		)
 		(stroke
@@ -1183,6 +1059,16 @@
 			(type default)
 		)
 		(uuid "1f8958ef-e76d-4ceb-8dc5-c8c4664b9645")
+	)
+	(wire
+		(pts
+			(xy 81.28 144.78) (xy 81.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c43e89-26a7-4fdb-80e7-a72f81ad8231")
 	)
 	(wire
 		(pts
@@ -1213,16 +1099,6 @@
 			(type default)
 		)
 		(uuid "2eaf8ef6-427c-4d03-8f4e-e27009c67dc6")
-	)
-	(wire
-		(pts
-			(xy 113.03 144.78) (xy 123.19 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a97c8e-2fed-4a05-8a19-d3c2a2dfc6ef")
 	)
 	(wire
 		(pts
@@ -1276,23 +1152,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 121.92 106.68)
+			(xy 125.73 156.21) (xy 125.73 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5365f8b9-4818-4e88-884f-01a207e39bb7")
-	)
-	(wire
-		(pts
-			(xy 67.31 127) (xy 78.74 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5647be41-b489-466f-a60b-adf22176b5f5")
+		(uuid "5d0e09e9-cf34-40ee-9748-822e318420f2")
 	)
 	(wire
 		(pts
@@ -1326,7 +1192,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 165.1) (xy 78.74 165.1)
+			(xy 67.31 165.1) (xy 81.28 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1376,13 +1242,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 165.1) (xy 81.28 165.1)
+			(xy 125.73 144.78) (xy 125.73 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88820177-7cf9-46b9-b7be-4fac84869d1c")
+		(uuid "840c7912-259f-49bf-8955-310065f18038")
+	)
+	(wire
+		(pts
+			(xy 81.28 157.48) (xy 81.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c48564e-f876-435d-a24a-5fc36a0f615c")
 	)
 	(wire
 		(pts
@@ -1416,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 124.46 127)
+			(xy 110.49 127) (xy 124.46 127)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 106.68) (xy 78.74 106.68)
+			(xy 67.31 106.68) (xy 81.28 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1322,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 127) (xy 81.28 127)
+			(xy 124.46 106.68) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d7fb77-70cb-4c7b-ba59-8512694ee5d8")
+	)
+	(wire
+		(pts
+			(xy 67.31 127) (xy 81.28 127)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 144.78) (xy 125.73 144.78)
+			(xy 113.03 144.78) (xy 125.73 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 144.78) (xy 78.74 144.78)
+			(xy 67.31 144.78) (xy 81.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1506,13 +1392,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 123.19 165.1)
+			(xy 114.3 165.1) (xy 125.73 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b91f8f97-f628-4157-9314-024c4b0ea393")
+	)
+	(wire
+		(pts
+			(xy 81.28 118.11) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9056e9f-6b06-46ef-8c6a-458c69683fb3")
 	)
 	(wire
 		(pts
@@ -1523,16 +1419,6 @@
 			(type default)
 		)
 		(uuid "cda347e3-61fa-4adb-aa14-e580b6eb99d0")
-	)
-	(wire
-		(pts
-			(xy 123.19 165.1) (xy 125.73 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf1196f-2f0f-414e-bd6b-4ede4312d2fc")
 	)
 	(wire
 		(pts
@@ -1566,6 +1452,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 106.68) (xy 81.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd8f489-39d7-4a07-8237-a174ab8b2e9d")
+	)
+	(wire
+		(pts
 			(xy 66.04 82.55) (xy 72.39 82.55)
 		)
 		(stroke
@@ -1586,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 124.46 106.68)
+			(xy 110.49 106.68) (xy 124.46 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +1962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -2115,17 +2011,17 @@
 		)
 	)
 	(symbol
-		(lib_id "8PCV-02-006:8PCV-02-006")
-		(at 140.97 87.63 0)
+		(lib_id "YK4420203000G:YK4420203000G")
+		(at 140.97 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a9d8359-6d4b-4f62-901f-123e83f885c9")
+		(uuid "19754ef9-919d-4341-8a4a-701104a6d4c8")
 		(property "Reference" "J15"
-			(at 157.48 87.6299 0)
+			(at 157.48 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,8 +2029,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8PCV-02-006"
-			(at 157.48 90.1699 0)
+		(property "Value" "YK4420203000G"
+			(at 157.48 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,8 +2038,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "iprl_footprints:8PCV02006"
-			(at 157.48 182.55 0)
+		(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+			(at 157.48 162.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,8 +2048,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-			(at 157.48 282.55 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+			(at 157.48 262.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,8 +2058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
-			(at 140.97 87.63 0)
+		(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
+			(at 140.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,18 +2067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "19.558"
-			(at 157.48 482.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 157.48 582.55 0)
+		(property "Height" "17.9"
+			(at 157.48 462.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,8 +2077,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "8PCV-02-006"
-			(at 157.48 682.55 0)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 157.48 562.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,8 +2087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "571-514376577"
-			(at 157.48 782.55 0)
+		(property "Manufacturer_Part_Number" "YK4420203000G"
+			(at 157.48 662.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,8 +2097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-			(at 157.48 882.55 0)
+		(property "Mouser Part Number" "649-YK44202030J0G"
+			(at 157.48 762.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,8 +2107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "8PCV-02-006"
-			(at 157.48 982.55 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+			(at 157.48 862.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,8 +2117,18 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-			(at 157.48 1082.55 0)
+		(property "Arrow Part Number" ""
+			(at 157.48 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 1062.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,157 +2138,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ff34205c-74ae-483b-9ee6-a59365a78968")
+			(uuid "37b9d95b-5f5e-4fa1-aaed-9fa8ba35f1f7")
 		)
 		(pin "1"
-			(uuid "07d72760-42cd-42c4-8921-d427f266f349")
+			(uuid "ea8f638c-1e15-4514-8d22-ff27e9c93321")
 		)
 		(instances
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "8PCV-02-006:8PCV-02-006")
-		(at 184.15 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45b12115-666f-4f9c-b229-bffeb71ce1b9")
-		(property "Reference" "J17"
-			(at 200.66 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8PCV-02-006"
-			(at 200.66 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "iprl_footprints:8PCV02006"
-			(at 200.66 162.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-			(at 200.66 262.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
-			(at 184.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.558"
-			(at 200.66 462.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 200.66 562.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "8PCV-02-006"
-			(at 200.66 662.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-514376577"
-			(at 200.66 762.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-			(at 200.66 862.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "8PCV-02-006"
-			(at 200.66 962.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-			(at 200.66 1062.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6fde9ac2-d6cb-4252-865f-e29ef26ce2b1")
-		)
-		(pin "1"
-			(uuid "a34fbf9d-2109-489a-8a2c-1a49abce3732")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2426,7 +2180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 168.91 120.65 0)
 			(effects
 				(font
@@ -2609,450 +2363,6 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "01000064Z:01000064Z")
-		(at 81.28 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "553ffa57-634a-443a-96b2-d2fcf59fd061")
-		(property "Reference" "U9"
-			(at 85.09 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "01000064Z"
-			(at 85.09 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "01000064Z"
-			(at -13.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
-			(at -113.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
-			(at 81.28 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.37"
-			(at -313.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at -413.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "01000064Z"
-			(at -513.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-01000064Z"
-			(at -613.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
-			(at -713.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -813.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -913.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6a179c01-3ef8-4a97-9e8a-7bba2cd99426")
-		)
-		(pin "4"
-			(uuid "58f9f2a8-c964-4e30-aa9b-46a3aacf51c4")
-		)
-		(pin "2"
-			(uuid "6272483d-3418-4558-9275-c10e383b4376")
-		)
-		(pin "1"
-			(uuid "4c61c433-d843-4c30-b771-454ac93bc6f1")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "01000064Z:01000064Z")
-		(at 124.46 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "591d9b10-2343-410f-8dbd-36be87e06e67")
-		(property "Reference" "U7"
-			(at 128.27 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "01000064Z"
-			(at 128.27 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "01000064Z"
-			(at 29.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
-			(at -70.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
-			(at 124.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.37"
-			(at -270.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at -370.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "01000064Z"
-			(at -470.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-01000064Z"
-			(at -570.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
-			(at -670.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -770.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -870.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5f308e6f-c0ec-40db-88ba-40211a7ce3e2")
-		)
-		(pin "4"
-			(uuid "362c149e-5758-494a-8712-cf06504dd153")
-		)
-		(pin "2"
-			(uuid "26134677-39fb-40fa-9af6-6c7718971c75")
-		)
-		(pin "1"
-			(uuid "2d3edb86-9d04-487c-937e-8f071541b6e3")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "01000064Z:01000064Z")
-		(at 125.73 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b3363e6-4c50-4890-8147-1595e26f17de")
-		(property "Reference" "U8"
-			(at 129.54 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "01000064Z"
-			(at 129.54 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "01000064Z"
-			(at 30.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
-			(at -69.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
-			(at 125.73 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.37"
-			(at -269.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at -369.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "01000064Z"
-			(at -469.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-01000064Z"
-			(at -569.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
-			(at -669.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -769.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -869.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e21326d9-3567-4351-99c1-48673adf3a44")
-		)
-		(pin "4"
-			(uuid "2d55dc15-c967-4ac0-8b3c-e61229841c60")
-		)
-		(pin "2"
-			(uuid "c79d149c-6c9f-4649-9316-e957b6d01551")
-		)
-		(pin "1"
-			(uuid "4d31a502-e46f-4189-b03d-551d93047e3a")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3266,154 +2576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "01000064Z:01000064Z")
-		(at 81.28 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93c3ad2a-f1e0-4267-9343-33d066fd95fc")
-		(property "Reference" "U6"
-			(at 85.09 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "01000064Z"
-			(at 85.09 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "01000064Z"
-			(at -13.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
-			(at -113.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder HIGH PROF. BLOCK MINI FUSE THT 30 AMP."
-			(at 81.28 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.37"
-			(at -313.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at -413.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "01000064Z"
-			(at -513.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-01000064Z"
-			(at -613.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000064Z?qs=pUKx8fyJudDk0mp%2FixA2Uw%3D%3D"
-			(at -713.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -813.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -913.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2821d296-3b3f-404c-a949-e20cc67a68ae")
-		)
-		(pin "4"
-			(uuid "c45b2694-160c-4eda-8c00-8abc5e70161f")
-		)
-		(pin "2"
-			(uuid "2456f11f-daea-46f0-9b71-a2b5395e76b7")
-		)
-		(pin "1"
-			(uuid "c5d42dfd-7770-4664-8eb3-47c3f386e717")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 59.69 270)
 		(unit 1)
@@ -3481,17 +2643,17 @@
 		)
 	)
 	(symbol
-		(lib_id "8PCV-02-006:8PCV-02-006")
-		(at 140.97 67.31 0)
+		(lib_id "178_6164_0001:178.6164.0001")
+		(at 81.28 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a82694e0-6ff9-4e67-a0e4-6cb7792f0d67")
-		(property "Reference" "J9"
-			(at 157.48 67.3099 0)
+		(uuid "9c370d7d-e15e-417a-8d8a-0b03d2f3bf10")
+		(property "Reference" "U6"
+			(at 97.79 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,8 +2661,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8PCV-02-006"
-			(at 157.48 69.8499 0)
+		(property "Value" "178.6164.0001"
+			(at 97.79 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,8 +2670,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "iprl_footprints:8PCV02006"
-			(at 157.48 162.23 0)
+		(property "Footprint" "178.6164.XXX1"
+			(at 97.79 249.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,8 +2680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-			(at 157.48 262.23 0)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
+			(at 97.79 349.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,8 +2690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
-			(at 140.97 67.31 0)
+		(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
+			(at 81.28 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,18 +2699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "19.558"
-			(at 157.48 462.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 157.48 562.23 0)
+		(property "Height" ""
+			(at 97.79 549.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,8 +2709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "8PCV-02-006"
-			(at 157.48 662.23 0)
+		(property "Mouser Part Number" "576-178.6164.0001"
+			(at 97.79 649.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,8 +2719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "571-514376577"
-			(at 157.48 762.23 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+			(at 97.79 749.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,8 +2729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-			(at 157.48 862.23 0)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 97.79 849.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,18 +2739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "8PCV-02-006"
-			(at 157.48 962.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-			(at 157.48 1062.23 0)
+		(property "Manufacturer_Part_Number" "178.6164.0001"
+			(at 97.79 949.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,15 +2750,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb098199-3500-4811-8bf5-9f80901ac2ba")
+			(uuid "8343b496-03f3-4cb5-8030-e5954243bedb")
 		)
 		(pin "1"
-			(uuid "a8a37b62-9ff3-4f5c-ac2d-238818676794")
+			(uuid "b5b5c65c-1318-458d-bf30-6b64f0c7fe6e")
 		)
 		(instances
 			(project ""
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3690,6 +2832,148 @@
 		)
 	)
 	(symbol
+		(lib_id "YK4420203000G:YK4420203000G")
+		(at 184.15 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a320ae-9457-47c8-88a1-d02357608833")
+		(property "Reference" "J17"
+			(at 200.66 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YK4420203000G"
+			(at 200.66 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+			(at 200.66 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+			(at 200.66 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.9"
+			(at 200.66 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 200.66 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "YK4420203000G"
+			(at 200.66 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-YK44202030J0G"
+			(at 200.66 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+			(at 200.66 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 200.66 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 200.66 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd4a8c99-11b0-41b9-a28e-28a79b1e6aca")
+		)
+		(pin "1"
+			(uuid "c441a2b3-4eef-49e2-801c-2caad76548b5")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 168.91 132.08 0)
 		(unit 1)
@@ -3717,7 +3001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 168.91 132.08 0)
 			(effects
 				(font
@@ -3827,6 +3111,128 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0001:178.6164.0001")
+		(at 124.46 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c601c2f5-a725-4dd1-9a4e-ab187eaa6c28")
+		(property "Reference" "U7"
+			(at 140.97 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "178.6164.0001"
+			(at 140.97 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "178.6164.XXX1"
+			(at 140.97 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
+			(at 140.97 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 140.97 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-178.6164.0001"
+			(at 140.97 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+			(at 140.97 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 140.97 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "178.6164.0001"
+			(at 140.97 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42433399-de11-4ee8-95e8-b9976438e2e0")
+		)
+		(pin "1"
+			(uuid "e80a01bf-a96b-4a15-bbb5-188c36b22b17")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3967,6 +3373,128 @@
 		)
 	)
 	(symbol
+		(lib_id "178_6164_0001:178.6164.0001")
+		(at 81.28 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbb4edff-9986-485c-b09b-390590e0b94b")
+		(property "Reference" "U2"
+			(at 97.79 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "178.6164.0001"
+			(at 97.79 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "178.6164.XXX1"
+			(at 97.79 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
+			(at 97.79 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 97.79 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-178.6164.0001"
+			(at 97.79 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+			(at 97.79 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 97.79 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "178.6164.0001"
+			(at 97.79 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "529febb9-78dc-4549-a10b-f5457a7ceaa6")
+		)
+		(pin "1"
+			(uuid "b763bceb-6e85-46df-a548-8788a3730d67")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 87.63 270)
 		(unit 1)
@@ -4028,6 +3556,148 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YK4420203000G:YK4420203000G")
+		(at 184.15 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6ef495a-9e15-4658-b392-f194af278db2")
+		(property "Reference" "J16"
+			(at 200.66 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YK4420203000G"
+			(at 200.66 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+			(at 200.66 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+			(at 200.66 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.9"
+			(at 200.66 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 200.66 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "YK4420203000G"
+			(at 200.66 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-YK44202030J0G"
+			(at 200.66 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+			(at 200.66 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 200.66 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 200.66 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e415d9a9-5fd0-47dd-bd2d-10b0930b63a9")
+		)
+		(pin "1"
+			(uuid "c83f5db5-e619-48d5-b7cd-c52d610fa749")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4168,6 +3838,128 @@
 		)
 	)
 	(symbol
+		(lib_id "178_6164_0001:178.6164.0001")
+		(at 125.73 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd31f482-a953-4a73-9603-0e2afefae47b")
+		(property "Reference" "U8"
+			(at 142.24 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "178.6164.0001"
+			(at 142.24 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "178.6164.XXX1"
+			(at 142.24 248.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
+			(at 142.24 348.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 142.24 548.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-178.6164.0001"
+			(at 142.24 648.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+			(at 142.24 748.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 142.24 848.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "178.6164.0001"
+			(at 142.24 948.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0107b17a-9517-456b-9529-45bc753bfcd0")
+		)
+		(pin "1"
+			(uuid "9470bb94-46de-4256-abba-314357b6093a")
+		)
+		(instances
+			(project "Power_PCB"
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 67.31 270)
 		(unit 1)
@@ -4302,6 +4094,148 @@
 		)
 	)
 	(symbol
+		(lib_id "YK4420203000G:YK4420203000G")
+		(at 140.97 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff9d2b4-dffc-4f5a-b5fa-978c05954279")
+		(property "Reference" "J9"
+			(at 157.48 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YK4420203000G"
+			(at 157.48 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
+			(at 157.48 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
+			(at 157.48 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.9"
+			(at 157.48 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 157.48 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "YK4420203000G"
+			(at 157.48 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-YK44202030J0G"
+			(at 157.48 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
+			(at 157.48 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 157.48 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "893106d4-e5f3-4e99-88a4-97bfab275176")
+		)
+		(pin "1"
+			(uuid "42abfaaa-8a2f-4880-b338-c8d05ddcaf1d")
+		)
+		(instances
+			(project ""
+				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 67.31 270)
 		(unit 1)
@@ -4430,148 +4364,6 @@
 			(project "Power_PCB"
 				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "8PCV-02-006:8PCV-02-006")
-		(at 184.15 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fff4ba4c-ce65-4d84-a5cb-096b4d6fd7e4")
-		(property "Reference" "J16"
-			(at 200.66 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8PCV-02-006"
-			(at 200.66 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "iprl_footprints:8PCV02006"
-			(at 200.66 182.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity"
-			(at 200.66 282.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Primary Product Color Black | Barrier Strip Style Tri-Barrier | Product Orientation Vertical | Configuration Features: Number of Positions 2 | Number of Levels 1 | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 30 AMP | Contact Base Material Copper Alloy | Dimensions: Wire Size 18  10 AWG | Wire Size .326  5.26 MMSQ | Product Length 24.07 MM | Product Length .948 INCH | Wire Size 22  10 AWG | Electrical Characteri"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.558"
-			(at 200.66 482.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 200.66 582.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "8PCV-02-006"
-			(at 200.66 682.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-514376577"
-			(at 200.66 782.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/8PCV-02-006?qs=6We4yzourU1nzyAv3X5lew%3D%3D"
-			(at 200.66 882.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "8PCV-02-006"
-			(at 200.66 982.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/8pcv-02-006/te-connectivity?utm_currency=USD&region=nac"
-			(at 200.66 1082.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6184f31c-5986-4a0d-9bc9-7947a537c10f")
-		)
-		(pin "1"
-			(uuid "e8779735-a3e3-4a39-968c-f70f83cd17f8")
-		)
-		(instances
-			(project "Power_PCB"
-				(path "/87325cad-d0d9-4e34-97c3-9178133a19b1/ee5313ea-497a-4c98-8204-4918f1d5ff09"
-					(reference "J16")
 					(unit 1)
 				)
 			)

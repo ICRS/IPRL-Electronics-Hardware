@@ -4145,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:SODFL1608X70N"
+		(property "Footprint" "iprl_footprints:SODFL1608X70N"
 			(at 14.3 128.27 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:DIOM8059X265N"
+		(property "Footprint" "iprl_footprints:DIOM8059X265N"
 			(at 68.91 106.68 0)
 			(effects
 				(font
@@ -4774,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:MJD45H11T4G"
+		(property "Footprint" "iprl_footprints:MJD45H11T4G"
 			(at 276.53 92.71 0)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:RHDR2W120P0X950_1X2_2050X1430X1790P"
+		(property "Footprint" "iprl_footprints:RHDR2W120P0X950_1X2_2050X1430X1790P"
 			(at 229.54 74.93 0)
 			(effects
 				(font

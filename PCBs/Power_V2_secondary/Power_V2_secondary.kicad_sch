@@ -5,7 +5,7 @@
 	(uuid "5d5051fd-2bba-4f17-ac84-ab8502b20b0d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "178_6164_0001:178.6164.0001"
+		(symbol "01530007Z:01530007Z"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "178.6164.0001"
+			(property "Value" "01530007Z"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "178.6164.XXX1"
+			(property "Footprint" "01530007Z"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
+			(property "Datasheet" "http://m.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/mini/littelfuse_fuse-holders-mini-153-pc-datasheet.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
+			(property "Description" "LITTELFUSE - 01530007Z - FUSE HOLDER, MINI BLADE, HORIZONTAL, PCB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
+			(property "Height" "7"
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "576-178.6164.0001"
+			(property "Manufacturer_Name" "LITTELFUSE"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
+			(property "Manufacturer_Part_Number" "01530007Z"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "LITTELFUSE"
+			(property "Mouser Part Number" "576-01530007Z"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "178.6164.0001"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01530007Z?qs=gu7KAQ731URFnx4B9aYM4g%3D%3D"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -106,7 +106,199 @@
 					(hide yes)
 				)
 			)
-			(symbol "178.6164.0001_1_1"
+			(property "Arrow Part Number" "01530007Z"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/01530007z/littelfuse?region=europe"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "01530007Z_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "691312710002:691312710002"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "691312710002"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SHDR2W100P0X500_1X2_1000X1200X850P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://katalog.we-online.de/em/datasheet/6913127100xx.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-TBL Terminal block - serie 3127"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "691312710002"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-691312710002"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691312710002?qs=E2PpAYvlWVsO6eqavW%252B3cg%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "691312710002_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -3995,178 +4187,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "YK4420203000G:YK4420203000G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "YK4420203000G"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RHDR2W120P0X950_1X2_2050X1430X1790P"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "17.9"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Amphenol"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "YK4420203000G"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "649-YK44202030J0G"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "YK4420203000G_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -5754,6 +5774,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 146.05) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356b7422-ff0e-450b-9879-5239f9ab142e")
+	)
+	(wire
+		(pts
 			(xy 167.64 81.28) (xy 167.64 83.82)
 		)
 		(stroke
@@ -5771,6 +5801,16 @@
 			(type default)
 		)
 		(uuid "3cda41a5-cde6-43c6-b369-b87573ab2918")
+	)
+	(wire
+		(pts
+			(xy 74.93 166.37) (xy 87.63 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cec2e41-c6e2-458a-99c8-6a5205a2f94c")
 	)
 	(wire
 		(pts
@@ -6374,6 +6414,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 148.59) (xy 87.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a168153c-dff8-45d4-b5ba-b2da191d6571")
+	)
+	(wire
+		(pts
 			(xy 167.64 71.12) (xy 167.64 73.66)
 		)
 		(stroke
@@ -6541,6 +6591,16 @@
 			(type default)
 		)
 		(uuid "af7670f0-8234-4a04-9c92-0afd2dd890dd")
+	)
+	(wire
+		(pts
+			(xy 73.66 158.75) (xy 87.63 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0216018-d146-4aba-92e2-97ab92f018a3")
 	)
 	(wire
 		(pts
@@ -6724,6 +6784,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 168.91) (xy 87.63 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25927d9-4319-449c-9ac4-e4940c47994b")
+	)
+	(wire
+		(pts
 			(xy 193.04 43.18) (xy 193.04 45.72)
 		)
 		(stroke
@@ -6791,6 +6861,16 @@
 			(type default)
 		)
 		(uuid "c87ab798-b196-4f90-a844-f8af3ee1c474")
+	)
+	(wire
+		(pts
+			(xy 74.93 156.21) (xy 87.63 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5166c4-112f-445e-bc03-9bd0c23580ac")
 	)
 	(wire
 		(pts
@@ -7242,6 +7322,16 @@
 		)
 		(uuid "4d2ad781-3aeb-4f63-9b04-ea7f6f491d81")
 	)
+	(label "14V8_OUT_PROTECTED"
+		(at 73.66 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ab6a4d0-bc23-479b-a7c6-8a40ec53600e")
+	)
 	(label "SYS_V"
 		(at 83.82 50.8 0)
 		(effects
@@ -7322,6 +7412,16 @@
 		)
 		(uuid "c70752d5-a0e4-4a86-84cb-e98ddba88435")
 	)
+	(label "14V8_OUT_PROTECTED"
+		(at 73.66 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8f4cf77-28d2-41b7-9abc-9c7818427518")
+	)
 	(label "14V8"
 		(at 46.99 54.61 180)
 		(effects
@@ -7331,6 +7431,158 @@
 			(justify right bottom)
 		)
 		(uuid "da7a446b-d192-481d-9d84-a10be42eb8d3")
+	)
+	(label "14V8_OUT_PROTECTED"
+		(at 73.66 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f21d473c-33d6-40c0-a4da-fb7ab3a191ff")
+	)
+	(symbol
+		(lib_id "691312710002:691312710002")
+		(at 87.63 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053e832a-9a8a-43cc-8185-16500c49c2d2")
+		(property "Reference" "J5"
+			(at 104.14 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691312710002"
+			(at 104.14 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "iprl_footprints:SHDR2W100P0X500_1X2_1000X1200X850P"
+			(at 104.14 261.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/6913127100xx.pdf"
+			(at 104.14 361.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-TBL Terminal block - serie 3127"
+			(at 87.63 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.5"
+			(at 104.14 561.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 104.14 661.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691312710002"
+			(at 104.14 761.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-691312710002"
+			(at 104.14 861.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691312710002?qs=E2PpAYvlWVsO6eqavW%252B3cg%3D%3D"
+			(at 104.14 961.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 1061.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e5ffa9f-ea60-4376-ac93-9f4fdda41974")
+		)
+		(pin "2"
+			(uuid "19069bcc-0c5b-4ff3-83ce-0479909be5c0")
+		)
+		(instances
+			(project "Power_V2_secondary"
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCIE:PCIE-164-02-F-D-TH-TR")
@@ -8008,148 +8260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "YK4420203000G:YK4420203000G")
-		(at 87.63 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19754ef9-919d-4341-8a4a-701104a6d4c8")
-		(property "Reference" "J15"
-			(at 104.14 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "YK4420203000G"
-			(at 104.14 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "iprl_footprints:RHDR2W120P0X950_1X2_2050X1430X1790P"
-			(at 104.14 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/179642.pdf"
-			(at 104.14 330.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Barrier Terminal Blocks 950 TB BARRIER"
-			(at 87.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.9"
-			(at 104.14 530.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 104.14 630.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "YK4420203000G"
-			(at 104.14 730.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "649-YK44202030J0G"
-			(at 104.14 830.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK4420203000G?qs=Mv7BduZupUhWuK2fy7CpzA%3D%3D"
-			(at 104.14 930.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1030.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37b9d95b-5f5e-4fa1-aaed-9fa8ba35f1f7")
-		)
-		(pin "1"
-			(uuid "ea8f638c-1e15-4514-8d22-ff27e9c93321")
-		)
-		(instances
-			(project "Power_V2_secondary"
-				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 66.04 0)
 		(unit 1)
@@ -8418,6 +8528,148 @@
 		)
 	)
 	(symbol
+		(lib_id "691312710002:691312710002")
+		(at 87.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72eace19-face-488d-8768-e2fde8d2298a")
+		(property "Reference" "J2"
+			(at 104.14 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691312710002"
+			(at 104.14 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "iprl_footprints:SHDR2W100P0X500_1X2_1000X1200X850P"
+			(at 104.14 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/6913127100xx.pdf"
+			(at 104.14 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-TBL Terminal block - serie 3127"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.5"
+			(at 104.14 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 104.14 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691312710002"
+			(at 104.14 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-691312710002"
+			(at 104.14 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691312710002?qs=E2PpAYvlWVsO6eqavW%252B3cg%3D%3D"
+			(at 104.14 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 1030.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb35f48-bdbb-4585-b724-3b149194bd6b")
+		)
+		(pin "2"
+			(uuid "7fb0bd6c-4318-41c7-bcef-9b8f24fa217f")
+		)
+		(instances
+			(project ""
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 57.15 0)
 		(unit 1)
@@ -8558,6 +8810,349 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86905c31-b737-4a33-9854-054025829704")
+		(property "Reference" "#PWR054"
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c435220-3fc4-41ed-940d-da26f1245a04")
+		)
+		(instances
+			(project "Power_V2_secondary"
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "01530007Z:01530007Z")
+		(at 82.55 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0dacba-29df-4f4f-8ca4-7ecd8d4eef83")
+		(property "Reference" "U1"
+			(at 99.06 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01530007Z"
+			(at 99.06 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "iprl_footprints:01530007Z"
+			(at 99.06 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://m.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/mini/littelfuse_fuse-holders-mini-153-pc-datasheet.pdf"
+			(at 99.06 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 01530007Z - FUSE HOLDER, MINI BLADE, HORIZONTAL, PCB"
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at 99.06 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 99.06 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "01530007Z"
+			(at 99.06 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-01530007Z"
+			(at 99.06 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01530007Z?qs=gu7KAQ731URFnx4B9aYM4g%3D%3D"
+			(at 99.06 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "01530007Z"
+			(at 99.06 1000.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/01530007z/littelfuse?region=europe"
+			(at 99.06 1100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a228cc0-29e3-4fb7-932a-a932d81e3b24")
+		)
+		(pin "2"
+			(uuid "6208075f-94ea-4200-abcb-9cc4e7a06ac0")
+		)
+		(instances
+			(project ""
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e18678a-10df-45aa-a6ec-9ff6577f1154")
+		(property "Reference" "#PWR055"
+			(at 68.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "625e45c6-2a82-4bf0-ac44-e27ba8c1fab2")
+		)
+		(instances
+			(project "Power_V2_secondary"
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad1765ac-8d67-4994-8161-edd97438d3e0")
+		(property "Reference" "#PWR053"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa4fce9b-8fc7-496d-9244-b73e8b8ef50a")
+		)
+		(instances
+			(project "Power_V2_secondary"
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 102.87 39.37 0)
 		(unit 1)
@@ -8624,17 +9219,17 @@
 		)
 	)
 	(symbol
-		(lib_id "178_6164_0001:178.6164.0001")
-		(at 82.55 105.41 0)
+		(lib_id "691312710002:691312710002")
+		(at 87.63 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cbb4edff-9986-485c-b09b-390590e0b94b")
-		(property "Reference" "U2"
-			(at 99.06 105.4099 0)
+		(uuid "b7ece9d4-0201-4cb8-ac7f-aba2aa2a52fa")
+		(property "Reference" "J4"
+			(at 104.14 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,8 +9237,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "178.6164.0001"
-			(at 99.06 107.9499 0)
+		(property "Value" "691312710002"
+			(at 104.14 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,8 +9246,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "iprl_footprints:178.6164.XXX1"
-			(at 99.06 200.33 0)
+		(property "Footprint" "iprl_footprints:SHDR2W100P0X500_1X2_1000X1200X850P"
+			(at 104.14 251.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,8 +9256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf"
-			(at 99.06 300.33 0)
+		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/6913127100xx.pdf"
+			(at 104.14 351.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,8 +9266,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LITTELFUSE - 178.6164.0001 - FUSE HOLDER, 80V, THROUGH HOLE"
-			(at 82.55 105.41 0)
+		(property "Description" "WR-TBL Terminal block - serie 3127"
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,18 +9275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 99.06 500.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-178.6164.0001"
-			(at 99.06 600.33 0)
+		(property "Height" "8.5"
+			(at 104.14 551.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,8 +9285,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/178.6164.0001?qs=W9dJx%252BPHassxdC44BkmxSg%3D%3D"
-			(at 99.06 700.33 0)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 104.14 651.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,8 +9295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 99.06 800.33 0)
+		(property "Manufacturer_Part_Number" "691312710002"
+			(at 104.14 751.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,8 +9305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "178.6164.0001"
-			(at 99.06 900.33 0)
+		(property "Mouser Part Number" "710-691312710002"
+			(at 104.14 851.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,16 +9315,46 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "529febb9-78dc-4549-a10b-f5457a7ceaa6")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691312710002?qs=E2PpAYvlWVsO6eqavW%252B3cg%3D%3D"
+			(at 104.14 951.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 1051.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "b763bceb-6e85-46df-a548-8788a3730d67")
+			(uuid "73667a5a-1523-4bc3-89de-9d36ec1d2b7e")
+		)
+		(pin "2"
+			(uuid "e5598484-d3b8-49e0-bcdf-9a011f595d72")
 		)
 		(instances
 			(project "Power_V2_secondary"
 				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
-					(reference "U2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8810,6 +9425,148 @@
 			(project "Power_V2_secondary"
 				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "691312710002:691312710002")
+		(at 87.63 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf32f5cf-29b8-4cd7-a39a-89e6b913f277")
+		(property "Reference" "J3"
+			(at 104.14 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691312710002"
+			(at 104.14 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "iprl_footprints:SHDR2W100P0X500_1X2_1000X1200X850P"
+			(at 104.14 240.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/6913127100xx.pdf"
+			(at 104.14 340.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-TBL Terminal block - serie 3127"
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.5"
+			(at 104.14 540.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 104.14 640.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691312710002"
+			(at 104.14 740.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-691312710002"
+			(at 104.14 840.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691312710002?qs=E2PpAYvlWVsO6eqavW%252B3cg%3D%3D"
+			(at 104.14 940.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 1040.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37a460ac-231a-4e65-851d-9d30969ac756")
+		)
+		(pin "2"
+			(uuid "36bf84a6-a0bf-4f26-9a6c-363070176bad")
+		)
+		(instances
+			(project "Power_V2_secondary"
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9259,496 +10016,496 @@
 			)
 		)
 		(pin "B76"
-			(uuid "0e16604a-349b-4668-9556-c4e5d7238246")
+			(uuid "0e16604a-349b-4668-9556-c4e5d7238247")
 		)
 		(pin "A47"
-			(uuid "53f12985-19ca-44b5-8478-5f910fd011e1")
+			(uuid "53f12985-19ca-44b5-8478-5f910fd011e2")
 		)
 		(pin "A42"
-			(uuid "d4afe77b-c745-4aab-ad76-44defd9d2d26")
+			(uuid "d4afe77b-c745-4aab-ad76-44defd9d2d27")
 		)
 		(pin "B80"
-			(uuid "91005a4c-f4c6-40dd-bd6f-e46ed3027bbd")
+			(uuid "91005a4c-f4c6-40dd-bd6f-e46ed3027bbe")
 		)
 		(pin "A41"
-			(uuid "8bec21f5-f931-4a19-a42b-3a62a84b3ce6")
+			(uuid "8bec21f5-f931-4a19-a42b-3a62a84b3ce7")
 		)
 		(pin "B59"
-			(uuid "078b7bc9-dc78-4dcc-9184-4bd8faa3e8ef")
+			(uuid "078b7bc9-dc78-4dcc-9184-4bd8faa3e8f0")
 		)
 		(pin "A38"
-			(uuid "18ffbaf9-9294-452e-8362-8d37050bafcd")
+			(uuid "18ffbaf9-9294-452e-8362-8d37050bafce")
 		)
 		(pin "A82"
-			(uuid "ed2f280e-4ab5-48ee-9ad0-b1388dd67d88")
+			(uuid "ed2f280e-4ab5-48ee-9ad0-b1388dd67d89")
 		)
 		(pin "B40"
-			(uuid "46731355-9713-4188-bd28-e7a67a417f42")
+			(uuid "46731355-9713-4188-bd28-e7a67a417f43")
 		)
 		(pin "A32"
-			(uuid "93c8e8b2-fd88-426a-ab74-fbd6bba785f2")
+			(uuid "93c8e8b2-fd88-426a-ab74-fbd6bba785f3")
 		)
 		(pin "A5"
-			(uuid "97239509-6c99-4405-9153-b674cddb06cf")
+			(uuid "97239509-6c99-4405-9153-b674cddb06d0")
 		)
 		(pin "B15"
-			(uuid "47c6bd45-6ba0-4fb8-ae98-7732f94a26a5")
+			(uuid "47c6bd45-6ba0-4fb8-ae98-7732f94a26a6")
 		)
 		(pin "B41"
-			(uuid "6bd61479-81e9-45d8-84f6-c2df706bc7b2")
+			(uuid "6bd61479-81e9-45d8-84f6-c2df706bc7b3")
 		)
 		(pin "A35"
-			(uuid "4245b341-28c5-4b2e-bf5f-8c0aed26a572")
+			(uuid "4245b341-28c5-4b2e-bf5f-8c0aed26a573")
 		)
 		(pin "B56"
-			(uuid "c56fc9ae-2f95-43a3-90c5-e900cd01a8a1")
+			(uuid "c56fc9ae-2f95-43a3-90c5-e900cd01a8a2")
 		)
 		(pin "A59"
-			(uuid "26cfd4b0-a45c-466e-b87a-697c205e73e3")
+			(uuid "26cfd4b0-a45c-466e-b87a-697c205e73e4")
 		)
 		(pin "B8"
-			(uuid "1fbcfcf1-6dd5-4ea3-8401-357868041ead")
+			(uuid "1fbcfcf1-6dd5-4ea3-8401-357868041eae")
 		)
 		(pin "B32"
-			(uuid "3b6a8b89-840b-4d92-b671-4236c27dc193")
+			(uuid "3b6a8b89-840b-4d92-b671-4236c27dc194")
 		)
 		(pin "A54"
-			(uuid "57b1196f-fbd0-4b1c-bd73-7b9bd627351b")
+			(uuid "57b1196f-fbd0-4b1c-bd73-7b9bd627351c")
 		)
 		(pin "B75"
-			(uuid "6a348f06-b1e1-4fd7-8c99-ca4a1c5569cc")
+			(uuid "6a348f06-b1e1-4fd7-8c99-ca4a1c5569cd")
 		)
 		(pin "B70"
-			(uuid "cae12c9f-a8cb-4a4a-b672-399b32339fdd")
+			(uuid "cae12c9f-a8cb-4a4a-b672-399b32339fde")
 		)
 		(pin "A73"
-			(uuid "aeba7595-1a6c-4652-88e0-c2b445a58bc7")
+			(uuid "aeba7595-1a6c-4652-88e0-c2b445a58bc8")
 		)
 		(pin "B34"
-			(uuid "030903db-2d7f-4845-ad36-96889e0efcb8")
+			(uuid "030903db-2d7f-4845-ad36-96889e0efcb9")
 		)
 		(pin "A61"
-			(uuid "2517d60c-c5c5-4c57-b7c2-ed4b9699343e")
+			(uuid "2517d60c-c5c5-4c57-b7c2-ed4b9699343f")
 		)
 		(pin "A25"
-			(uuid "266b1f8c-8d67-4c62-b1d6-9c78e3eea65b")
+			(uuid "266b1f8c-8d67-4c62-b1d6-9c78e3eea65c")
 		)
 		(pin "A33"
-			(uuid "f201a975-f16e-48cc-8c4d-33f0542b998c")
+			(uuid "f201a975-f16e-48cc-8c4d-33f0542b998d")
 		)
 		(pin "A52"
-			(uuid "8e6cc3c2-73ce-4941-82be-15966310bfb7")
+			(uuid "8e6cc3c2-73ce-4941-82be-15966310bfb8")
 		)
 		(pin "B64"
-			(uuid "11b179d2-3ae5-43ff-959a-258d44916911")
+			(uuid "11b179d2-3ae5-43ff-959a-258d44916912")
 		)
 		(pin "B21"
-			(uuid "62c4f0ae-6297-4a21-b26c-bd6868de0d06")
+			(uuid "62c4f0ae-6297-4a21-b26c-bd6868de0d07")
 		)
 		(pin "A50"
-			(uuid "c875056c-f6ef-428e-82bf-e63d72604707")
+			(uuid "c875056c-f6ef-428e-82bf-e63d72604708")
 		)
 		(pin "B35"
-			(uuid "89039b47-f1d0-4591-9545-858c76796c49")
+			(uuid "89039b47-f1d0-4591-9545-858c76796c4a")
 		)
 		(pin "B26"
-			(uuid "8b7c24ad-7dc1-4633-8132-7c8a4f71a0f2")
+			(uuid "8b7c24ad-7dc1-4633-8132-7c8a4f71a0f3")
 		)
 		(pin "A39"
-			(uuid "2c4b7a52-4e58-4b38-9dcb-b348e74adea3")
+			(uuid "2c4b7a52-4e58-4b38-9dcb-b348e74adea4")
 		)
 		(pin "A27"
-			(uuid "d599a442-32fc-4480-bc4d-36398f1929a5")
+			(uuid "d599a442-32fc-4480-bc4d-36398f1929a6")
 		)
 		(pin "B19"
-			(uuid "af2240e0-c012-4786-a443-09087f01ce70")
+			(uuid "af2240e0-c012-4786-a443-09087f01ce71")
 		)
 		(pin "B28"
-			(uuid "17db95e6-84d0-4e3b-9622-9ecbba7a4b91")
+			(uuid "17db95e6-84d0-4e3b-9622-9ecbba7a4b92")
 		)
 		(pin "B79"
-			(uuid "9f130d5e-8e9c-4265-ad76-4f3d8891870e")
+			(uuid "9f130d5e-8e9c-4265-ad76-4f3d8891870f")
 		)
 		(pin "A30"
-			(uuid "87334093-0a7d-4024-a81a-6993db8dba11")
+			(uuid "87334093-0a7d-4024-a81a-6993db8dba12")
 		)
 		(pin "B49"
-			(uuid "269e159c-9969-4afd-b5ed-21455ad9811b")
+			(uuid "269e159c-9969-4afd-b5ed-21455ad9811c")
 		)
 		(pin "A67"
-			(uuid "442c9e4d-8398-4dab-82e1-a061714a47a8")
+			(uuid "442c9e4d-8398-4dab-82e1-a061714a47a9")
 		)
 		(pin "B14"
-			(uuid "590d96e3-c279-4293-b38f-56d371e1cbab")
+			(uuid "590d96e3-c279-4293-b38f-56d371e1cbac")
 		)
 		(pin "B62"
-			(uuid "456cf856-5984-459d-89c4-843b3b980081")
+			(uuid "456cf856-5984-459d-89c4-843b3b980082")
 		)
 		(pin "A63"
-			(uuid "709d3cfb-d37c-4c50-825b-0fc4dfdf020c")
+			(uuid "709d3cfb-d37c-4c50-825b-0fc4dfdf020d")
 		)
 		(pin "B22"
-			(uuid "9cabfafa-939b-4bfa-af02-b6fbf348bb82")
+			(uuid "9cabfafa-939b-4bfa-af02-b6fbf348bb83")
 		)
 		(pin "A74"
-			(uuid "2d2be98e-6370-4e32-8e9a-2c1593605eaa")
+			(uuid "2d2be98e-6370-4e32-8e9a-2c1593605eab")
 		)
 		(pin "B71"
-			(uuid "038a8087-f2ef-42a4-be70-40fbd1d52794")
+			(uuid "038a8087-f2ef-42a4-be70-40fbd1d52795")
 		)
 		(pin "B72"
-			(uuid "02d98482-6dde-42c4-ad7f-abc525f5e718")
+			(uuid "02d98482-6dde-42c4-ad7f-abc525f5e719")
 		)
 		(pin "B73"
-			(uuid "d97945d9-23ed-4661-a534-15cd69b2a3dd")
+			(uuid "d97945d9-23ed-4661-a534-15cd69b2a3de")
 		)
 		(pin "A1"
-			(uuid "d5e117de-c47b-47b4-b5c5-46973a0f4da3")
+			(uuid "d5e117de-c47b-47b4-b5c5-46973a0f4da4")
 		)
 		(pin "A64"
-			(uuid "29e4e1e8-e205-47c4-878f-826dd0147889")
+			(uuid "29e4e1e8-e205-47c4-878f-826dd014788a")
 		)
 		(pin "A53"
-			(uuid "e0499026-51fe-43e8-ae71-3c9b0b14d738")
+			(uuid "e0499026-51fe-43e8-ae71-3c9b0b14d739")
 		)
 		(pin "A72"
-			(uuid "47da7381-f7a2-4b28-bb1e-fd373b92c1e2")
+			(uuid "47da7381-f7a2-4b28-bb1e-fd373b92c1e3")
 		)
 		(pin "A66"
-			(uuid "370507ea-ea53-45fe-a3a0-9f71a8af9297")
+			(uuid "370507ea-ea53-45fe-a3a0-9f71a8af9298")
 		)
 		(pin "B30"
-			(uuid "b589f689-3bec-4787-9c83-efcb0a544e73")
+			(uuid "b589f689-3bec-4787-9c83-efcb0a544e74")
 		)
 		(pin "B48"
-			(uuid "4732d241-5845-4c67-bccc-2b4afc17c7fc")
+			(uuid "4732d241-5845-4c67-bccc-2b4afc17c7fd")
 		)
 		(pin "B27"
-			(uuid "bf32a717-fe5d-484b-8383-a2f3f248b961")
+			(uuid "bf32a717-fe5d-484b-8383-a2f3f248b962")
 		)
 		(pin "B37"
-			(uuid "38f95891-c8c5-46ed-81c0-c66b1fdf89e6")
+			(uuid "38f95891-c8c5-46ed-81c0-c66b1fdf89e7")
 		)
 		(pin "B43"
-			(uuid "181797d6-0ddd-4cbb-92bd-1351ce8fe0f8")
+			(uuid "181797d6-0ddd-4cbb-92bd-1351ce8fe0f9")
 		)
 		(pin "A70"
-			(uuid "8c7ec864-f749-45c1-be5c-2920e87f4e88")
+			(uuid "8c7ec864-f749-45c1-be5c-2920e87f4e89")
 		)
 		(pin "A26"
-			(uuid "14bf1b61-b244-4917-b27e-78a51f6a40cd")
+			(uuid "14bf1b61-b244-4917-b27e-78a51f6a40ce")
 		)
 		(pin "A57"
-			(uuid "90404178-b4b6-4016-a496-1cd5b010f142")
+			(uuid "90404178-b4b6-4016-a496-1cd5b010f143")
 		)
 		(pin "A44"
-			(uuid "ca34cb18-a0dc-497c-84f7-7976e2f31f70")
+			(uuid "ca34cb18-a0dc-497c-84f7-7976e2f31f71")
 		)
 		(pin "B65"
-			(uuid "1dbb60d9-8cc8-4081-b75b-f8115dd1c02d")
+			(uuid "1dbb60d9-8cc8-4081-b75b-f8115dd1c02e")
 		)
 		(pin "A65"
-			(uuid "f5626c86-9c19-44f1-9764-2a37f73ebc66")
+			(uuid "f5626c86-9c19-44f1-9764-2a37f73ebc67")
 		)
 		(pin "A81"
-			(uuid "12d96f8c-ed1e-4a60-ba79-631d8e59c77e")
+			(uuid "12d96f8c-ed1e-4a60-ba79-631d8e59c77f")
 		)
 		(pin "A46"
-			(uuid "f4ef8d7e-578a-4292-9c30-a3ff503c5d9e")
+			(uuid "f4ef8d7e-578a-4292-9c30-a3ff503c5d9f")
 		)
 		(pin "A36"
-			(uuid "fafab36d-8c30-42ff-a7a2-4fb89be69c81")
+			(uuid "fafab36d-8c30-42ff-a7a2-4fb89be69c82")
 		)
 		(pin "B63"
-			(uuid "58863487-f469-4b6c-aaac-0594c651ee14")
+			(uuid "58863487-f469-4b6c-aaac-0594c651ee15")
 		)
 		(pin "A76"
-			(uuid "97d9d2e3-4008-4221-b0b4-d38e6ed4ff8c")
+			(uuid "97d9d2e3-4008-4221-b0b4-d38e6ed4ff8d")
 		)
 		(pin "A3"
-			(uuid "c54a9f40-b73d-48f5-ab74-305824c36627")
+			(uuid "c54a9f40-b73d-48f5-ab74-305824c36628")
 		)
 		(pin "B53"
-			(uuid "9ace80ef-d718-4c52-b67c-37ef4a93597e")
+			(uuid "9ace80ef-d718-4c52-b67c-37ef4a93597f")
 		)
 		(pin "A28"
-			(uuid "60123079-12c5-44ff-a5e7-bc8ef0e5cb80")
+			(uuid "60123079-12c5-44ff-a5e7-bc8ef0e5cb81")
 		)
 		(pin "A58"
-			(uuid "89ab377f-54f0-4a0c-b34d-1b2dd85108f2")
+			(uuid "89ab377f-54f0-4a0c-b34d-1b2dd85108f3")
 		)
 		(pin "B78"
-			(uuid "8b61af9c-2f49-4873-bdf5-cc880fab98b9")
+			(uuid "8b61af9c-2f49-4873-bdf5-cc880fab98ba")
 		)
 		(pin "A56"
-			(uuid "d3bf953b-5127-4683-a6f4-a4fcd81da397")
+			(uuid "d3bf953b-5127-4683-a6f4-a4fcd81da398")
 		)
 		(pin "B54"
-			(uuid "60d83c7c-f9e3-4997-891d-a64449a6d1e4")
+			(uuid "60d83c7c-f9e3-4997-891d-a64449a6d1e5")
 		)
 		(pin "B61"
-			(uuid "8916d0ec-53ed-4dd0-96ec-b4ee68c4a201")
+			(uuid "8916d0ec-53ed-4dd0-96ec-b4ee68c4a202")
 		)
 		(pin "B58"
-			(uuid "2182b2c7-06a6-4564-9346-66cdb1225be6")
+			(uuid "2182b2c7-06a6-4564-9346-66cdb1225be7")
 		)
 		(pin "B77"
-			(uuid "7807d3cf-9c30-44e3-87a1-acbb6e1a4547")
+			(uuid "7807d3cf-9c30-44e3-87a1-acbb6e1a4548")
 		)
 		(pin "A62"
-			(uuid "e5176d45-390f-4fab-815a-2b51e8d9b971")
+			(uuid "e5176d45-390f-4fab-815a-2b51e8d9b972")
 		)
 		(pin "B69"
-			(uuid "d49e4adf-d584-4c23-b0d8-04774aaea10d")
+			(uuid "d49e4adf-d584-4c23-b0d8-04774aaea10e")
 		)
 		(pin "A49"
-			(uuid "be9b5b7b-4780-4d7c-9b52-1548070c6b1c")
+			(uuid "be9b5b7b-4780-4d7c-9b52-1548070c6b1d")
 		)
 		(pin "B66"
-			(uuid "9e15884e-ca76-4761-811a-bcce8d4cc7c5")
+			(uuid "9e15884e-ca76-4761-811a-bcce8d4cc7c6")
 		)
 		(pin "B81"
-			(uuid "8d7002a5-3a75-4921-9c7b-6b7abdab3f02")
+			(uuid "8d7002a5-3a75-4921-9c7b-6b7abdab3f03")
 		)
 		(pin "A79"
-			(uuid "62b263f9-c9c2-471e-ac8b-e5424f7c9b1f")
+			(uuid "62b263f9-c9c2-471e-ac8b-e5424f7c9b20")
 		)
 		(pin "B68"
-			(uuid "a65a6e00-755c-4da5-8883-de6a27453236")
+			(uuid "a65a6e00-755c-4da5-8883-de6a27453237")
 		)
 		(pin "B74"
-			(uuid "0727d562-0ced-4232-a751-d6151d14d4ae")
+			(uuid "0727d562-0ced-4232-a751-d6151d14d4af")
 		)
 		(pin "A69"
-			(uuid "7df8a077-393e-4d6a-a4d7-6dd68f05e747")
+			(uuid "7df8a077-393e-4d6a-a4d7-6dd68f05e748")
 		)
 		(pin "B51"
-			(uuid "fc913ec0-dcb3-4607-ae0a-d1db79914c97")
+			(uuid "fc913ec0-dcb3-4607-ae0a-d1db79914c98")
 		)
 		(pin "B82"
-			(uuid "a3975016-3562-4ea2-b80b-ddda55c2e9d7")
+			(uuid "a3975016-3562-4ea2-b80b-ddda55c2e9d8")
 		)
 		(pin "A80"
-			(uuid "a147f187-0944-4b7c-98d7-ddfe150ea00c")
+			(uuid "a147f187-0944-4b7c-98d7-ddfe150ea00d")
 		)
 		(pin "B57"
-			(uuid "b236887e-a535-498c-8970-65e75f7dc1d8")
+			(uuid "b236887e-a535-498c-8970-65e75f7dc1d9")
 		)
 		(pin "B16"
-			(uuid "1e9ad074-def7-4d7e-aaa6-318f19f751d6")
+			(uuid "1e9ad074-def7-4d7e-aaa6-318f19f751d7")
 		)
 		(pin "A55"
-			(uuid "0fb48c5b-682a-46a5-b92a-e493c636552e")
+			(uuid "0fb48c5b-682a-46a5-b92a-e493c636552f")
 		)
 		(pin "B67"
-			(uuid "d063e87b-bae5-47bf-8653-1481a925cc91")
+			(uuid "d063e87b-bae5-47bf-8653-1481a925cc92")
 		)
 		(pin "A6"
-			(uuid "fbd7d343-efb4-4f4c-86cb-059f54ff5952")
+			(uuid "fbd7d343-efb4-4f4c-86cb-059f54ff5953")
 		)
 		(pin "A7"
-			(uuid "1b1a5a85-7154-4f1f-b68a-9cfe9c671687")
+			(uuid "1b1a5a85-7154-4f1f-b68a-9cfe9c671688")
 		)
 		(pin "A75"
-			(uuid "bf2b5125-8533-4b06-a9a5-e1a67696d3fa")
+			(uuid "bf2b5125-8533-4b06-a9a5-e1a67696d3fb")
 		)
 		(pin "B52"
-			(uuid "7f0ad747-1795-447f-8183-db3d4397f38c")
+			(uuid "7f0ad747-1795-447f-8183-db3d4397f38d")
 		)
 		(pin "A29"
-			(uuid "9e90bbaa-f091-4fe7-b001-34b0ccd50afb")
+			(uuid "9e90bbaa-f091-4fe7-b001-34b0ccd50afc")
 		)
 		(pin "A78"
-			(uuid "bdb50889-6adc-42d7-b532-426584a7b832")
+			(uuid "bdb50889-6adc-42d7-b532-426584a7b833")
 		)
 		(pin "A43"
-			(uuid "45f5c2d4-b642-43ca-a5d8-9b203a689a73")
+			(uuid "45f5c2d4-b642-43ca-a5d8-9b203a689a74")
 		)
 		(pin "A60"
-			(uuid "552c0fdc-d497-4a2d-be10-b7d3ff77ffdc")
+			(uuid "552c0fdc-d497-4a2d-be10-b7d3ff77ffdd")
 		)
 		(pin "A51"
-			(uuid "45cdcd67-1b82-46e7-8e68-ebd08ba2c053")
+			(uuid "45cdcd67-1b82-46e7-8e68-ebd08ba2c054")
 		)
 		(pin "A48"
-			(uuid "e99d9ab7-2730-4b2c-910d-5f1c7fe50f31")
+			(uuid "e99d9ab7-2730-4b2c-910d-5f1c7fe50f32")
 		)
 		(pin "B39"
-			(uuid "7dfc37f2-9049-4343-80ad-4981bfdd8ff9")
+			(uuid "7dfc37f2-9049-4343-80ad-4981bfdd8ffa")
 		)
 		(pin "B11"
-			(uuid "ceb15b02-1587-404a-ac7c-8629cd62218f")
+			(uuid "ceb15b02-1587-404a-ac7c-8629cd622190")
 		)
 		(pin "B38"
-			(uuid "10ad4108-aa63-456b-9914-5059046f50f8")
+			(uuid "10ad4108-aa63-456b-9914-5059046f50f9")
 		)
 		(pin "A4"
-			(uuid "80dde13a-4a02-41b7-9570-f3b51a30fb93")
+			(uuid "80dde13a-4a02-41b7-9570-f3b51a30fb94")
 		)
 		(pin "B50"
-			(uuid "2f24af68-efa7-41d0-bf64-f64ee9972fa0")
+			(uuid "2f24af68-efa7-41d0-bf64-f64ee9972fa1")
 		)
 		(pin "A37"
-			(uuid "ed52a3d0-af44-4f10-8250-035da458be34")
+			(uuid "ed52a3d0-af44-4f10-8250-035da458be35")
 		)
 		(pin "B60"
-			(uuid "05d2322a-64aa-4742-bfb7-9cd6505b22c9")
+			(uuid "05d2322a-64aa-4742-bfb7-9cd6505b22ca")
 		)
 		(pin "B1"
-			(uuid "4188e3ac-0c7c-4621-a66a-2702695d23fc")
+			(uuid "4188e3ac-0c7c-4621-a66a-2702695d23fd")
 		)
 		(pin "A45"
-			(uuid "df18a843-2b91-48fb-b5ae-2b9aea8075f9")
+			(uuid "df18a843-2b91-48fb-b5ae-2b9aea8075fa")
 		)
 		(pin "A17"
-			(uuid "7f1df4c7-d6d1-4950-8f36-5cf7dd98c196")
+			(uuid "7f1df4c7-d6d1-4950-8f36-5cf7dd98c197")
 		)
 		(pin "A11"
-			(uuid "3bcee64f-c392-4d21-9e85-0eec9b2d0c6d")
+			(uuid "3bcee64f-c392-4d21-9e85-0eec9b2d0c6e")
 		)
 		(pin "B4"
-			(uuid "e7045a9a-838d-40e7-93b4-abc6e409c49a")
+			(uuid "e7045a9a-838d-40e7-93b4-abc6e409c49b")
 		)
 		(pin "A19"
-			(uuid "585fb3db-48c3-49f4-b481-fde6daa976ed")
+			(uuid "585fb3db-48c3-49f4-b481-fde6daa976ee")
 		)
 		(pin "B23"
-			(uuid "3d3dd850-8299-4145-942f-5496d1dd0cf9")
+			(uuid "3d3dd850-8299-4145-942f-5496d1dd0cfa")
 		)
 		(pin "B2"
-			(uuid "f37d2ea4-1e96-4d69-9fca-3049dacc1f08")
+			(uuid "f37d2ea4-1e96-4d69-9fca-3049dacc1f09")
 		)
 		(pin "A12"
-			(uuid "01bb2dc5-e68f-4ab1-8efe-088bc2b447f9")
+			(uuid "01bb2dc5-e68f-4ab1-8efe-088bc2b447fa")
 		)
 		(pin "A10"
-			(uuid "5e691c04-d86f-4997-8a5e-979acef9013c")
+			(uuid "5e691c04-d86f-4997-8a5e-979acef9013d")
 		)
 		(pin "B20"
-			(uuid "e15e2d56-581b-4831-b4c1-df39c8ced407")
+			(uuid "e15e2d56-581b-4831-b4c1-df39c8ced408")
 		)
 		(pin "A23"
-			(uuid "9ea93df4-f9b8-41d6-af7e-65cbba2099ef")
+			(uuid "9ea93df4-f9b8-41d6-af7e-65cbba2099f0")
 		)
 		(pin "A16"
-			(uuid "7a321f45-096a-49df-9e72-72bd129f2729")
+			(uuid "7a321f45-096a-49df-9e72-72bd129f272a")
 		)
 		(pin "B33"
-			(uuid "fc7462d9-ab9e-41be-8859-c5616ea31d69")
+			(uuid "fc7462d9-ab9e-41be-8859-c5616ea31d6a")
 		)
 		(pin "B17"
-			(uuid "cbbceeff-0fbc-4412-83fb-0de4e77e1cba")
+			(uuid "cbbceeff-0fbc-4412-83fb-0de4e77e1cbb")
 		)
 		(pin "A22"
-			(uuid "699431e2-a9fd-4828-ab56-a2c397d1e8d3")
+			(uuid "699431e2-a9fd-4828-ab56-a2c397d1e8d4")
 		)
 		(pin "B10"
-			(uuid "5f6ee24a-8b4d-419a-a481-73a8eb31c0e7")
+			(uuid "5f6ee24a-8b4d-419a-a481-73a8eb31c0e8")
 		)
 		(pin "A9"
-			(uuid "75207f00-30b5-4e46-b64a-6122c31929a4")
+			(uuid "75207f00-30b5-4e46-b64a-6122c31929a5")
 		)
 		(pin "A13"
-			(uuid "8bbd81de-5694-4841-81fd-f0d349fd8840")
+			(uuid "8bbd81de-5694-4841-81fd-f0d349fd8841")
 		)
 		(pin "A14"
-			(uuid "050ef154-0068-4b14-901f-d5f09eb2a5d6")
+			(uuid "050ef154-0068-4b14-901f-d5f09eb2a5d7")
 		)
 		(pin "A24"
-			(uuid "fd33a023-ba68-45b3-ab10-b16a311c4818")
+			(uuid "fd33a023-ba68-45b3-ab10-b16a311c4819")
 		)
 		(pin "B7"
-			(uuid "e5bb5931-03b3-4e08-abf4-fcf3de5bcd71")
+			(uuid "e5bb5931-03b3-4e08-abf4-fcf3de5bcd72")
 		)
 		(pin "A8"
-			(uuid "0499773a-2d89-41bf-a0a4-caf8eacf7bbe")
+			(uuid "0499773a-2d89-41bf-a0a4-caf8eacf7bbf")
 		)
 		(pin "A15"
-			(uuid "69ed345d-eacc-4832-82de-bb0278c7f809")
+			(uuid "69ed345d-eacc-4832-82de-bb0278c7f80a")
 		)
 		(pin "B18"
-			(uuid "05e132fc-d579-4a35-929a-d426e956e645")
+			(uuid "05e132fc-d579-4a35-929a-d426e956e646")
 		)
 		(pin "B36"
-			(uuid "3794d68a-5797-49b9-a8fb-aa4996c4adcf")
+			(uuid "3794d68a-5797-49b9-a8fb-aa4996c4add0")
 		)
 		(pin "B3"
-			(uuid "52857bdd-6d61-44bc-88b4-03073a953572")
+			(uuid "52857bdd-6d61-44bc-88b4-03073a953573")
 		)
 		(pin "A18"
-			(uuid "e7d27172-d5da-45e4-a99e-3029d6a5bd7d")
+			(uuid "e7d27172-d5da-45e4-a99e-3029d6a5bd7e")
 		)
 		(pin "B9"
-			(uuid "39b8d02d-aa40-4554-994f-c3bad305237e")
+			(uuid "39b8d02d-aa40-4554-994f-c3bad305237f")
 		)
 		(pin "A34"
-			(uuid "4d98768b-1a72-4b93-adda-3796c8a79d9c")
+			(uuid "4d98768b-1a72-4b93-adda-3796c8a79d9d")
 		)
 		(pin "B13"
-			(uuid "4e5aac68-5ee7-4ec8-a421-4f84c5778c3d")
+			(uuid "4e5aac68-5ee7-4ec8-a421-4f84c5778c3e")
 		)
 		(pin "B25"
-			(uuid "6b89746e-5d40-4028-865c-2c18cdae0b9e")
+			(uuid "6b89746e-5d40-4028-865c-2c18cdae0b9f")
 		)
 		(pin "A20"
-			(uuid "b48c09c1-b54f-4cf4-9532-e6b566464e2d")
+			(uuid "b48c09c1-b54f-4cf4-9532-e6b566464e2e")
 		)
 		(pin "A21"
-			(uuid "f788ba6d-f880-40c1-ad9a-528d6528373e")
+			(uuid "f788ba6d-f880-40c1-ad9a-528d6528373f")
 		)
 		(pin "A40"
-			(uuid "96e87f51-9f6d-454e-9b0e-5089752a2c5a")
+			(uuid "96e87f51-9f6d-454e-9b0e-5089752a2c5b")
 		)
 		(pin "B12"
-			(uuid "c8064219-628f-4cc7-9af7-224c6cd441f5")
+			(uuid "c8064219-628f-4cc7-9af7-224c6cd441f6")
 		)
 		(pin "A31"
-			(uuid "4f19821f-9b72-40f6-8bbf-49e7dbff43cc")
+			(uuid "4f19821f-9b72-40f6-8bbf-49e7dbff43cd")
 		)
 		(pin "B6"
-			(uuid "ca134dc6-02c8-476e-9f15-7b69b3021d28")
+			(uuid "ca134dc6-02c8-476e-9f15-7b69b3021d29")
 		)
 		(pin "B5"
-			(uuid "e845b505-d233-42b6-ab9e-7470dfb38e29")
+			(uuid "e845b505-d233-42b6-ab9e-7470dfb38e2a")
 		)
 		(pin "B24"
-			(uuid "311c7129-05e6-43c2-9b54-994a8cd9c6f1")
+			(uuid "311c7129-05e6-43c2-9b54-994a8cd9c6f2")
 		)
 		(pin "A77"
-			(uuid "b6ab9134-0350-4b88-9d00-8e59c7c1a9bb")
+			(uuid "b6ab9134-0350-4b88-9d00-8e59c7c1a9bc")
 		)
 		(pin "A71"
-			(uuid "b2919162-afd2-4d71-b77f-5d5f6a46bfa0")
+			(uuid "b2919162-afd2-4d71-b77f-5d5f6a46bfa1")
 		)
 		(pin "B45"
-			(uuid "f6cbc3ae-c237-477a-96d6-464b73a67a89")
+			(uuid "f6cbc3ae-c237-477a-96d6-464b73a67a8a")
 		)
 		(pin "B29"
-			(uuid "6ae7f992-74a2-4584-bda3-831b869ff609")
+			(uuid "6ae7f992-74a2-4584-bda3-831b869ff60a")
 		)
 		(pin "B47"
-			(uuid "294a164a-fc6a-4da4-be33-09a471972f66")
+			(uuid "294a164a-fc6a-4da4-be33-09a471972f67")
 		)
 		(pin "A68"
-			(uuid "69c8fc39-888d-4373-9b7a-5256c3658051")
+			(uuid "69c8fc39-888d-4373-9b7a-5256c3658052")
 		)
 		(pin "B46"
-			(uuid "58fdf60b-184c-4391-9d88-e9ad0b8e5c20")
+			(uuid "58fdf60b-184c-4391-9d88-e9ad0b8e5c21")
 		)
 		(pin "B31"
-			(uuid "ecb263fe-cafe-4bd1-bc8d-e96854710d77")
+			(uuid "ecb263fe-cafe-4bd1-bc8d-e96854710d78")
 		)
 		(pin "B42"
-			(uuid "dcc0df90-cce1-4164-a352-08856bfb06db")
+			(uuid "dcc0df90-cce1-4164-a352-08856bfb06dc")
 		)
 		(pin "B44"
-			(uuid "3a392c99-45ca-4aa4-8a80-d997ccc11ff0")
+			(uuid "3a392c99-45ca-4aa4-8a80-d997ccc11ff1")
 		)
 		(pin "A2"
-			(uuid "6b35c55c-0bb1-4258-a3ba-0426aeae14c0")
+			(uuid "6b35c55c-0bb1-4258-a3ba-0426aeae14c1")
 		)
 		(pin "B55"
-			(uuid "f4c3efa0-3064-4ed4-9a9a-5b140502107a")
+			(uuid "f4c3efa0-3064-4ed4-9a9a-5b140502107b")
 		)
 		(instances
 			(project ""

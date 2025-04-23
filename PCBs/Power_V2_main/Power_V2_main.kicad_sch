@@ -7,7 +7,17 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 165.1 93.98) (xy 173.99 93.98)
+			(xy 186.69 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e89243-6eb4-41f6-b2ef-075ab9871624")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 195.58 93.98)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 173.99 114.3)
+			(xy 165.1 114.3) (xy 195.58 114.3)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 97.79) (xy 125.73 97.79)
+			(xy 107.95 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 173.99 104.14)
+			(xy 165.1 104.14) (xy 195.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +57,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 173.99 83.82)
+			(xy 186.69 111.76) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af80237-dbf1-4e86-ab02-0e93372071f8")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 195.58 83.82)
 		)
 		(stroke
 			(width 0)
@@ -67,13 +87,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 173.99 101.6)
+			(xy 186.69 91.44) (xy 195.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d08f597b-7d25-4e47-a602-18074e2cad37")
+		(uuid "9ec05ec4-0728-488b-abaa-ec48112441d5")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d050179f-94aa-4579-ac8c-aead0dd236cf")
 	)
 	(wire
 		(pts
@@ -85,38 +115,58 @@
 		)
 		(uuid "de1ee2a9-599d-4e8e-bef7-e55c15662efb")
 	)
-	(wire
-		(pts
-			(xy 165.1 81.28) (xy 173.99 81.28)
+	(label "14V8_PROTECTED"
+		(at 186.69 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d6715c-8786-4ef6-a1ac-1d798e669482")
+		(uuid "64449e57-411d-4819-9cef-153b1c62960f")
 	)
-	(wire
-		(pts
-			(xy 165.1 111.76) (xy 173.99 111.76)
+	(label "14V8_PROTECTED"
+		(at 186.69 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb37e619-be39-4bea-9be4-48dc94026a7d")
+		(uuid "96693755-33f7-40c2-bfc7-1ac0b3e91c7c")
 	)
-	(wire
-		(pts
-			(xy 165.1 91.44) (xy 173.99 91.44)
+	(label "14V8_PROTECTED"
+		(at 109.22 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "a5907ec4-e115-4f35-9ef4-d49901410fc6")
+	)
+	(label "14V8_PROTECTED"
+		(at 186.69 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(uuid "fd9f4b9c-40c0-4288-8621-68ebb44d4a9d")
+		(uuid "c3c22142-af09-4662-bb28-9e1ce9ae5d19")
+	)
+	(label "14V8_PROTECTED"
+		(at 186.69 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d548d725-e6f5-4578-ab7e-720159483c43")
 	)
 	(sheet
-		(at 173.99 90.17)
+		(at 195.58 90.17)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -132,7 +182,7 @@
 		)
 		(uuid "05548c1d-b489-4de2-ac9d-5e37a620cd8e")
 		(property "Sheetname" "Connector Comms"
-			(at 173.99 89.4584 0)
+			(at 195.58 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 173.99 95.8346 0)
+			(at 195.58 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,7 +200,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 173.99 91.44 180)
+			(at 195.58 91.44 180)
 			(uuid "a828b5ed-ce26-40ed-954d-724a7b510561")
 			(effects
 				(font
@@ -160,7 +210,7 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 173.99 93.98 180)
+			(at 195.58 93.98 180)
 			(uuid "f886e037-d708-452f-815d-213cf37d89a7")
 			(effects
 				(font
@@ -273,46 +323,6 @@
 				(justify left top)
 			)
 		)
-		(pin "14V8_ARM_OUT" output
-			(at 165.1 81.28 0)
-			(uuid "b83faa39-34a4-4c9f-afd1-8a3d71ff5c3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "14V8_COMMS_OUT" output
-			(at 165.1 91.44 0)
-			(uuid "816f77ba-13b7-4d27-b258-c566fb2471dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "14V8_DRILL_OUT" output
-			(at 165.1 101.6 0)
-			(uuid "a3935e6d-2c5e-482a-8a82-cb1b8777c683")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "14V8_DRIVE_OUT" output
-			(at 165.1 111.76 0)
-			(uuid "240aad70-8716-4d38-824e-d6bb1e9b7eeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "14V8_PROTECTED" input
 			(at 125.73 97.79 180)
 			(uuid "467d73a5-dcac-4488-b2aa-6a9d0270827b")
@@ -392,7 +402,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 80.01)
+		(at 195.58 80.01)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -408,7 +418,7 @@
 		)
 		(uuid "5a316610-23dc-402c-b6ee-e8a9376f173c")
 		(property "Sheetname" "Connector Arm"
-			(at 173.99 79.2984 0)
+			(at 195.58 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +427,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 173.99 85.6746 0)
+			(at 195.58 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +436,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 173.99 81.28 180)
+			(at 195.58 81.28 180)
 			(uuid "30b5ca3b-a349-4148-a8f8-9e161171c44b")
 			(effects
 				(font
@@ -436,7 +446,7 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 173.99 83.82 180)
+			(at 195.58 83.82 180)
 			(uuid "801d2f95-52e1-42b0-b003-1b64f01df7ea")
 			(effects
 				(font
@@ -454,7 +464,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 110.49)
+		(at 195.58 110.49)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -470,7 +480,7 @@
 		)
 		(uuid "61cdc550-54e0-46fe-9d8c-84349298612c")
 		(property "Sheetname" "Connector Drive"
-			(at 173.99 109.7784 0)
+			(at 195.58 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +489,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 173.99 116.1546 0)
+			(at 195.58 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,7 +498,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 173.99 111.76 180)
+			(at 195.58 111.76 180)
 			(uuid "4da63bf0-9c9a-4d52-a9cc-aac2aed1ee94")
 			(effects
 				(font
@@ -498,7 +508,7 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 173.99 114.3 180)
+			(at 195.58 114.3 180)
 			(uuid "7de4b4f3-d1f3-44b2-b901-873813462f72")
 			(effects
 				(font
@@ -516,7 +526,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 100.33)
+		(at 195.58 100.33)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -532,7 +542,7 @@
 		)
 		(uuid "c1aa6de2-796a-469e-8874-a41f5caab88e")
 		(property "Sheetname" "Connector Drill"
-			(at 173.99 99.6184 0)
+			(at 195.58 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +551,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 173.99 105.9946 0)
+			(at 195.58 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +560,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 173.99 101.6 180)
+			(at 195.58 101.6 180)
 			(uuid "641192ae-3f67-4a2f-817b-6d2ec1273830")
 			(effects
 				(font
@@ -560,7 +570,7 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 173.99 104.14 180)
+			(at 195.58 104.14 180)
 			(uuid "404549bc-9076-485e-afcd-83a41f39f75e")
 			(effects
 				(font
@@ -578,7 +588,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 88.9)
+		(at 68.58 88.9)
 		(size 39.37 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -594,7 +604,7 @@
 		)
 		(uuid "f79fdd92-16ac-451b-89cf-5f4ae66f74ef")
 		(property "Sheetname" "Protection and power"
-			(at 74.93 88.1884 0)
+			(at 68.58 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +613,7 @@
 			)
 		)
 		(property "Sheetfile" "Protection.kicad_sch"
-			(at 74.93 107.2646 0)
+			(at 68.58 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +622,7 @@
 			)
 		)
 		(pin "14V8_PROTECTED" output
-			(at 114.3 97.79 0)
+			(at 107.95 97.79 0)
 			(uuid "392b51bd-690e-465d-a4cc-412da917a675")
 			(effects
 				(font

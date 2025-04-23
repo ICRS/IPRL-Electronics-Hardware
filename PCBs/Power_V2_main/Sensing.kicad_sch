@@ -1087,16 +1087,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 180.34) (xy 45.72 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424eb12d-5bfc-4436-9238-7b94e35f9d32")
-	)
-	(wire
-		(pts
 			(xy 144.78 67.31) (xy 149.86 67.31)
 		)
 		(stroke
@@ -1117,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 172.72) (xy 45.72 172.72)
+			(xy 82.55 187.96) (xy 90.17 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1127,13 +1117,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 185.42) (xy 45.72 185.42)
+			(xy 83.82 171.45) (xy 90.17 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b4b241d-b5b6-44ce-a986-e3afd596704f")
+		(uuid "50ad043b-6614-4ef4-b145-ca3993fd8532")
 	)
 	(wire
 		(pts
@@ -1147,16 +1137,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 175.26) (xy 45.72 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d62368-bea7-4902-8293-85a4891c942c")
-	)
-	(wire
-		(pts
 			(xy 187.96 86.36) (xy 193.04 86.36)
 		)
 		(stroke
@@ -1164,16 +1144,6 @@
 			(type default)
 		)
 		(uuid "59e6326d-aeb6-469d-8972-1e84095bacb6")
-	)
-	(wire
-		(pts
-			(xy 38.1 177.8) (xy 45.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc9aa2c-9de4-4012-860e-c41cfc886a3c")
 	)
 	(wire
 		(pts
@@ -1227,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 45.72 170.18)
+			(xy 82.55 185.42) (xy 90.17 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1304,16 +1274,6 @@
 			(type default)
 		)
 		(uuid "ca248f21-af77-417a-819f-1a49e17e6cb4")
-	)
-	(wire
-		(pts
-			(xy 38.1 182.88) (xy 45.72 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d32c50-6f2d-43ed-8598-d040c9113219")
 	)
 	(wire
 		(pts
@@ -1405,16 +1365,6 @@
 		)
 		(uuid "07f9547e-0e1b-4925-958f-b3a3008b4a07")
 	)
-	(label "14V8_DRIVE_OUT"
-		(at 38.1 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1822a91f-df7c-4148-bc97-ff5859cc3bcf")
-	)
 	(label "DRIVE_READ"
 		(at 82.55 180.34 180)
 		(effects
@@ -1505,16 +1455,6 @@
 		)
 		(uuid "5b6d6b01-545b-44a8-af4c-539bcdcfc134")
 	)
-	(label "14V8_COMMS_OUT"
-		(at 38.1 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "637f53bb-cec4-4783-a62d-5da181c798e6")
-	)
 	(label "SCL"
 		(at 187.96 69.85 180)
 		(effects
@@ -1535,18 +1475,8 @@
 		)
 		(uuid "6b233879-f05e-4769-8e1f-336a38902681")
 	)
-	(label "14V8_DRILL_OUT"
-		(at 38.1 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e739bed-882d-4bca-bd2c-11a73f9a65ac")
-	)
 	(label "SCL"
-		(at 38.1 170.18 180)
+		(at 82.55 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1565,18 +1495,8 @@
 		)
 		(uuid "a9493010-5aac-478b-83fd-7e851b521734")
 	)
-	(label "14V8_ARM_OUT"
-		(at 38.1 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b05168c6-bbf4-4a3c-b7c8-ef376b9d9aa7")
-	)
 	(label "SDA"
-		(at 38.1 172.72 180)
+		(at 82.55 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1596,7 +1516,7 @@
 		(uuid "c0938bf0-3129-4f89-87e6-14af42a54703")
 	)
 	(label "14V8_PROTECTED"
-		(at 38.1 185.42 180)
+		(at 83.82 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1655,17 +1575,6 @@
 		)
 		(uuid "feeb2adb-8555-48b4-8fac-da70fcf50411")
 	)
-	(hierarchical_label "14V8_DRIVE_OUT"
-		(shape output)
-		(at 45.72 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25f0cfec-a324-4d41-b137-a91bc696c012")
-	)
 	(hierarchical_label "ARM_READ"
 		(shape output)
 		(at 90.17 175.26 0)
@@ -1677,31 +1586,9 @@
 		)
 		(uuid "3588f4f8-6aeb-4c78-a7d2-37c3653e7d86")
 	)
-	(hierarchical_label "14V8_DRILL_OUT"
-		(shape output)
-		(at 45.72 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "358f8803-585e-4760-af24-c28b97ebc265")
-	)
-	(hierarchical_label "14V8_COMMS_OUT"
-		(shape output)
-		(at 45.72 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "616f3d52-de7e-4865-9326-2c11045569c0")
-	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 45.72 170.18 0)
+		(at 90.17 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,7 +1610,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape output)
-		(at 45.72 172.72 0)
+		(at 90.17 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,7 +1632,7 @@
 	)
 	(hierarchical_label "14V8_PROTECTED"
 		(shape input)
-		(at 45.72 185.42 0)
+		(at 90.17 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,17 +1651,6 @@
 			(justify left)
 		)
 		(uuid "f3a70558-776c-4022-a2b2-56f8d6279b21")
-	)
-	(hierarchical_label "14V8_ARM_OUT"
-		(shape output)
-		(at 45.72 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f50110ec-4c9f-41da-900f-d7467f205807")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2296,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:SOP50P490X110-10N"
+		(property "Footprint" "iprl_footprints:SOP50P490X110-10N"
 			(at 140.97 188.9 0)
 			(effects
 				(font
@@ -2775,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:SOP50P490X110-10N"
+		(property "Footprint" "iprl_footprints:SOP50P490X110-10N"
 			(at 140.97 162.23 0)
 			(effects
 				(font

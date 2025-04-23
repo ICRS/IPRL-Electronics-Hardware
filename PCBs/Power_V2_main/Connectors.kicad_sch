@@ -5983,7 +5983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:SAMTEC_PCIE-164-02-F-D-TH-TR"
+		(property "Footprint" "iprl_footprints:SAMTEC_PCIE-164-02-F-D-TH-TR"
 			(at 189.23 97.79 0)
 			(effects
 				(font
@@ -6826,7 +6826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPRL_footprints:SAMTEC_PCIE-164-02-F-D-TH-TR"
+		(property "Footprint" "iprl_footprints:SAMTEC_PCIE-164-02-F-D-TH-TR"
 			(at 129.54 97.79 0)
 			(effects
 				(font

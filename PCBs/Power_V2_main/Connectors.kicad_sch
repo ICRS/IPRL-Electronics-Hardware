@@ -4040,12 +4040,6 @@
 		(uuid "cccb4a1b-dd31-4913-a2dc-30c0e4d13dce")
 	)
 	(junction
-		(at 116.84 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd7b12af-7e36-4993-be2f-8061bd0c0ca7")
-	)
-	(junction
 		(at 176.53 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4397,6 +4391,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 46.99) (xy 116.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b95b594-42a9-4b84-9cec-00836d9a7354")
+	)
+	(wire
+		(pts
 			(xy 201.93 97.79) (xy 201.93 100.33)
 		)
 		(stroke
@@ -4474,6 +4478,16 @@
 			(type default)
 		)
 		(uuid "23272a45-b142-498c-8d1b-db770154c98b")
+	)
+	(wire
+		(pts
+			(xy 35.56 181.61) (xy 41.91 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23505b1d-1acc-499c-9fbf-c63deeb26adf")
 	)
 	(wire
 		(pts
@@ -5407,16 +5421,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 46.99) (xy 116.84 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace1f265-5d8b-4fdc-b80b-94c1862ad83d")
-	)
-	(wire
-		(pts
 			(xy 201.93 95.25) (xy 201.93 97.79)
 		)
 		(stroke
@@ -5905,6 +5909,16 @@
 		)
 		(uuid "3130d5ea-0fad-45a8-9cdc-260030591de1")
 	)
+	(label "PLUGGED_IN"
+		(at 35.56 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33c95bc0-d4cc-4caa-82fb-e505dfb5266a")
+	)
 	(label "OUT_READ"
 		(at 107.95 72.39 180)
 		(effects
@@ -5914,6 +5928,16 @@
 			(justify right bottom)
 		)
 		(uuid "56794e4a-ae43-4419-9d0d-0dd61187e64a")
+	)
+	(label "PLUGGED_IN"
+		(at 113.03 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc1646a8-9b7c-4fb2-a1f5-11961db7d80c")
 	)
 	(label "14V8_OUT"
 		(at 109.22 148.59 180)
@@ -5945,6 +5969,17 @@
 			(justify left)
 		)
 		(uuid "11ccee84-5498-4017-ba08-7ff7f6530229")
+	)
+	(hierarchical_label "PLUGGED_IN"
+		(shape input)
+		(at 41.91 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "863871cc-4aad-4661-bd99-81deb10c1f3f")
 	)
 	(hierarchical_label "OUT_READ"
 		(shape input)

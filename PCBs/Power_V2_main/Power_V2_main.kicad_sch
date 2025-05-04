@@ -4,7 +4,91 @@
 	(generator_version "9.0")
 	(uuid "68375d53-ee5f-4f08-9b72-814cdcf8200e")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(wire
 		(pts
 			(xy 186.69 81.28) (xy 195.58 81.28)
@@ -17,7 +101,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 93.98) (xy 195.58 93.98)
+			(xy 146.05 63.5) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a52df1-063b-4a89-8ea8-29d124bd6e7e")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +121,37 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 195.58 114.3)
+			(xy 139.7 53.34) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b293523-fb90-4527-96df-dc8350f95cdf")
+	)
+	(wire
+		(pts
+			(xy 186.69 86.36) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368e3eb0-d9bb-4d45-a9a9-5a0f03ef489d")
+	)
+	(wire
+		(pts
+			(xy 186.69 124.46) (xy 195.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea81ef3-9c56-4f59-bf4b-9680a3c3b391")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.92) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +171,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 195.58 104.14)
+			(xy 165.1 109.22) (xy 195.58 109.22)
 		)
 		(stroke
 			(width 0)
@@ -57,13 +181,33 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 111.76) (xy 195.58 111.76)
+			(xy 186.69 119.38) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5af80237-dbf1-4e86-ab02-0e93372071f8")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d141e6-1e79-4399-96cd-d5b5d490f5c8")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669967a3-bc8f-4c1a-b526-c55866dabc27")
 	)
 	(wire
 		(pts
@@ -77,17 +221,27 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 72.39) (xy 143.51 80.01)
+			(xy 139.7 58.42) (xy 146.05 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81e21705-4103-430d-8f1a-6909449567c5")
+		(uuid "854598d9-602c-4e15-a41f-242c21454527")
 	)
 	(wire
 		(pts
-			(xy 186.69 91.44) (xy 195.58 91.44)
+			(xy 186.69 99.06) (xy 195.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a623523-262f-44ac-b01b-8d09cff02629")
+	)
+	(wire
+		(pts
+			(xy 186.69 93.98) (xy 195.58 93.98)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +251,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 101.6) (xy 195.58 101.6)
+			(xy 139.7 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7664b9b-332d-41df-b489-037d7eb98e73")
+	)
+	(wire
+		(pts
+			(xy 139.7 66.04) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac8e034-d9d8-4bae-938c-8fb3d74aa557")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 195.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +281,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 140.97 80.01)
+			(xy 143.51 66.04) (xy 143.51 80.01)
 		)
 		(stroke
 			(width 0)
@@ -115,8 +289,78 @@
 		)
 		(uuid "de1ee2a9-599d-4e8e-bef7-e55c15662efb")
 	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc27ea9-878b-4f7e-bcac-3ebdd77ccb08")
+	)
+	(label "DRILL_PLUGGED"
+		(at 146.05 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "230b52b1-b13e-4ba1-a69c-235e3520729b")
+	)
+	(label "COMMS_PLUGGED"
+		(at 186.69 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3560d6d2-8362-4fcf-b621-4f90d579b43b")
+	)
+	(label "DRIVE_PLUGGED"
+		(at 146.05 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37a0cce2-326a-4b11-909f-f143f9ddd837")
+	)
+	(label "DRIVE_PLUGGED"
+		(at 186.69 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4020a0a3-fc1c-4c2a-b7ec-28a47a07414d")
+	)
+	(label "DRILL_PLUGGED"
+		(at 186.69 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "590a04d6-d7ba-4850-af9a-3d715a150351")
+	)
+	(label "ARM_PLUGGED"
+		(at 146.05 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62635ebd-d53a-480e-9c03-456025e422d6")
+	)
 	(label "14V8_PROTECTED"
-		(at 186.69 91.44 180)
+		(at 186.69 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,6 +368,16 @@
 			(justify right bottom)
 		)
 		(uuid "64449e57-411d-4819-9cef-153b1c62960f")
+	)
+	(label "COMMS_PLUGGED"
+		(at 146.05 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "667d5f20-ae8b-43e7-a433-71f8b51f6999")
 	)
 	(label "14V8_PROTECTED"
 		(at 186.69 81.28 180)
@@ -146,7 +400,7 @@
 		(uuid "a5907ec4-e115-4f35-9ef4-d49901410fc6")
 	)
 	(label "14V8_PROTECTED"
-		(at 186.69 101.6 180)
+		(at 186.69 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -156,7 +410,7 @@
 		(uuid "c3c22142-af09-4662-bb28-9e1ce9ae5d19")
 	)
 	(label "14V8_PROTECTED"
-		(at 186.69 111.76 180)
+		(at 186.69 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -165,14 +419,215 @@
 		)
 		(uuid "d548d725-e6f5-4578-ab7e-720159483c43")
 	)
+	(label "ARM_PLUGGED"
+		(at 186.69 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa4cc14e-665a-42ad-a123-3088da0f5871")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 97.79 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8020b457-0b51-4798-9fcf-1a69c751b943")
+		(property "Reference" "H3"
+			(at 100.33 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 100.33 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Power_V2_main"
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 80.01 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "953d8968-7533-4ede-9f4d-10c093c48810")
+		(property "Reference" "H2"
+			(at 82.55 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 82.55 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Power_V2_main"
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 60.96 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde956ee-32a8-4fa9-9319-e5c1fdc80375")
+		(property "Reference" "H1"
+			(at 63.5 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 63.5 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 195.58 90.17)
-		(size 25.4 5.08)
+		(at 195.58 92.71)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -182,7 +637,7 @@
 		)
 		(uuid "05548c1d-b489-4de2-ac9d-5e37a620cd8e")
 		(property "Sheetname" "Connector Comms"
-			(at 195.58 89.4584 0)
+			(at 195.326 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +646,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 195.58 95.8346 0)
+			(at 195.58 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +655,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 195.58 91.44 180)
+			(at 195.58 93.98 180)
 			(uuid "a828b5ed-ce26-40ed-954d-724a7b510561")
 			(effects
 				(font
@@ -210,8 +665,18 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 195.58 93.98 180)
+			(at 195.58 96.52 180)
 			(uuid "f886e037-d708-452f-815d-213cf37d89a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PLUGGED_IN" input
+			(at 195.58 99.06 180)
+			(uuid "646ebc28-698d-42c8-aadf-62faa171ba47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,8 +693,8 @@
 		)
 	)
 	(sheet
-		(at 132.08 54.61)
-		(size 20.32 17.78)
+		(at 121.285 50.8)
+		(size 18.415 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -244,7 +709,7 @@
 		)
 		(uuid "21e54b95-b853-48ef-8c41-5ed5d320747a")
 		(property "Sheetname" "Control"
-			(at 131.3684 72.39 90)
+			(at 121.285 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +718,7 @@
 			)
 		)
 		(property "Sheetfile" "Control.kicad_sch"
-			(at 152.9846 72.39 90)
+			(at 121.285 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,24 +726,64 @@
 				(justify left top)
 			)
 		)
-		(pin "SCl" input
-			(at 140.97 72.39 270)
+		(pin "SCL" input
+			(at 139.7 66.04 0)
 			(uuid "2a32dd89-a18f-4e21-a85d-9fe7fa68d1af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDA" input
-			(at 143.51 72.39 270)
+			(at 139.7 63.5 0)
 			(uuid "837348f0-128e-4158-a00b-e9915420e612")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "ARM_PLUGGED" input
+			(at 139.7 53.34 0)
+			(uuid "c053a85a-c6af-440d-a374-a397e72e962f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COMMS_PLUGGED" input
+			(at 139.7 58.42 0)
+			(uuid "08f50446-fef1-49f8-abf6-ea496df38b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRILL_PLUGGED" input
+			(at 139.7 60.96 0)
+			(uuid "da9cce28-20f3-4efd-9f80-4f66ddac7ffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRIVE_PLUGGED" input
+			(at 139.7 55.88 0)
+			(uuid "f492e3e3-93a5-4e65-aa6b-eba622eeed89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -291,7 +796,7 @@
 	)
 	(sheet
 		(at 125.73 80.01)
-		(size 39.37 35.56)
+		(size 39.37 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -315,7 +820,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensing.kicad_sch"
-			(at 125.73 116.1546 0)
+			(at 125.73 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -334,7 +839,7 @@
 			)
 		)
 		(pin "SCL" output
-			(at 140.97 80.01 90)
+			(at 143.51 80.01 90)
 			(uuid "f3e87052-2bd6-4f1f-abb9-ffdd4b7926aa")
 			(effects
 				(font
@@ -344,7 +849,7 @@
 			)
 		)
 		(pin "SDA" output
-			(at 143.51 80.01 90)
+			(at 146.05 80.01 90)
 			(uuid "3a851402-f7c3-44ba-b4bc-c7eae5ee21a6")
 			(effects
 				(font
@@ -364,7 +869,7 @@
 			)
 		)
 		(pin "COMMS_READ" output
-			(at 165.1 93.98 0)
+			(at 165.1 96.52 0)
 			(uuid "43839bf1-cd64-418f-a32d-dab4ebd0c3b0")
 			(effects
 				(font
@@ -374,7 +879,7 @@
 			)
 		)
 		(pin "DRILL_READ" output
-			(at 165.1 104.14 0)
+			(at 165.1 109.22 0)
 			(uuid "c235f28b-b7f1-4805-abcf-c1edc798a418")
 			(effects
 				(font
@@ -384,7 +889,7 @@
 			)
 		)
 		(pin "DRIVE_READ" output
-			(at 165.1 114.3 0)
+			(at 165.1 121.92 0)
 			(uuid "f983e5aa-2f4b-4a5e-9ad6-965eaa6ca8e3")
 			(effects
 				(font
@@ -403,12 +908,11 @@
 	)
 	(sheet
 		(at 195.58 80.01)
-		(size 25.4 5.08)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -427,7 +931,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 195.58 85.6746 0)
+			(at 195.58 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,6 +959,16 @@
 				(justify left)
 			)
 		)
+		(pin "PLUGGED_IN" input
+			(at 195.58 86.36 180)
+			(uuid "3b66aea9-b8f8-4c19-b62a-f3e3052a4c60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Power_V2_main"
 				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e"
@@ -464,8 +978,8 @@
 		)
 	)
 	(sheet
-		(at 195.58 110.49)
-		(size 25.4 5.08)
+		(at 195.58 118.11)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -480,7 +994,7 @@
 		)
 		(uuid "61cdc550-54e0-46fe-9d8c-84349298612c")
 		(property "Sheetname" "Connector Drive"
-			(at 195.58 109.7784 0)
+			(at 195.58 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +1003,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 195.58 116.1546 0)
+			(at 195.58 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +1012,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 195.58 111.76 180)
+			(at 195.58 119.38 180)
 			(uuid "4da63bf0-9c9a-4d52-a9cc-aac2aed1ee94")
 			(effects
 				(font
@@ -508,8 +1022,18 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 195.58 114.3 180)
+			(at 195.58 121.92 180)
 			(uuid "7de4b4f3-d1f3-44b2-b901-873813462f72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PLUGGED_IN" input
+			(at 195.58 124.46 180)
+			(uuid "dffad7ab-8995-4f4a-8338-7eb5b3a89506")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,8 +1050,8 @@
 		)
 	)
 	(sheet
-		(at 195.58 100.33)
-		(size 25.4 5.08)
+		(at 195.58 105.41)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -542,7 +1066,7 @@
 		)
 		(uuid "c1aa6de2-796a-469e-8874-a41f5caab88e")
 		(property "Sheetname" "Connector Drill"
-			(at 195.58 99.6184 0)
+			(at 195.58 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +1075,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 195.58 105.9946 0)
+			(at 195.58 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +1084,7 @@
 			)
 		)
 		(pin "14V8_OUT" input
-			(at 195.58 101.6 180)
+			(at 195.58 106.68 180)
 			(uuid "641192ae-3f67-4a2f-817b-6d2ec1273830")
 			(effects
 				(font
@@ -570,8 +1094,18 @@
 			)
 		)
 		(pin "OUT_READ" input
-			(at 195.58 104.14 180)
+			(at 195.58 109.22 180)
 			(uuid "404549bc-9076-485e-afcd-83a41f39f75e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PLUGGED_IN" input
+			(at 195.58 111.76 180)
+			(uuid "5b5a5b80-d5eb-4b68-9bb7-3da7c7c173d4")
 			(effects
 				(font
 					(size 1.27 1.27)

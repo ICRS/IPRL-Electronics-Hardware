@@ -3740,6 +3740,12 @@
 		(uuid "712fcb1e-6ea8-43cd-b61e-d7087e27f438")
 	)
 	(junction
+		(at 116.84 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "721348cf-2bb9-49d3-b5d5-33ad1fdc3fd9")
+	)
+	(junction
 		(at 142.24 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4391,16 +4397,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 46.99) (xy 116.84 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b95b594-42a9-4b84-9cec-00836d9a7354")
-	)
-	(wire
-		(pts
 			(xy 201.93 97.79) (xy 201.93 100.33)
 		)
 		(stroke
@@ -4598,16 +4594,6 @@
 			(type default)
 		)
 		(uuid "2e96693d-dad1-4620-855f-4471d8deb1bf")
-	)
-	(wire
-		(pts
-			(xy 35.56 179.07) (xy 41.91 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed6b3f3-6344-418e-b14a-ec253c6061bd")
 	)
 	(wire
 		(pts
@@ -4988,6 +4974,16 @@
 			(type default)
 		)
 		(uuid "66f5b598-b4ff-4130-99f9-25e234dc50ba")
+	)
+	(wire
+		(pts
+			(xy 116.84 46.99) (xy 116.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a74e8f-2b3b-4f14-aca8-05f955979618")
 	)
 	(wire
 		(pts
@@ -5501,7 +5497,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 176.53) (xy 41.91 176.53)
+			(xy 35.56 179.07) (xy 41.91 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5899,16 +5895,6 @@
 		)
 		(uuid "303eba41-0654-4777-b935-7a114a048274")
 	)
-	(label "OUT_READ"
-		(at 35.56 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3130d5ea-0fad-45a8-9cdc-260030591de1")
-	)
 	(label "PLUGGED_IN"
 		(at 35.56 181.61 180)
 		(effects
@@ -5929,16 +5915,6 @@
 		)
 		(uuid "56794e4a-ae43-4419-9d0d-0dd61187e64a")
 	)
-	(label "PLUGGED_IN"
-		(at 113.03 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc1646a8-9b7c-4fb2-a1f5-11961db7d80c")
-	)
 	(label "14V8_OUT"
 		(at 109.22 148.59 180)
 		(effects
@@ -5950,7 +5926,7 @@
 		(uuid "e4c216da-d40f-4324-8fca-b2ce66f277de")
 	)
 	(label "14V8_OUT"
-		(at 35.56 176.53 180)
+		(at 35.56 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5961,7 +5937,7 @@
 	)
 	(hierarchical_label "14V8_OUT"
 		(shape input)
-		(at 41.91 176.53 0)
+		(at 41.91 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5970,7 +5946,7 @@
 		)
 		(uuid "11ccee84-5498-4017-ba08-7ff7f6530229")
 	)
-	(hierarchical_label "PLUGGED_IN"
+	(hierarchical_label "OUT_READ"
 		(shape input)
 		(at 41.91 181.61 0)
 		(effects
@@ -5980,17 +5956,6 @@
 			(justify left)
 		)
 		(uuid "863871cc-4aad-4661-bd99-81deb10c1f3f")
-	)
-	(hierarchical_label "OUT_READ"
-		(shape input)
-		(at 41.91 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e95baa22-e989-4716-b17e-7e6b0f6effaf")
 	)
 	(symbol
 		(lib_id "PCIE-164-02-F-D-TH-TR:PCIE-164-02-F-D-TH-TR")

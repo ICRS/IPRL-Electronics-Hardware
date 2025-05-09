@@ -89,6 +89,24 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 120.015 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d480602-9c34-4da2-93e2-c57cbac6d001")
+	)
+	(junction
+		(at 120.015 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e4430c7-9b93-4d2b-a94a-a3b51ab8e3b9")
+	)
+	(junction
+		(at 114.3 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2f64c3b-9cf4-47a0-bfe8-23d4c829add9")
+	)
 	(wire
 		(pts
 			(xy 186.69 81.28) (xy 195.58 81.28)
@@ -111,6 +129,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b4d987-f5f7-47bf-a437-68552c3c9e04")
+	)
+	(wire
+		(pts
 			(xy 165.1 91.44) (xy 195.58 91.44)
 		)
 		(stroke
@@ -118,6 +146,36 @@
 			(type default)
 		)
 		(uuid "26a3c24a-cb14-4cb0-9dc3-8ab4f01450f0")
+	)
+	(wire
+		(pts
+			(xy 120.015 63.5) (xy 120.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e8d8c3-527e-4727-a4f6-f5fcff11d478")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 120.015 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a28cf2-fa91-46b7-aabb-2aa15e2415c9")
+	)
+	(wire
+		(pts
+			(xy 114.3 68.58) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3febe715-c1bb-4690-ab76-02f75f991fd4")
 	)
 	(wire
 		(pts
@@ -151,6 +209,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.015 66.04) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6acd2f73-9abf-4e05-b76a-16a26bd15f67")
+	)
+	(wire
+		(pts
 			(xy 165.1 83.82) (xy 195.58 83.82)
 		)
 		(stroke
@@ -171,7 +239,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 66.04) (xy 143.51 66.04)
+			(xy 107.95 63.5) (xy 120.015 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a0f5be-e31f-4312-bd49-a5f93d8761a1")
+	)
+	(wire
+		(pts
+			(xy 107.95 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d61366-8f1a-4ca6-9913-d9dde8c6c31a")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 143.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -191,7 +279,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 95.25) (xy 125.73 95.25)
+			(xy 107.95 95.25) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
@@ -211,7 +299,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 146.05 63.5)
+			(xy 138.43 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -271,7 +359,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 92.71 74.93 0)
+		(at 82.55 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -280,7 +368,7 @@
 		(fields_autoplaced yes)
 		(uuid "850eb3ab-c9e9-4c21-91e5-0da7b65e410d")
 		(property "Reference" "H3"
-			(at 95.25 73.6599 0)
+			(at 85.09 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,7 +377,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 95.25 76.1999 0)
+			(at 85.09 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,7 +386,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 92.71 74.93 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,7 +395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 74.93 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -316,7 +404,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 92.71 74.93 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +423,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 80.01 74.93 0)
+		(at 82.55 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -344,7 +432,7 @@
 		(fields_autoplaced yes)
 		(uuid "953d8968-7533-4ede-9f4d-10c093c48810")
 		(property "Reference" "H2"
-			(at 82.55 73.6599 0)
+			(at 85.09 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -353,7 +441,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 82.55 76.1999 0)
+			(at 85.09 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +450,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 80.01 74.93 0)
+			(at 82.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 74.93 0)
+			(at 82.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +468,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 80.01 74.93 0)
+			(at 82.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +487,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 60.96 74.93 0)
+		(at 82.55 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -408,7 +496,7 @@
 		(fields_autoplaced yes)
 		(uuid "bde956ee-32a8-4fa9-9319-e5c1fdc80375")
 		(property "Reference" "H1"
-			(at 63.5 73.6599 0)
+			(at 85.09 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +505,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 63.5 76.1999 0)
+			(at 85.09 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +514,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 60.96 74.93 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,7 +523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 74.93 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +532,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 60.96 74.93 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +611,7 @@
 		)
 	)
 	(sheet
-		(at 121.285 60.96)
+		(at 120.015 60.96)
 		(size 18.415 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -539,7 +627,7 @@
 		)
 		(uuid "21e54b95-b853-48ef-8c41-5ed5d320747a")
 		(property "Sheetname" "Control"
-			(at 121.285 60.2484 0)
+			(at 120.015 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +636,7 @@
 			)
 		)
 		(property "Sheetfile" "Control.kicad_sch"
-			(at 121.285 69.1646 0)
+			(at 120.015 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +645,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 139.7 66.04 0)
+			(at 138.43 66.04 0)
 			(uuid "2a32dd89-a18f-4e21-a85d-9fe7fa68d1af")
 			(effects
 				(font
@@ -567,13 +655,33 @@
 			)
 		)
 		(pin "SDA" input
-			(at 139.7 63.5 0)
+			(at 138.43 63.5 0)
 			(uuid "837348f0-128e-4158-a00b-e9915420e612")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IND_GREEN" input
+			(at 120.015 66.04 180)
+			(uuid "80232faf-393c-46ef-a76a-01476fa28254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IND_YELLOW" input
+			(at 120.015 63.5 180)
+			(uuid "fb955477-fc8a-404f-96ef-86d90c189880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -929,6 +1037,78 @@
 			(project "Power_V2_main"
 				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 60.96)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd663740-d58d-491a-b902-ceb831232946")
+		(property "Sheetname" "LED Indicators"
+			(at 82.55 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_indicators.kicad_sch"
+			(at 82.55 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "14V8_PROTECTED" input
+			(at 107.95 68.58 0)
+			(uuid "0d48666d-5fc9-4c81-9047-c5b53b6e9fb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IND_GREEN" input
+			(at 107.95 66.04 0)
+			(uuid "bedf6c19-cc72-458e-88a1-438eeefe54ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IND_YELLOW" input
+			(at 107.95 63.5 0)
+			(uuid "022c267a-8c93-4906-981c-bfc3d5901512")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Power_V2_main"
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e"
+					(page "9")
 				)
 			)
 		)

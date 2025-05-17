@@ -90,18 +90,6 @@
 		)
 	)
 	(junction
-		(at 120.015 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d480602-9c34-4da2-93e2-c57cbac6d001")
-	)
-	(junction
-		(at 120.015 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e4430c7-9b93-4d2b-a94a-a3b51ab8e3b9")
-	)
-	(junction
 		(at 114.3 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -149,17 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 63.5) (xy 120.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e8d8c3-527e-4727-a4f6-f5fcff11d478")
-	)
-	(wire
-		(pts
-			(xy 107.95 66.04) (xy 120.015 66.04)
+			(xy 107.95 66.04) (xy 121.285 66.04)
 		)
 		(stroke
 			(width 0)
@@ -209,16 +187,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 66.04) (xy 120.65 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6acd2f73-9abf-4e05-b76a-16a26bd15f67")
-	)
-	(wire
-		(pts
 			(xy 165.1 83.82) (xy 195.58 83.82)
 		)
 		(stroke
@@ -239,7 +207,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 120.015 63.5)
+			(xy 107.95 63.5) (xy 121.285 63.5)
 		)
 		(stroke
 			(width 0)
@@ -259,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 66.04) (xy 143.51 66.04)
+			(xy 139.7 66.04) (xy 143.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -299,7 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 63.5) (xy 146.05 63.5)
+			(xy 139.7 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -611,7 +579,7 @@
 		)
 	)
 	(sheet
-		(at 120.015 60.96)
+		(at 121.285 60.96)
 		(size 18.415 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -627,7 +595,7 @@
 		)
 		(uuid "21e54b95-b853-48ef-8c41-5ed5d320747a")
 		(property "Sheetname" "Control"
-			(at 120.015 60.2484 0)
+			(at 121.285 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +604,7 @@
 			)
 		)
 		(property "Sheetfile" "Control.kicad_sch"
-			(at 120.015 69.1646 0)
+			(at 121.285 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +613,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 138.43 66.04 0)
+			(at 139.7 66.04 0)
 			(uuid "2a32dd89-a18f-4e21-a85d-9fe7fa68d1af")
 			(effects
 				(font
@@ -655,7 +623,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 138.43 63.5 0)
+			(at 139.7 63.5 0)
 			(uuid "837348f0-128e-4158-a00b-e9915420e612")
 			(effects
 				(font
@@ -665,7 +633,7 @@
 			)
 		)
 		(pin "IND_GREEN" input
-			(at 120.015 66.04 180)
+			(at 121.285 66.04 180)
 			(uuid "80232faf-393c-46ef-a76a-01476fa28254")
 			(effects
 				(font
@@ -675,7 +643,7 @@
 			)
 		)
 		(pin "IND_YELLOW" input
-			(at 120.015 63.5 180)
+			(at 121.285 63.5 180)
 			(uuid "fb955477-fc8a-404f-96ef-86d90c189880")
 			(effects
 				(font

@@ -205,361 +205,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:RQ6E080AJ"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "RQ6E080AJ"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET Low-Threshold sot-457t sc-95 tsmt6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RQ6E080AJ_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RQ6E080AJ_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -684,7 +329,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 39.37) (xy 95.25 44.45)
+			(xy 72.39 33.02) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
@@ -694,7 +339,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 64.77) (xy 55.88 64.77)
+			(xy 45.72 110.49) (xy 55.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -704,7 +349,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 64.77 44.45)
+			(xy 64.77 33.02) (xy 64.77 44.45)
 		)
 		(stroke
 			(width 0)
@@ -714,27 +359,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 44.45) (xy 95.25 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d6db80-c462-4efc-9df9-92406da6e1ff")
-	)
-	(wire
-		(pts
-			(xy 95.25 27.94) (xy 95.25 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd98e95-20f6-4037-9d9f-67a5c9fdf626")
-	)
-	(wire
-		(pts
-			(xy 45.72 72.39) (xy 55.88 72.39)
+			(xy 45.72 118.11) (xy 55.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -744,17 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 60.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6541ec69-90e6-4808-ad6c-4195c1a28fd6")
-	)
-	(wire
-		(pts
-			(xy 45.72 68.58) (xy 55.88 68.58)
+			(xy 45.72 114.3) (xy 55.88 114.3)
 		)
 		(stroke
 			(width 0)
@@ -764,33 +379,73 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 27.94) (xy 69.85 29.21)
+			(xy 146.05 55.88) (xy 149.86 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cd82a88-283c-4669-b4ae-831ef2f3ae56")
+		(uuid "6e6ec963-8725-4851-a983-526214dd7e32")
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 86.36 34.29)
+			(xy 146.05 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0730ca9-c9b8-442d-bebd-058f346ee02b")
+		(uuid "8243ee61-2796-406a-942f-fdc894f1297a")
 	)
 	(wire
 		(pts
-			(xy 69.85 39.37) (xy 69.85 44.45)
+			(xy 114.3 58.42) (xy 110.49 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2671b18-a929-459b-b028-c8b3e447139f")
+		(uuid "b46930a8-cb02-4abe-a9a2-202d781cb91b")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3b8379-8ac9-4ffe-94c6-b659f2ce96a3")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27d38d4-9156-4f57-af28-20f47b529fcf")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae4e600-d155-4148-9ca2-872aec607011")
+	)
+	(wire
+		(pts
+			(xy 146.05 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9315184-3398-4ed7-9689-2ded2e09bfa6")
 	)
 	(wire
 		(pts
@@ -803,7 +458,7 @@
 		(uuid "ff0d90e5-5022-464a-a670-7b4c66e70e3f")
 	)
 	(label "IND_YELLOW"
-		(at 45.72 68.58 180)
+		(at 45.72 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,7 +468,7 @@
 		(uuid "2206f7b9-91a4-448a-a5e4-7c1951f60d7e")
 	)
 	(label "IND_GREEN"
-		(at 45.72 72.39 180)
+		(at 45.72 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -822,8 +477,18 @@
 		)
 		(uuid "33f02774-b550-45c2-8a37-76fa587dc985")
 	)
+	(label "14V8_PROTECTED"
+		(at 110.49 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c653a05-40a7-4f7c-9f62-8f69732c65e1")
+	)
 	(label "GREEN_OUT"
-		(at 95.25 41.91 0)
+		(at 72.39 33.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -833,37 +498,47 @@
 		(uuid "48aba12f-3b1c-4dc8-8c3f-895b627cc830")
 	)
 	(label "14V8_PROTECTED"
-		(at 60.96 41.91 180)
+		(at 64.77 33.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5ed8d86a-856b-4c29-b7e9-b49cdffb9df1")
 	)
-	(label "IND_YELLOW"
-		(at 62.23 34.29 180)
+	(label "14V8_PROTECTED"
+		(at 146.05 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "802e1784-7125-45ab-8b4f-b9ff8a54476e")
+		(uuid "9a76251a-7569-4adf-bcf4-6e51a4b336aa")
 	)
-	(label "IND_GREEN"
-		(at 86.36 34.29 180)
+	(label "IND_YELLOW"
+		(at 146.05 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9769cd4c-ddd9-4bb3-93b5-4fe0da2a28ee")
+		(uuid "a131adcc-8a3e-4778-8258-61adb5cc3ff7")
 	)
 	(label "YELLOW_OUT"
-		(at 69.85 41.91 0)
+		(at 146.05 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b072685d-f3a5-4d4e-aa59-a7486f0a3ec8")
+	)
+	(label "YELLOW_OUT"
+		(at 69.85 33.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -873,7 +548,7 @@
 		(uuid "b6513432-7342-4c51-82e9-8cb8569805d3")
 	)
 	(label "14V8_PROTECTED"
-		(at 45.72 64.77 180)
+		(at 45.72 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -882,9 +557,29 @@
 		)
 		(uuid "c6b54161-0f30-486b-bbff-0f5a1e995b3a")
 	)
+	(label "GREEN_OUT"
+		(at 110.49 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa3119c0-e484-4ca5-8b72-3bf3d36f324c")
+	)
+	(label "IND_GREEN"
+		(at 110.49 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcf20530-a7b3-4b44-93f4-8a2900fb41f2")
+	)
 	(hierarchical_label "IND_GREEN"
 		(shape output)
-		(at 55.88 72.39 0)
+		(at 55.88 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -895,7 +590,7 @@
 	)
 	(hierarchical_label "14V8_PROTECTED"
 		(shape input)
-		(at 55.88 64.77 0)
+		(at 55.88 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -906,7 +601,7 @@
 	)
 	(hierarchical_label "IND_YELLOW"
 		(shape output)
-		(at 55.88 68.58 0)
+		(at 55.88 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -917,16 +612,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 40.64 270)
+		(at 67.31 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e3dc49b-fa91-46f1-ab9c-4212ff4120dd")
-		(property "Reference" "#PWR056"
-			(at 60.96 40.64 0)
+		(property "Reference" "#PWR0197"
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 40.6399 90)
+			(at 67.056 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,309 +670,7 @@
 		(instances
 			(project "Power_V2_main"
 				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "326d0c9d-58f4-4331-a9e4-cd6cf2ade297")
-		(property "Reference" "#PWR063"
-			(at 95.25 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed021c23-5fae-4220-8acd-a1f6ee51f13f")
-		)
-		(instances
-			(project "Power_V2_main"
-				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:RQ6E080AJ")
-		(at 92.71 34.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c006959-4b34-4896-9732-d7e13a15a0c1")
-		(property "Reference" "Q3"
-			(at 99.06 35.5601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RQ6E080AJ"
-			(at 99.06 33.0201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 97.79 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
-			(at 97.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
-			(at 92.71 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d373ad2-0ba0-41dc-a8f8-3d2a320e9373")
-		)
-		(pin "1"
-			(uuid "59bba5e9-0e19-4499-a912-9ef48ad8a8d2")
-		)
-		(pin "5"
-			(uuid "85bb01a8-f2ca-4f7a-8168-11a2cbc0c953")
-		)
-		(pin "4"
-			(uuid "10872f3a-661b-40c4-880f-6431b0719a58")
-		)
-		(pin "6"
-			(uuid "1c4fcc7a-7696-4ef4-8ac8-880961b21bca")
-		)
-		(pin "3"
-			(uuid "e9edc843-f931-447b-ada0-72a54d53bb02")
-		)
-		(instances
-			(project "Power_V2_main"
-				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:RQ6E080AJ")
-		(at 67.31 34.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73023f47-c431-48c5-ad65-00aa00ef81d4")
-		(property "Reference" "Q2"
-			(at 73.66 35.5601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RQ6E080AJ"
-			(at 53.34 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 72.39 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
-			(at 67.31 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c8eec49-7e8c-4312-867d-34174eae5789")
-		)
-		(pin "1"
-			(uuid "1291ad19-9628-4be9-8939-ad39fb7eadff")
-		)
-		(pin "5"
-			(uuid "9119dc34-f0a3-45cc-910a-87e6cfa5fac0")
-		)
-		(pin "4"
-			(uuid "8e01bbab-1500-4d43-937d-d095137b457d")
-		)
-		(pin "6"
-			(uuid "0b821b40-b60e-4303-b168-e616aca00cc4")
-		)
-		(pin "3"
-			(uuid "68e9f586-e0c1-4eb9-b048-f5daf2b78cfa")
-		)
-		(instances
-			(project "Power_V2_main"
-				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d1fdf40-30d9-47db-a6c6-3cb3ef123d5c")
-		(property "Reference" "#PWR02"
-			(at 69.85 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51b4d4c3-6f54-43a2-b01c-d44483888185")
-		)
-		(instances
-			(project "Power_V2_main"
-				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "#PWR02")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -1293,8 +685,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd25f05b-161e-427b-a678-b3407c9a0879")
-		(property "Reference" "J1"
+		(uuid "c5a94f15-96a3-4a16-a4b6-a54e2fa9256b")
+		(property "Reference" "J15"
 			(at 68.58 53.34 90)
 			(effects
 				(font
@@ -1338,22 +730,166 @@
 			)
 		)
 		(pin "1"
-			(uuid "37cdf309-9cf3-4def-ae95-05fd2e6310a9")
-		)
-		(pin "2"
-			(uuid "d86fbbae-ec0c-490f-97e8-e49255269fe6")
+			(uuid "dadc46ba-214a-4560-bc5f-3a331f05857f")
 		)
 		(pin "3"
-			(uuid "40d56e14-84e9-4708-aba9-197e71efd0f8")
+			(uuid "933bd39a-b7ca-4de9-967e-535560c52060")
 		)
 		(pin "4"
-			(uuid "150b74df-9f9c-4b79-9e52-547739640d45")
+			(uuid "0092f241-4ee3-4329-a79e-a25367412dff")
+		)
+		(pin "2"
+			(uuid "a279cf4a-359f-469b-81e9-6ec60f2062c1")
 		)
 		(instances
 			(project "Power_V2_main"
 				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "J1")
+					(reference "J15")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 53.34)
+		(size 13.97 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93fb00fc-4c3e-4f0f-a2f3-86e407ad5e87")
+		(property "Sheetname" "Green switch"
+			(at 114.3 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "high_sided_switch.kicad_sch"
+			(at 114.3 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CONTROL_IN" input
+			(at 114.3 58.42 180)
+			(uuid "274adca3-74dc-4b64-9944-76260baf2d60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_IN" input
+			(at 114.3 55.88 180)
+			(uuid "10293388-2fde-4cd8-8201-6e5b62949e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_OUT" output
+			(at 114.3 60.96 180)
+			(uuid "5296176f-7419-4659-802e-5122924daed2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Power_V2_main"
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 53.34)
+		(size 13.97 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d9ac67e-aa57-4c80-a4b1-71fdd80848a9")
+		(property "Sheetname" "Yellow switch"
+			(at 149.86 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "high_sided_switch.kicad_sch"
+			(at 149.86 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CONTROL_IN" input
+			(at 149.86 58.42 180)
+			(uuid "2039a17e-3f10-4e95-b80a-96dfb68a03bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_IN" input
+			(at 149.86 55.88 180)
+			(uuid "963ec14a-8adf-4b5a-a0e3-53d6c07d4225")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_OUT" output
+			(at 149.86 60.96 180)
+			(uuid "79393992-4777-4472-8410-2b44b201212b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Power_V2_main"
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
+					(page "11")
 				)
 			)
 		)

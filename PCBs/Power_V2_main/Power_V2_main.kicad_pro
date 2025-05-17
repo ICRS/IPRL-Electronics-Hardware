@@ -668,6 +668,14 @@
     [
       "fd663740-d58d-491a-b902-ceb831232946",
       "LED Indicators"
+    ],
+    [
+      "93fb00fc-4c3e-4f0f-a2f3-86e407ad5e87",
+      "Green switch"
+    ],
+    [
+      "9d9ac67e-aa57-4c80-a4b1-71fdd80848a9",
+      "Yellow switch"
     ]
   ],
   "text_variables": {}

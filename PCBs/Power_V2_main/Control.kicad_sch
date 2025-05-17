@@ -3918,16 +3918,6 @@
 		)
 		(uuid "2768257f-b04a-48e5-b5b2-44e6d0e79bf2")
 	)
-	(label "IND_GREEN"
-		(at 116.84 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "289af86d-cea0-4e5b-8654-6fc7dcbd055a")
-	)
 	(label "VBUS"
 		(at 182.88 83.82 0)
 		(effects
@@ -3947,6 +3937,16 @@
 			(justify right bottom)
 		)
 		(uuid "4c870767-e2b5-480a-9bcc-0491b29bf075")
+	)
+	(label "IND_GREEN"
+		(at 116.84 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "590360a2-bbf4-4ad7-8fa6-097dacf9e1d7")
 	)
 	(label "USB_OUT_P"
 		(at 116.84 101.6 0)
@@ -3999,14 +3999,14 @@
 		(uuid "89519f58-aa48-4a4d-8a66-fd87fb12fcb0")
 	)
 	(label "IND_YELLOW"
-		(at 116.84 83.82 0)
+		(at 116.84 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ae80253c-6ebf-4117-b100-497f379c0acf")
+		(uuid "aa923e9b-c3e9-4206-a9cf-5f52406d1b89")
 	)
 	(label "SCL"
 		(at 152.4 53.34 0)

@@ -4094,7 +4094,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "5k1"
 			(at 110.236 55.88 90)
 			(effects
 				(font
@@ -5213,7 +5213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM15T22A"
+		(property "Value" "SM15T22CA"
 			(at 106.934 134.112 90)
 			(effects
 				(font
@@ -7338,7 +7338,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "5k1"
 			(at 110.49 63.5 90)
 			(effects
 				(font

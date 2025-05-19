@@ -4486,7 +4486,7 @@
 		(dnp no)
 		(uuid "3d615ba6-c243-4ef9-a571-ad88970362ef")
 		(property "Reference" "BOOT1"
-			(at 44.958 41.91 0)
+			(at 44.45 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4494,7 @@
 			)
 		)
 		(property "Value" "PTS645SK43SMTR92LFS"
-			(at 44.958 44.45 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

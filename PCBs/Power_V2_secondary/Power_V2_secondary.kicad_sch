@@ -599,7 +599,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -608,15 +608,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 10.16 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -641,7 +641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -668,16 +668,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
+			(symbol "Conn_01x10_1_1"
 				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -11.43)
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -768,8 +779,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -787,7 +809,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -805,7 +827,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -823,7 +845,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -841,7 +863,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -859,7 +881,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -877,7 +899,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -895,7 +917,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -905,6 +927,42 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4838,7 +4896,7 @@
 	)
 	(rectangle
 		(start 38.1 133.35)
-		(end 85.09 175.26)
+		(end 85.09 180.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -6217,6 +6275,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f73d4ba-4701-4b7c-8b01-133f8e3ce6a4")
+	)
+	(wire
+		(pts
 			(xy 218.44 101.6) (xy 226.06 101.6)
 		)
 		(stroke
@@ -7257,6 +7325,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 167.64) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bb26b9-193a-4eda-b61f-adace0070d88")
+	)
+	(wire
+		(pts
 			(xy 193.04 68.58) (xy 193.04 71.12)
 		)
 		(stroke
@@ -7724,6 +7802,16 @@
 			(justify right bottom)
 		)
 		(uuid "9d7f616f-abd9-4001-b4ec-eec25ccf4bf3")
+	)
+	(label "14V8_OUT_PROTECTED"
+		(at 60.96 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ef59a06-1882-4cfd-a627-8af6ce61b5b8")
 	)
 	(label "14V8"
 		(at 160.02 83.82 180)
@@ -8719,94 +8807,6 @@
 			(project ""
 				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 68.58 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cb6b423-e533-4351-8972-8ea5c4e67667")
-		(property "Reference" "J2"
-			(at 71.12 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 71.12 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-08P_1x08_P5.00mm"
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1567f38-ed43-4a7c-adfd-bb682a759a75")
-		)
-		(pin "2"
-			(uuid "0e841338-dd65-4705-98c7-d3f65682b8f8")
-		)
-		(pin "5"
-			(uuid "a9aace99-2839-4146-9d2d-88b6e18c948f")
-		)
-		(pin "4"
-			(uuid "a7d736a5-c42f-46a7-8a18-6bc1f40ceb72")
-		)
-		(pin "3"
-			(uuid "d35cf081-f133-4bb6-ad95-1d37d9476af4")
-		)
-		(pin "8"
-			(uuid "73479b00-b9ad-4e62-9567-e050b997b857")
-		)
-		(pin "7"
-			(uuid "e7b32c72-3526-45a2-8066-4df955ceb8b9")
-		)
-		(pin "6"
-			(uuid "0e444720-65a3-400a-b47f-9b6c44535023")
-		)
-		(instances
-			(project ""
-				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10507,6 +10507,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 68.58 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c5f723-047e-4db3-9d92-82085d10c122")
+		(property "Reference" "J2"
+			(at 71.12 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 71.12 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-10P_1x10_P5.00mm"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "343289d7-410d-4e9c-9de1-62a9b0da8514")
+		)
+		(pin "1"
+			(uuid "c1632d98-2d7d-4bc4-9682-a2b0315ca852")
+		)
+		(pin "2"
+			(uuid "3b7eaa3a-e645-4545-af1f-80959a8a338a")
+		)
+		(pin "4"
+			(uuid "3ede7ef3-7147-41c1-bb42-003644ab06dc")
+		)
+		(pin "5"
+			(uuid "f809c1c7-a5fb-4527-a25a-e85977c0b389")
+		)
+		(pin "6"
+			(uuid "00cb3cda-4b83-465e-9d19-db2728b8b8f8")
+		)
+		(pin "7"
+			(uuid "5857cef8-c21e-4215-aaf8-acb8dc7b0ad1")
+		)
+		(pin "9"
+			(uuid "6f681f53-28f9-4891-86d4-905588f9b117")
+		)
+		(pin "8"
+			(uuid "1d31c42a-6448-441e-9de2-ff84753d25e7")
+		)
+		(pin "10"
+			(uuid "5e8098bc-3137-4c48-951d-f44fb0274c64")
+		)
+		(instances
+			(project ""
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 82.55 90)
 		(mirror x)
@@ -10929,6 +11023,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 62.23 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a40bff5e-109c-4fd1-95a0-0253cd4e8b08")
+		(property "Reference" "#PWR056"
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "223b6261-48aa-4513-b283-d9459ecf85ed")
+		)
+		(instances
+			(project "Power_V2_secondary"
+				(path "/5d5051fd-2bba-4f17-ac84-ab8502b20b0d"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 107.95 80.01 0)
 		(unit 1)
@@ -10956,7 +11117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 107.95 80.01 0)
 			(effects
 				(font
@@ -11625,7 +11786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 92.71 80.01 0)
 			(effects
 				(font

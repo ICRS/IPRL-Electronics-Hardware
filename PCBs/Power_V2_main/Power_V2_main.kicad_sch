@@ -147,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 114.3 95.25)
+			(xy 114.3 71.12) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
@@ -207,6 +207,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 68.58) (xy 121.285 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bb0895-9f33-4d68-a746-f61c95cb4be7")
+	)
+	(wire
+		(pts
 			(xy 107.95 63.5) (xy 121.285 63.5)
 		)
 		(stroke
@@ -217,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 114.3 68.58)
+			(xy 107.95 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -353,7 +363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 82.55 124.46 0)
 			(effects
 				(font
@@ -417,7 +427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -481,7 +491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 82.55 114.3 0)
 			(effects
 				(font
@@ -580,7 +590,7 @@
 	)
 	(sheet
 		(at 121.285 60.96)
-		(size 18.415 7.62)
+		(size 18.415 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -604,7 +614,7 @@
 			)
 		)
 		(property "Sheetfile" "Control.kicad_sch"
-			(at 121.285 69.1646 0)
+			(at 121.285 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,6 +655,16 @@
 		(pin "IND_YELLOW" input
 			(at 121.285 63.5 180)
 			(uuid "fb955477-fc8a-404f-96ef-86d90c189880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IND_SIREN" input
+			(at 121.285 68.58 180)
+			(uuid "d0c69b6b-432e-4e3c-b9b5-d1a26c68d69e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1031,7 @@
 	)
 	(sheet
 		(at 82.55 60.96)
-		(size 25.4 10.16)
+		(size 25.4 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1035,7 +1055,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_indicators.kicad_sch"
-			(at 82.55 71.7046 0)
+			(at 82.55 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1064,7 @@
 			)
 		)
 		(pin "14V8_PROTECTED" input
-			(at 107.95 68.58 0)
+			(at 107.95 71.12 0)
 			(uuid "0d48666d-5fc9-4c81-9047-c5b53b6e9fb6")
 			(effects
 				(font
@@ -1066,6 +1086,16 @@
 		(pin "IND_YELLOW" input
 			(at 107.95 63.5 0)
 			(uuid "022c267a-8c93-4906-981c-bfc3d5901512")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IND_SIREN" input
+			(at 107.95 68.58 0)
+			(uuid "40420825-beb2-4184-92df-f108d721d488")
 			(effects
 				(font
 					(size 1.27 1.27)

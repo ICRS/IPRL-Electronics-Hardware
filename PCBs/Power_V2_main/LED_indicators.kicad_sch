@@ -5,7 +5,7 @@
 	(uuid "e52011cc-a1d3-4246-bea8-44da068cbbb1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,14 +14,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
+			(property "Value" "Conn_01x05"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,9 +74,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 6.35)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -84,6 +84,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -131,7 +142,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -149,7 +160,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -167,7 +178,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -185,7 +196,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -195,6 +206,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -307,10 +336,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "1. RED - Power on\n2. YELLOW - Thinking\n3. GREEN - Action\n\nThese are all suggested"
+	(text_box "1. RED - Power on\n2. YELLOW - Thinking\n3. GREEN - Action\n4. SIREN  - All hell broken loose\n\nThese are all suggested"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
-		(size 25.4 7.62)
+		(size 25.4 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -329,16 +358,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 72.39 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0223c99f-53e0-42ec-980e-cca3b4cdbfa1")
-	)
-	(wire
-		(pts
 			(xy 45.72 110.49) (xy 55.88 110.49)
 		)
 		(stroke
@@ -346,6 +365,26 @@
 			(type default)
 		)
 		(uuid "048548c1-26b3-4cad-b7cb-6099adafcb28")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 185.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09566b91-4519-47e3-ab7e-600f6d127ad2")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 72.39 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c422558-53d3-45b3-a578-a92f0c1c2e09")
 	)
 	(wire
 		(pts
@@ -399,6 +438,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 60.96) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f8d605-a9d6-4ab4-bb17-20618ba05225")
+	)
+	(wire
+		(pts
 			(xy 114.3 58.42) (xy 110.49 58.42)
 		)
 		(stroke
@@ -406,6 +455,16 @@
 			(type default)
 		)
 		(uuid "b46930a8-cb02-4abe-a9a2-202d781cb91b")
+	)
+	(wire
+		(pts
+			(xy 45.72 120.65) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e9b75c-de5d-45ec-816c-69ae0926cae0")
 	)
 	(wire
 		(pts
@@ -429,13 +488,33 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 33.02) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c581971e-b0b4-43d3-bd5c-65c02615dbcb")
+	)
+	(wire
+		(pts
+			(xy 181.61 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5d3543-6dd3-4687-8af0-625a8a362c2e")
+	)
+	(wire
+		(pts
 			(xy 69.85 33.02) (xy 69.85 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dae4e600-d155-4148-9ca2-872aec607011")
+		(uuid "f4e8a370-67ae-48e7-967d-1a9a77bc7db2")
 	)
 	(wire
 		(pts
@@ -456,6 +535,16 @@
 			(type default)
 		)
 		(uuid "ff0d90e5-5022-464a-a670-7b4c66e70e3f")
+	)
+	(label "IND_SIREN"
+		(at 181.61 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "143d5ddd-884e-44ba-8d0f-b6c4f28d5e5f")
 	)
 	(label "IND_YELLOW"
 		(at 45.72 114.3 180)
@@ -487,15 +576,15 @@
 		)
 		(uuid "3c653a05-40a7-4f7c-9f62-8f69732c65e1")
 	)
-	(label "GREEN_OUT"
-		(at 72.39 33.02 90)
+	(label "SIREN_OUT"
+		(at 69.85 33.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "48aba12f-3b1c-4dc8-8c3f-895b627cc830")
+		(uuid "4ef0a429-99f2-413f-b931-69b72ae91a7d")
 	)
 	(label "14V8_PROTECTED"
 		(at 64.77 33.02 90)
@@ -506,6 +595,26 @@
 			(justify left bottom)
 		)
 		(uuid "5ed8d86a-856b-4c29-b7e9-b49cdffb9df1")
+	)
+	(label "14V8_PROTECTED"
+		(at 181.61 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ad0cd9c-9898-420c-8dd0-322fe0a8fdad")
+	)
+	(label "GREEN_OUT"
+		(at 74.93 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fe2afe0-37ad-4ef4-929f-182f9a73199c")
 	)
 	(label "14V8_PROTECTED"
 		(at 146.05 55.88 180)
@@ -528,6 +637,16 @@
 		(uuid "a131adcc-8a3e-4778-8258-61adb5cc3ff7")
 	)
 	(label "YELLOW_OUT"
+		(at 72.39 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82df725-de2a-4fdc-9566-4049665f5188")
+	)
+	(label "YELLOW_OUT"
 		(at 146.05 60.96 180)
 		(effects
 			(font
@@ -536,16 +655,6 @@
 			(justify right bottom)
 		)
 		(uuid "b072685d-f3a5-4d4e-aa59-a7486f0a3ec8")
-	)
-	(label "YELLOW_OUT"
-		(at 69.85 33.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6513432-7342-4c51-82e9-8cb8569805d3")
 	)
 	(label "14V8_PROTECTED"
 		(at 45.72 110.49 180)
@@ -556,6 +665,26 @@
 			(justify right bottom)
 		)
 		(uuid "c6b54161-0f30-486b-bbff-0f5a1e995b3a")
+	)
+	(label "IND_SIREN"
+		(at 45.72 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8eb9c42-619e-4a83-bb63-2d63e8cef22c")
+	)
+	(label "SIREN_OUT"
+		(at 181.61 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f31171d1-4b4f-4962-a43e-d1de560ab6c1")
 	)
 	(label "GREEN_OUT"
 		(at 110.49 60.96 180)
@@ -587,6 +716,17 @@
 			(justify left)
 		)
 		(uuid "0eaa353a-2894-4c0f-8535-2fb17d4b10ed")
+	)
+	(hierarchical_label "IND_SIREN"
+		(shape output)
+		(at 55.88 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aecef78-3968-48a9-bc9a-acc98b9eeb65")
 	)
 	(hierarchical_label "14V8_PROTECTED"
 		(shape input)
@@ -677,33 +817,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 67.31 49.53 90)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 69.85 49.53 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c5a94f15-96a3-4a16-a4b6-a54e2fa9256b")
-		(property "Reference" "J15"
-			(at 68.58 53.34 90)
+		(fields_autoplaced yes)
+		(uuid "fb69ce84-ac94-4cfc-9017-9fe953a2efc9")
+		(property "Reference" "J1"
+			(at 69.85 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 68.58 55.88 90)
+		(property "Value" "Conn_01x05"
+			(at 69.85 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 67.31 49.53 0)
+		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 49.53 0)
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,32 +861,107 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 49.53 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "dadc46ba-214a-4560-bc5f-3a331f05857f")
-		)
-		(pin "3"
-			(uuid "933bd39a-b7ca-4de9-967e-535560c52060")
-		)
-		(pin "4"
-			(uuid "0092f241-4ee3-4329-a79e-a25367412dff")
 		)
 		(pin "2"
-			(uuid "a279cf4a-359f-469b-81e9-6ec60f2062c1")
+			(uuid "95630545-5ca1-413b-b6fd-a19c57376847")
+		)
+		(pin "4"
+			(uuid "679c63b9-55a9-42ac-a300-601dc7d151aa")
+		)
+		(pin "5"
+			(uuid "47fbe0a5-c04b-416e-84b9-91f60fb22f1e")
+		)
+		(pin "1"
+			(uuid "56789eec-83ef-4a6d-888f-4dd08668d250")
+		)
+		(pin "3"
+			(uuid "8393114e-567b-4253-b1cc-132161a88fdf")
+		)
+		(instances
+			(project ""
+				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 53.34)
+		(size 13.97 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "802f8451-07c1-485d-abd1-b216f4cb4208")
+		(property "Sheetname" "Siren switch"
+			(at 185.42 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "high_sided_switch.kicad_sch"
+			(at 185.42 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CONTROL_IN" input
+			(at 185.42 58.42 180)
+			(uuid "82fd1120-dde5-4623-a748-c93d845bdb45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_IN" input
+			(at 185.42 55.88 180)
+			(uuid "eed3573e-1a23-40c0-9672-5895243f2c8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_OUT" output
+			(at 185.42 60.96 180)
+			(uuid "cd49d829-ea6a-4153-a204-d38f22393494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "Power_V2_main"
 				(path "/68375d53-ee5f-4f08-9b72-814cdcf8200e/fd663740-d58d-491a-b902-ceb831232946"
-					(reference "J15")
-					(unit 1)
+					(page "12")
 				)
 			)
 		)

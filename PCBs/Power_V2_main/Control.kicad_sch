@@ -3173,6 +3173,10 @@
 		(uuid "fa68e5bc-7a29-4b55-ae93-c6d47ed5a726")
 	)
 	(no_connect
+		(at 114.3 73.66)
+		(uuid "055628fa-4299-4863-b86d-068197747502")
+	)
+	(no_connect
 		(at 114.3 60.96)
 		(uuid "0b92fa70-5b32-431e-995d-a245b21d670c")
 	)
@@ -3233,10 +3237,6 @@
 		(uuid "844fc05c-a484-4cff-b8dc-1f5239634bb8")
 	)
 	(no_connect
-		(at 114.3 73.66)
-		(uuid "93bde0a6-bce8-4408-9ed9-cf71b02858c8")
-	)
-	(no_connect
 		(at 114.3 124.46)
 		(uuid "9e012dc9-a88a-4995-b85e-c31f086e8daf")
 	)
@@ -3275,10 +3275,6 @@
 	(no_connect
 		(at 176.53 110.49)
 		(uuid "cecb17b0-a1a2-48e4-9ecc-047f3e8ffa06")
-	)
-	(no_connect
-		(at 114.3 76.2)
-		(uuid "d57e6413-7308-4226-9110-a1ec334cba6e")
 	)
 	(no_connect
 		(at 176.53 113.03)
@@ -3850,6 +3846,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 95.25) (xy 40.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61edf64-be1f-4aed-8025-a16868cd3741")
+	)
+	(wire
+		(pts
 			(xy 29.21 44.45) (xy 59.69 44.45)
 		)
 		(stroke
@@ -3887,6 +3893,16 @@
 			(type default)
 		)
 		(uuid "e5f93f92-57af-4e03-9ade-3ce9c2a79ba7")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24036d4-943d-4ff3-8c23-30a72f5e1eb2")
 	)
 	(wire
 		(pts
@@ -3948,6 +3964,16 @@
 		)
 		(uuid "590360a2-bbf4-4ad7-8fa6-097dacf9e1d7")
 	)
+	(label "IND_SIREN"
+		(at 40.64 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59c07984-e99c-4509-8381-500d42f67068")
+	)
 	(label "USB_OUT_P"
 		(at 116.84 101.6 0)
 		(effects
@@ -3998,16 +4024,6 @@
 		)
 		(uuid "89519f58-aa48-4a4d-8a66-fd87fb12fcb0")
 	)
-	(label "IND_YELLOW"
-		(at 116.84 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa923e9b-c3e9-4206-a9cf-5f52406d1b89")
-	)
 	(label "SCL"
 		(at 152.4 53.34 0)
 		(effects
@@ -4028,6 +4044,16 @@
 		)
 		(uuid "d244b178-1c70-44c4-abaf-1a2c44183c2e")
 	)
+	(label "IND_SIREN"
+		(at 116.84 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4d673c4-4ab9-4303-8e3e-8405d042b0f3")
+	)
 	(label "USB_OUT_N"
 		(at 203.2 97.79 180)
 		(effects
@@ -4037,6 +4063,16 @@
 			(justify right bottom)
 		)
 		(uuid "e64597d0-8b83-45bc-b309-636af30244e2")
+	)
+	(label "IND_YELLOW"
+		(at 116.84 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec8e282f-e8e2-4f95-ba02-53d87d6ac4b4")
 	)
 	(hierarchical_label "IND_GREEN"
 		(shape input)
@@ -4081,6 +4117,17 @@
 			(justify left)
 		)
 		(uuid "c42c8546-ca51-41fe-9b7e-8296ecf83c8f")
+	)
+	(hierarchical_label "IND_SIREN"
+		(shape input)
+		(at 45.72 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc01f2ba-4499-46a3-92bd-71bc16c2b4a0")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")

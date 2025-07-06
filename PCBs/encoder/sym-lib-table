@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AS5600-ASOT")(type "KiCad")(uri "${KIPRJMOD}/../lib/symbols/AS5600-ASOT.kicad_sym")(options "")(descr ""))
+)

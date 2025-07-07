@@ -6792,72 +6792,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 46.99 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1306a92b-9c66-45f9-9228-e66c09c6fd5b")
-		(property "Reference" "#PWR04"
-			(at 46.99 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 46.99 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 46.99 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b393ef5-ce35-4961-84e8-34d0af59a269")
-		)
-		(instances
-			(project "iprld"
-				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 219.71 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7613,17 +7547,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 44.45 312.42 0)
+		(lib_id "power:+3.3V")
+		(at 46.99 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29169fe2-bcb8-46ae-a097-652ffa701e59")
-		(property "Reference" "#PWR05"
-			(at 44.45 316.23 0)
+		(uuid "264a0ffe-5749-4b80-a86c-d067090aaccc")
+		(property "Reference" "#PWR0105"
+			(at 46.99 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,8 +7564,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 44.45 307.34 0)
+		(property "Value" "+3.3V"
+			(at 43.18 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 312.42 0)
+			(at 46.99 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 312.42 0)
+			(at 46.99 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,8 +7590,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 312.42 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,12 +7600,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "82380b19-1401-4cf7-8ec8-fd19b853cdaf")
+			(uuid "d8ed1c2e-b937-442c-bffa-392abe20231d")
 		)
 		(instances
 			(project "iprld"
 				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
-					(reference "#PWR05")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8451,7 +8384,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ea69517-70b9-48e9-8268-714708ef11c4")
 		(property "Reference" "#PWR0101"
 			(at 43.18 114.3 0)
@@ -8463,7 +8395,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 38.1 111.76 90)
+			(at 30.988 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,6 +11339,71 @@
 			(project "iprld"
 				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 44.45 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaacec92-5e54-43c5-917a-054fd7a1e7e7")
+		(property "Reference" "#PWR0106"
+			(at 44.45 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.608 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3bd7971-d3c7-42a4-9612-6e5aed2caf58")
+		)
+		(instances
+			(project "iprld"
+				(path "/f88582ba-beb9-4fb5-aa18-f7c4bf4c6866"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

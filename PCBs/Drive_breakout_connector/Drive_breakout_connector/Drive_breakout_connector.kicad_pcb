@@ -87,7 +87,7 @@
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "141fe0c8-a9b4-4d3c-9196-bb10d9a12502")
-		(at 80.5 50.25)
+		(at 80.5 50.495)
 		(descr "Mounting Hole 2.7mm, M2.5, DIN965")
 		(tags "mounting hole 2.7mm m2.5 din965")
 		(property "Reference" "H1"
@@ -189,13 +189,13 @@
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "2072749e-79d9-4f33-9942-f656377b508f")
-		(at 99 50.46)
+		(at 99.15 50.495)
 		(descr "Mounting Hole 2.7mm, M2.5, DIN965")
 		(tags "mounting hole 2.7mm m2.5 din965")
 		(property "Reference" "H2"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
-			(uuid "3af3fcd9-3f8a-40b0-aee4-10d1616b3e83")
+			(uuid "1e172fdc-e0e1-487e-a096-267cff8d5c6e")
 			(effects
 				(font
 					(size 1 1)
@@ -206,7 +206,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.35 0)
 			(layer "F.Fab")
-			(uuid "35bf8448-2bac-423d-8ee6-7ddaba85c525")
+			(uuid "66460d4b-6c71-496e-ac45-667c5ecbfa9d")
 			(effects
 				(font
 					(size 1 1)
@@ -219,7 +219,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69b1bffa-b8c6-4e8e-a61d-d50af8db0598")
+			(uuid "aeb1d2b6-9c96-42c7-b664-278e149e53c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +232,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51937c87-597b-4b0a-b4a7-912b90beac87")
+			(uuid "f131604c-c6f5-4fc9-b6d4-3ec3f03c33eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,16 +1387,111 @@
 			)
 		)
 	)
-	(gr_rect
+	(gr_line
 		(start 77.75 45.495)
-		(end 101.75 55.495)
+		(end 77.75 55.495)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "fe1f0684-0e73-41d2-85ac-8529174ffb24")
+		(uuid "55d7aeb2-8291-4f67-b5de-e5f1bdd03e30")
+	)
+	(gr_line
+		(start 101.75 55.495)
+		(end 77.75 55.495)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5cf7cf9a-7154-4bd7-9ca8-e55632c9da60")
+	)
+	(gr_line
+		(start 96.75 45.495)
+		(end 77.75 45.495)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e4c68528-8a79-499b-9f73-95cdb5c03be6")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "6229fabc-e3ed-4215-8a27-21d2e5df8499")
+		(pts
+			(xy 99.15 50.495) (xy 101.75 45.495)
+		)
+		(height 9.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "5"
+			(at 107.5 47.995 90)
+			(layer "Edge.Cuts")
+			(uuid "6229fabc-e3ed-4215-8a27-21d2e5df8499")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "8bdabaaf-b93e-4438-bf06-3d4aa62fd750")
+		(pts
+			(xy 101.75 45.495) (xy 96.75 45.495)
+		)
+		(height -2.815)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "5"
+			(at 99.25 41.53 0)
+			(layer "Edge.Cuts")
+			(uuid "8bdabaaf-b93e-4438-bf06-3d4aa62fd750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(segment
 		(start 85.75 50.5)

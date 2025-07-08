@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../../Downloads/Drive_breakout_connector.step",

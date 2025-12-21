@@ -13,4 +13,5 @@
   (lib (name "XT30PW-F")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/XT30PW-F.kicad_sym")(options "")(descr ""))
   (lib (name "XT60PW-F")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/XT60PW-F.kicad_sym")(options "")(descr ""))
   (lib (name "LD2980ABM50TR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LD2980ABM50TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S3-DEVKITC-1U-N8R2")(type "KiCad")(uri "/Users/maxryan/code_local/IPRL-Electronics-Hardware/PCBs/lib/symbols/ESP32-S3-DEVKITC-1U-N8R2.kicad_sym")(options "")(descr ""))
 )

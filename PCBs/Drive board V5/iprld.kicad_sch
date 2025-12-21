@@ -2089,16 +2089,6 @@
 		)
 		(uuid 927a97eb-7875-453a-a720-24624b1c6d0d)
 	)
-	(text "NOTES:\n\n-check if all I2C connection is correct - pull up resistors etc\n	no pull up R. required on the multiplexer - it has internal pull ups\n\n"
-		(exclude_from_sim no)
-		(at 305.816 372.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0bb0e3f0-987b-4d1e-be08-db97e702267a")
-	)
 	(text "Motor Driver PWM Control"
 		(exclude_from_sim no)
 		(at 105.156 75.946 0)
@@ -2118,16 +2108,6 @@
 			)
 		)
 		(uuid "51fe345c-5f7a-450c-b0f9-a511dea61688")
-	)
-	(text "\n-keep traces short for the clock, keep caps close\n"
-		(exclude_from_sim no)
-		(at 305.562 379.984 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8323fdbc-481d-4357-8def-266bd7d4aaba")
 	)
 	(text "5V Power In"
 		(exclude_from_sim no)

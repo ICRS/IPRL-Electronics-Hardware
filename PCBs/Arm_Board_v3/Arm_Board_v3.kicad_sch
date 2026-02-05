@@ -3646,16 +3646,6 @@
 		)
 		(uuid "3b3af42f-334b-4910-b92f-2ccc739e1967")
 	)
-	(label "Servo_2"
-		(at 254 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ef8468c-c4b5-4628-9601-1f117f4b2a55")
-	)
 	(label "Servo_1"
 		(at 254 143.51 0)
 		(effects
@@ -3805,6 +3795,16 @@
 			(justify right bottom)
 		)
 		(uuid "a44e2d60-f61e-49ef-9cd3-4b5ad390f8d3")
+	)
+	(label "Servo_2"
+		(at 254 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aded9b97-a10d-4c1e-baa7-67d3a3ac795e")
 	)
 	(label "PUL_2"
 		(at 138.43 238.76 180)
